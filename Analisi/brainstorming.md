@@ -55,8 +55,8 @@ erDiagram
         varchar(100) Posizione
         double Altezza
         double Larghezza
-        double Altezza immagine
-        double Larghezza Immagine
+        double AltezzaImmagine
+        double LarghezzaImmagine
         text linkImmagine
         int idMuseo FK
         }
