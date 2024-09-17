@@ -52,7 +52,6 @@ erDiagram
         varchar(100) Materiale
         varchar(100) Posizione
         int idMuseo FK
-        varchar(100)[] Tag_Semantici
         }
     Autore ||--|{ Opera:create
     Autore {
@@ -71,7 +70,26 @@ erDiagram
         varchar(100) nome
     }
    
-   Opera }|--|| Museo:contiene  
+   Opera }|--|| Museo:contiene
+
+    
+    TagMap{
+        int ID PK
+        int idOpera FK
+        int idTag FK
+    }
+
+    TagMap || -- |{ Tag: associa
+
+    TagMap || -- |{ Opera: associa
+
+
+    Tag{
+    int idTag PK
+    varchar name
+    }
+
+    
 ```
 
 
