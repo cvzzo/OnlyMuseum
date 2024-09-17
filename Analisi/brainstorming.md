@@ -45,30 +45,30 @@ Museo classe singleton:
 erDiagram
     Opera {
         int idOpera PK
-        string Name
+        varchar(100) Name
         date Anno_di_creazione
         int idAutore FK
-        string Descrizione
-        string Materiale
-        string Posizione
+        varchar(100) Descrizione
+        varchar(100) Materiale
+        varchar(100) Posizione
         int idMuseo FK
-        string[] Tag_Semantici
+        varchar(100)[] Tag_Semantici
         }
     Autore ||--|{ Opera:create
     Autore {
         int ID PK
-        String Nome
-        String Cognome
+        varchar(100) Nome
+        varchar(100) Cognome
         Date Data_di_Nascita
         Date Data_di_Morte
-        string Luogo_di_Nascita
-        string Luogo_di_Morte
-        string Corrente
+        varchar(100) Luogo_di_Nascita
+        varchar(100) Luogo_di_Morte
+        varchar(100) Corrente
         }
     
     Museo {
         int idMuseo PK
-        string nome
+        varchar(100) nome
     }
    
    Opera }|--|| Museo:contiene  
