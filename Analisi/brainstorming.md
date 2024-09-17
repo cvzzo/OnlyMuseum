@@ -24,7 +24,9 @@ Ogni opera avra' i seguenti attributi:
 - Materiale/Tecnica
 - Posizione all'interno del museo
 - Museo di appartenenza
-- Tag Semantici
+- Altezza
+- Larghezza
+- Tag
 
 Ogni Autore avra' i seguenti attributi:
 - Nome Cognome
@@ -51,6 +53,11 @@ erDiagram
         varchar(100) Descrizione
         varchar(100) Materiale
         varchar(100) Posizione
+        double Altezza
+        double Larghezza
+        double Altezza immagine
+        double Larghezza Immagine
+        text linkImmagine
         int idMuseo FK
         }
     Autore ||--|{ Opera:create
