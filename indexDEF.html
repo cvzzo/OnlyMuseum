@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OnlyMuseum - La nostra collezione</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8e8d8;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 0;
+        }
+        nav a {
+            margin-left: 20px;
+            text-decoration: none;
+            color: #333;
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .sort-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .sort-container input {
+            margin-right: 10px;
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .sort-container select {
+            padding: 5px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
+        .gallery {
+            column-count: 3;
+            column-gap: 20px;
+        }
+        .artwork {
+            break-inside: avoid;
+            margin-bottom: 20px;
+            position: relative;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        .artwork img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .artwork-title {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0,0,0,0.7);
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+        }
+        @media (max-width: 900px) {
+            .gallery {
+                column-count: 2;
+            }
+        }
+        @media (max-width: 600px) {
+            .gallery {
+                column-count: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2>OnlyMuseum</h2>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">Opere</a>
+                <a href="#">Eventi</a>
+                <a href="#">Biglietti</a>
+                <a href="#">Personale</a>
+            </nav>
+        </header>
+
+        <h1>La nostra collezione</h1>
+
+        <div class="sort-container">
+            <input type="text" id="search" placeholder="Cerca...">
+            <select id="sort">
+                <option value="year">Sort by: Year ↓</option>
+                <option value="title">Sort by: Title</option>
+                <option value="artist">Sort by: Artist</option>
+            </select>
+        </div>
+
+        <div class="gallery" id="gallery"></div>
+    </div>
+
+    <script>
+        // Sample data - in a real application, this would come from a database or API
+        const artworks = [
+            { id: 1, title: "La grande onda di Kanagawa", artist: "Hokusai", year: 1830, image: "img/images.jpeg" },
+            { id: 2, title: "Gioconda", artist: "Leonardo da Vinci", year: 1503, image: "img/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" },
+            { id: 3, title: "Il bacio", artist: "Gustav Klimt", year: 1908, image: "img/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg.webp" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_(5776925).jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/images.jpeg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
+            { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" }
+        ];
+
+        function renderGallery(artworks) {
+            const gallery = document.getElementById('gallery');
+            gallery.innerHTML = '';
+            artworks.forEach(artwork => {
+                const artworkElement = document.createElement('div');
+                artworkElement.className = 'artwork';
+                artworkElement.innerHTML = `
+                    <img src="${artwork.image}" alt="${artwork.title}">
+                    <div class="artwork-title">${artwork.title}</div>
+                `;
+                gallery.appendChild(artworkElement);
+            });
+        }
+
+        function sortArtworks(criteria) {
+            return [...artworks].sort((a, b) => {
+                if (a[criteria] < b[criteria]) return criteria === 'year' ? 1 : -1;
+                if (a[criteria] > b[criteria]) return criteria === 'year' ? -1 : 1;
+                return 0;
+            });
+        }
+
+        function filterArtworks(searchTerm) {
+            return artworks.filter(artwork => 
+                artwork.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                artwork.artist.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+        }
+
+        document.getElementById('sort').addEventListener('change', (e) => {
+            const sortedArtworks = sortArtworks(e.target.value);
+            renderGallery(sortedArtworks);
+        });
+
+        document.getElementById('search').addEventListener('input', (e) => {
+            const filteredArtworks = filterArtworks(e.target.value);
+            renderGallery(filteredArtworks);
+        });
+
+        // Initial render
+        renderGallery(artworks);
+    </script>
+</body>
+</html>
