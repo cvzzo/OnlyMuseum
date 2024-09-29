@@ -1,37 +1,38 @@
 package com.museum.gestionale.DbManager;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.SQLException;
 
-@Component
+
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.DriverManagerDataSource;
+import javax.sql.DataSource;
+
+@Configuration
 public class DbConnectionManager {
-    private static DbConnectionManager instance;
-    private  Connection connection;
 
-    private DbConnectionManager() {
-        try{
-            //to change based on pc
-            String url = "jdbc:mysql://192.168.1.30:3306/mysql";
-            String username = "test";
-            String password = "test";
-            this.connection = DriverManager.getConnection(url, username, password);
-        }catch (SQLException ex){
-            ex.printStackTrace();
-        }
-    }
+    @Value("${spring.datasource.url}")
+    private String databaseUrl;
 
-    public static synchronized DbConnectionManager getInstance(){
-        if(instance == null){
-            instance = new DbConnectionManager();
-        }
-        return  instance;
-    }
+    @Value("${spring.datasource.username}")
+    private String username;
 
+    @Value("${spring.datasource.password}")
+    private String password;
 
-    public Connection getConnection() {
-        return connection;
+    @Value("${spring.datasource.schema}")
+    private String schema;
+
+    @Bean
+    public DataSource dataSource() {
+        DriverManagerDataSource dataSource = new DriverManagerDataSource();
+        dataSource.setDriverClassName("com.mysql.cj.jdbc.Driver");
+        dataSource.setUrl(databaseUrl + "/" + schema);
+        dataSource.setUsername(username);
+        dataSource.setPassword(password);
+        return dataSource;
     }
 }
