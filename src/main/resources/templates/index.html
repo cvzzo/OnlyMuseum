@@ -1,104 +1,21 @@
-
 <!DOCTYPE html>
 <html lang="it">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlyMuseum - La nostra collezione</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8e8d8;
-        }
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 20px;
-        }
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            padding: 20px 0;
-        }
-        nav a {
-            margin-left: 20px;
-            text-decoration: none;
-            color: #333;
-        }
-        h1 {
-            font-size: 24px;
-            margin-bottom: 20px;
-        }
-        .sort-container {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 20px;
-        }
-        .sort-container input {
-            margin-right: 10px;
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .sort-container select {
-            padding: 5px;
-            border: 1px solid #ddd;
-            border-radius: 4px;
-        }
-        .gallery {
-            column-count: 3;
-            column-gap: 20px;
-        }
-        .artwork {
-            break-inside: avoid;
-            margin-bottom: 20px;
-            position: relative;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .artwork img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        .artwork-title {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            right: 0;
-            background: rgba(0,0,0,0.7);
-            color: white;
-            padding: 10px;
-            font-size: 16px;
-        }
-        @media (max-width: 900px) {
-            .gallery {
-                column-count: 2;
-            }
-        }
-        @media (max-width: 600px) {
-            .gallery {
-                column-count: 1;
-            }
-        }
-    </style>
+    <link href="index.css" rel="stylesheet" type="text/css">
+
 </head>
 <body>
 <div class="container">
     <header>
-        <h2>OnlyMuseum</h2>
-        <nav>
-            <a href="#">Home</a>
-            <a href="#">Opere</a>
-            <a href="#">Eventi</a>
-            <a href="#">Biglietti</a>
-            <a href="#">Personale</a>
-        </nav>
+        <div class="TitoloBottone">
+            <div class="nome">
+                <h1>Only<span class="museum">Museum</h1> </span>
+                <h3 class="normal">Home</h3><h3 class="opera">Opere</h3> <h3 class="normal">Eventi</h3> <h3 class="normal">Biglietti</h3>
+            </div>
+        </div>
     </header>
 
     <h1>La nostra collezione</h1>
@@ -141,8 +58,10 @@
             const artworkElement = document.createElement('div');
             artworkElement.className = 'artwork';
             artworkElement.innerHTML = `
+            <a href = "../../../../../../scuola/spring%20boot/OnlyMuseum/progetti/info.html">
                 <img src="${artwork.image}" alt="${artwork.title}">
                 <div class="artwork-title">${artwork.title}</div>
+            </a>
             `;
             gallery.appendChild(artworkElement);
         });
