@@ -4,16 +4,17 @@ public class Opera {
     private int id;
     private String name;
     private int year;
-    private String author;
+    private Autore author;
     private String description;
     private String material;
     private int room;
     private float height;
     private float width;
     private String link;
+    private Museo museum;
 
 
-    public Opera(int id, String name, int year, String author, String description, String material, int room, float height, float width, String link) {
+    public Opera(int id, String name, int year, Autore author, String description, String material, int room, float height, float width, String link, Museo museum) {
         this.id = id;
         this.name = name;
         this.year = year;
@@ -24,6 +25,10 @@ public class Opera {
         this.height = height;
         this.width = width;
         this.link = link;
+        this.museum = museum;
+    }
+
+    public Opera() {
     }
 
 
@@ -51,11 +56,11 @@ public class Opera {
         this.year = year;
     }
 
-    public String getAuthor() {
+    public Autore getAuthor() {
         return author;
     }
 
-    public void setAuthor(String author) {
+    public void setAuthor(Autore author) {
         this.author = author;
     }
 
