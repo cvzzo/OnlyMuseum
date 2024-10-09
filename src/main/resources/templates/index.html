@@ -59,7 +59,7 @@
             const artworkElement = document.createElement('div');
             artworkElement.className = 'artwork';
             artworkElement.innerHTML = `
-            <a href = "../../../../../../scuola/spring%20boot/OnlyMuseum/progetti/info.html">
+            <a th:href= "@{info.html}">
                 <img th:href="@{artwork.image}" alt="${artwork.title}">
                 <div class="artwork-title">${artwork.title}</div>
             </a>
