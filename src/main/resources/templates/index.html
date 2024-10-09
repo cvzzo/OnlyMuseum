@@ -5,19 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>OnlyMuseum - La nostra collezione</title>
     <link rel="stylesheet" type="text/css" media="all"
-          href="../static/index.css" th:href="@{index.css}" />
+          href="../static/index.css" th:href="@{../static/index.css}" />
 
 </head>
 <body>
-<div class="container">
-    <header>
-        <div class="TitoloBottone">
-            <div class="nome">
-                <h1>Only<span class="museum">Museum</span></h1>
-                <h3 class="normal">Home</h3><h3 class="opera">Opere</h3> <h3 class="normal">Eventi</h3> <h3 class="normal">Biglietti</h3>
-            </div>
-        </div>
-    </header>
+
+
+<div th:replace="fragments/navbar :: navbar"></div>
+
 
     <h1>La nostra collezione</h1>
 

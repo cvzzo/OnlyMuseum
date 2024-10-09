@@ -16,7 +16,15 @@ public class Navigator {
         return "index";
     }
 
+    /*@GetMapping("/fragments")
+    public String getNavbar() {
+        return "navbar";
+    }*/
 
+    @GetMapping("/")
+    public String index() {
+        return "index";
+    }
     @RequestMapping("/info")
     public String operePage() {
         return "info";
