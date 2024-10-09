@@ -31,9 +31,9 @@ public class Navigator {
     }
 
 
-    @GetMapping("/addPainting")
+    @RequestMapping("/form")
     public String showForm() {
-        return "paintingForm";
+        return "form";
     }
 
     @PostMapping("/submitPainting")

@@ -12,6 +12,7 @@
   </style>
 </head>
 <body>
+<div th:replace="fragments/navbar :: navbar"></div>
 <h1>Add New Painting</h1>
 <form th:action="@{/submitPainting}" method="post" enctype="multipart/form-data">
   <label for="name">Painting Name:</label>
