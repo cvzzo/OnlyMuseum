@@ -4,50 +4,54 @@
   <meta charset="UTF-8">
   <title>Add New Painting</title>
   <style>
-    body { font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; }
-    form { display: grid; gap: 10px; }
-    label { font-weight: bold; }
-    input, textarea { width: 100%; padding: 5px; }
-    button { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+    body { font-family: Arial, sans-serif; }
+    .form-container { display: grid; gap: 10px; max-width: 600px; margin: 0 auto; padding: 20px;}
+    .form-container label { font-weight: bold; }
+    .form-container input, .form-container textarea { width: 100%; padding: 5px; }
+    .form-container button { padding: 10px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
   </style>
 </head>
 <body>
 <div th:replace="fragments/navbar :: navbar"></div>
-<h1>Add New Painting</h1>
-<form th:action="@{/submitPainting}" method="post" enctype="multipart/form-data">
-  <label for="name">Painting Name:</label>
-  <input type="text" id="name" name="name" required>
 
-  <label for="author">Author:</label>
-  <input type="text" id="author" name="author" required>
+<div class="form-container">
+  <h1>Add New Painting</h1>
+  <form th:action="@{/submitPainting}" method="post" enctype="multipart/form-data">
+    <label for="name">Painting Name:</label>
+    <input type="text" id="name" name="name" required>
 
-  <label for="date">Date:</label>
-  <input type="date" id="date" name="date" required>
+    <label for="author">Author:</label>
+    <input type="text" id="author" name="author" required>
 
-  <label for="description">Description:</label>
-  <textarea id="description" name="description" rows="4" required></textarea>
+    <label for="date">Date:</label>
+    <input type="date" id="date" name="date" required>
 
-  <label for="position">Position in the Museum:</label>
-  <input type="text" id="position" name="position" required>
+    <label for="description">Description:</label>
+    <textarea id="description" name="description" rows="4" required></textarea>
 
-  <label for="originalMuseum">Original Museum:</label>
-  <input type="text" id="originalMuseum" name="originalMuseum" required>
+    <label for="position">Position in the Museum:</label>
+    <input type="text" id="position" name="position" required>
 
-  <label for="material">Material:</label>
-  <input type="text" id="material" name="material" required>
+    <label for="originalMuseum">Original Museum:</label>
+    <input type="text" id="originalMuseum" name="originalMuseum" required>
 
-  <label for="height">Height (cm):</label>
-  <input type="number" id="height" name="height" step="0.01" required>
+    <label for="material">Material:</label>
+    <input type="text" id="material" name="material" required>
 
-  <label for="width">Width (cm):</label>
-  <input type="number" id="width" name="width" step="0.01" required>
+    <label for="height">Height (cm):</label>
+    <input type="number" id="height" name="height" step="0.01" required>
 
-  <label for="image">Upload Image:</label>
-  <input type="file" id="image" name="image" accept="image/*" required>
-  <label for="fille">Upload JSON:</label>
-  <input type="file" id="fille" name="image" accept="image/*" required>
+    <label for="width">Width (cm):</label>
+    <input type="number" id="width" name="width" step="0.01" required>
 
-  <button type="submit">Submit</button>
-</form>
+    <label for="image">Upload Image:</label>
+    <input type="file" id="image" name="image" accept="image/*" required>
+
+    <label for="fille">Upload JSON:</label>
+    <input type="file" id="fille" name="image" accept="image/*" required>
+
+    <button type="submit">Submit</button>
+  </form>
+</div>
 </body>
 </html>
