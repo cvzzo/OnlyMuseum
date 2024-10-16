@@ -1,8 +1,12 @@
 package com.museum.gestionale.Entity;
 
-import java.util.Date;
+import jakarta.persistence.*;
 
+import java.util.Date;
+@Entity
+@Table(name="autore")
 public class Autore {
+
 	private String Nome;
 	private String Cognome;
 	private Date DataNascita;
@@ -10,6 +14,10 @@ public class Autore {
 	private String LuogoNascita;
 	private String LuogoMorte;
 	private String Corrente;
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private Long id;
+
 
 	public Autore(String nome, String cognome, Date dataNascita, Date dataMorte, String luogoNascita, String luogoMorte, String corrente) {
 		Nome = nome;
@@ -19,6 +27,10 @@ public class Autore {
 		LuogoNascita = luogoNascita;
 		LuogoMorte = luogoMorte;
 		Corrente = corrente;
+	}
+
+	public Autore() {
+
 	}
 
 	public String getNome() {
@@ -75,5 +87,13 @@ public class Autore {
 
 	public void setCorrente(String corrente) {
 		Corrente = corrente;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public Long getId() {
+		return id;
 	}
 }
