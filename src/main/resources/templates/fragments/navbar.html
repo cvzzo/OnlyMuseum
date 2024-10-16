@@ -3,38 +3,11 @@
 <head th:fragment="navbar">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" th:href="@{styles.css}"/>
+    <link rel="stylesheet" th:href="@{navbar.css}"/>
+
     <title>Simple Navbar</title>
-    <style>
-        .navbar {
-            background-color: rgb(227, 213, 202);
-            color: #000000;
-            overflow: hidden;
-            display: flex;
-            align-items: baseline;
-            padding: 0 5%;
-        }
-        .navbar-links {
-            display: flex;
-            justify-content: flex-start;
-            flex-grow: 1;
-        }
-        .navbar a {
-            color: #000000;
-            text-align: left; /* Cambiato per allineare a sinistra */
-            padding: 14px 16px;
-            text-decoration: none;
-            font-size: 17px;
-        }
-        .navbar .logo {
-            font-weight: bold;
-            font-size: 20px;
-            color: #000000;
-        }
-        .logo {
-            font-weight: bold;
-            font-size: xx-large;
-        }
-    </style>
 </head>
 <body>
 <nav th:fragment="navbar" class="navbar">

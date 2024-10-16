@@ -1,3 +1,8 @@
+html {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -7,12 +12,16 @@ body {
     height: 400px;
     background-image: url('../img/background.svg');
     background-size: cover;
-    background-position: center;    
+    background-position: center;
 }
 
-h1, h3 {
+h1, h2, h3, h4, h5 {
     margin: 0;
     padding: 0;
+}
+
+h1 {
+    font-size: 24px;
 }
 
 .nome {
@@ -45,43 +54,12 @@ h1, h3 {
     text-decoration: underline;
 }
 
-.filter {
-    display: flex;
-    align-items: center;
-}
-
-.filter h3 {
-    font-weight: lighter;
-}
-
-.filter h3 span, .filter span {
-    font-weight: bold;
-}
-
-nav ul li {
-    margin: 0 5%;
-    font-weight: bold;
-    font-size: 130%;
-}
-
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px 0;
 }
-
-h1 {
-    font-size: 24px;
-    margin-bottom: 20px;
-}
-
 
 .gallery {
     column-count: 3;
@@ -132,12 +110,14 @@ h1 {
     align-items: center;
     margin-bottom: 20px;
 }
+
 .sort-container input {
     margin-right: 10px;
     padding: 5px;
     border: 1px solid #ddd;
     border-radius: 4px;
 }
+
 .sort-container select {
     padding: 5px;
     border: 1px solid #ddd;
