@@ -1,9 +1,17 @@
 package com.museum.gestionale.Entity;
 
+import jakarta.persistence.*;
+import org.springframework.lang.NonNull;
+
+@Entity
+@Table(name="opera")
 public class Opera {
-    private int id;
+	@Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+	private int id;
     private String name;
     private int year;
+    @ManyToOne
     private Autore author;
     private String description;
     private String material;
@@ -11,10 +19,10 @@ public class Opera {
     private float height;
     private float width;
     private String link;
-    private Museo museum;
+    @OneToOne
+    private Museo museo;
 
-
-    public Opera(int id, String name, int year, Autore author, String description, String material, int room, float height, float width, String link, Museo museum) {
+    public Opera(int id, String name, int year, Autore author, String description, String material, int room, float height, float width, String link, Museo museo) {
         this.id = id;
         this.name = name;
         this.year = year;
@@ -25,16 +33,13 @@ public class Opera {
         this.height = height;
         this.width = width;
         this.link = link;
-        this.museum = museum;
+        this.museo = museo;
     }
 
     public Opera() {
     }
 
 
-    public int getId() {
-        return id;
-    }
 
     public void setId(int id) {
         this.id = id;
@@ -126,5 +131,13 @@ public class Opera {
                 ", width=" + width +
                 ", link='" + link + '\'' +
                 '}';
+    }
+
+    public void setId(Long id) {
+        this.id = Math.toIntExact(id);
+    }
+
+    public Long getId() {
+        return (long) id;
     }
 }
