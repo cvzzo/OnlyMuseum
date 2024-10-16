@@ -3,6 +3,8 @@ package com.museum.gestionale.Entity;
 import jakarta.persistence.*;
 import org.springframework.lang.NonNull;
 
+import java.util.Set;
+
 @Entity
 @Table(name="opera")
 public class Opera {
@@ -21,6 +23,8 @@ public class Opera {
     private String link;
     @OneToOne
     private Museo museo;
+    @ManyToMany
+    Set<Opera> opera;
 
     public Opera(int id, String name, int year, Autore author, String description, String material, int room, float height, float width, String link, Museo museo) {
         this.id = id;

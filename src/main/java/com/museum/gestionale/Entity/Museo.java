@@ -9,5 +9,5 @@ public class Museo {
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
-	String Nome;
+	private String nome;
 }
