@@ -5,56 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Navbar</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-
-        }
         .navbar {
             background-color: rgb(227, 213, 202);
             color: #000000;
             overflow: hidden;
             display: flex;
-            justify-content: space-between;
-            align-items: center;
+            align-items: baseline;
             padding: 0 5%;
         }
         .navbar-links {
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             flex-grow: 1;
         }
         .navbar a {
             color: #000000;
-            text-align: center;
+            text-align: left; /* Cambiato per allineare a sinistra */
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
-        }
-        .navbar-links a:hover {
-            background-color: #ddd;
-            color: black;
         }
         .navbar .logo {
             font-weight: bold;
             font-size: 20px;
             color: #000000;
         }
-        .navbar .profile {
-            margin-left: auto;
+        .logo {
+            font-weight: bold;
+            font-size: xx-large;
         }
     </style>
 </head>
 <body>
 <nav th:fragment="navbar" class="navbar">
-    <a href="#" class="logo">Only Museum</a>
-
+    <a href="#" class="logo"><h1>Only Museum</h1></a>
     <div class="navbar-links">
         <a href="#authors">Authors</a>
         <a href="#map">Map</a>
         <a href="#paintings">Paintings</a>
     </div>
-
-    <a href="#profile" class="profile">Profile</a>
 </nav>
 </body>
 </html>

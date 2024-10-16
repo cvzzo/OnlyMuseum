@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.form-container {
+    display: grid;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container input, .form-container textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+.form-container button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
