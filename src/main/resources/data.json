@@ -1,33 +1,34 @@
 {
-    "Maestro di Tahull": [
+    "Guido da Siena": [
         {
-            "name": "Cristo in Maestà",
-            "year": 1123,
-            "author": "Maestro di Tahull",
-            "description": "Rappresentazione di Cristo Pantocratore nell'abside della chiesa. Cristo è raffigurato in una mandorla con la mano destra alzata in segno di benedizione e la sinistra che regge un libro.",
-            "material": "Affresco",
-            "height": 340,
-            "width": 315,
-            "link": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Meister_aus_Tahull_001.jpg"
+            "name": "Madonna col Bambino",
+            "year": 1262,
+            "author": "Guido da Siena",
+            "description": "Icona della Madonna con il Bambino, caratterizzata da una rappresentazione ieratica e frontale tipica dello stile bizantino con tocchi di maggiore umanizzazione.",
+            "material": "Tempera su tavola",
+            "height": 150,
+            "width": 100,
+            "link": ""
         },
         {
-            "name": "Annunciazione all'Angelo",
-            "year": 1123,
-            "author": "Maestro di Tahull",
-            "description": "Affresco che rappresenta l'arcangelo Gabriele mentre annuncia a Maria la nascita di Gesù, con un uso del colore vivido e figure stilizzate.",
-            "material": "Affresco",
-            "height": 290,
-            "width": 200,
-            "link" : ""
+            "name": "Maestà di San Domenico",
+            "year": 1270,
+            "author": "Guido da Siena",
+            "description": "Dipinto raffigurante la Vergine Maria in trono con il Bambino, circondata da angeli e santi, caratterizzato da una transizione verso una maggiore espressività delle figure.",
+            "material": "Tempera su tavola",
+            "height": 200,
+            "width": 150,
+            "link": ""
         },
         {
-            "name": "La Vergine con il Bambino",
-            "year": 1123,
-            "author": "Maestro di Tahull",
-            "description": "Raffigurazione della Vergine Maria seduta su un trono con il Bambino in braccio. Presenta una stilizzazione tipica dell'arte romanica.",
-            "material": "Affresco",
-            "height": 240,
-            "width": 200
+            "name": "Cristo Benedicente",
+            "year": 1265,
+            "author": "Guido da Siena",
+            "description": "Rappresentazione di Cristo benedicente, con una postura solenne e lo sfondo dorato tipico dell'arte medievale, mostrando un progressivo allontanamento dalla rigidità bizantina.",
+            "material": "Tempera su tavola",
+            "height": 120,
+            "width": 80,
+            "link": ""
         }
     ],
     "Cimabue": [
