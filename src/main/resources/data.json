@@ -1137,7 +1137,7 @@
       "material": "Olio su tela",
       "height": 260,
       "width": 391,
-      "link": ""
+      "link": "https://www.artesplorando.it/wp-content/uploads/2018/02/WOA_IMAGE_1.jpg"
     },
     {
       "name": "La stanza rossa",
@@ -1147,7 +1147,7 @@
       "material": "Olio su tela",
       "height": 180,
       "width": 220,
-      "link": ""
+      "link": "https://www.pitturiamo.eu/wp-content/uploads/La-stanza-rossa-.jpg"
     },
     {
       "name": "La persiana verde",
@@ -1157,7 +1157,7 @@
       "material": "Olio su tela",
       "height": 89,
       "width": 60,
-      "link": ""
+      "link": "https://www.quickmuseum.it/wp-content/uploads/2020/04/Henri-Matisse-ritratto-di-Madame-Matisse.-La-striscia-verde-1905.jpg"
     }
   ],
   "André Derain": [
@@ -1169,7 +1169,7 @@
       "material": "Olio su tela",
       "height": 73,
       "width": 92,
-      "link": ""
+      "link": "https://cdn.mediatheque.epmoo.fr/link/3c9igq/avu1apqfh3zk2dc.jpg"
     },
     {
       "name": "Il ballo",
@@ -1179,7 +1179,7 @@
       "material": "Olio su tela",
       "height": 146,
       "width": 114,
-      "link": ""
+      "link": "https://www.arteworld.it/wp-content/themes/yootheme/cache/92/La-danza-Andr%C3%A9-Derain-analisi-921f4e75.jpeg  "
     },
     {
       "name": "Natura morta con frutta",
@@ -1189,39 +1189,39 @@
       "material": "Olio su tela",
       "height": 65,
       "width": 81,
-      "link": ""
+      "link": "https://cdn.drouot.com/d/image/lot?size=fsquare&path=32/124195/46d217f2d61c19d45f647b0a1581fc1d"
     }
   ],
   "Georges Braque2": [
     {
-      "name": "Violon e Candela",
-      "year": 1910,
+      "name": "Le Grand Nu",
+      "year": 1908,
       "author": "Georges Braque",
-      "description": "Un'opera cubista che rappresenta un violino e una candela, nota per la sua complessità formale e l'uso di colori terrosi.",
+      "description": "Una rappresentazione audace di un nudo femminile con colori vivaci e pennellate energiche tipiche del Fauvismo, esaltando l'intensità emotiva e il colore sopra il realismo.",
       "material": "Olio su tela",
-      "height": 60,
-      "width": 73,
-      "link": ""
+      "height": 140,
+      "width": 100,
+      "link": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b1/Georges_Braque%2C_1908%2C_Baigneuse_%28Le_Grand_Nu%2C_Large_Nude%29%2C_oil_on_canvas%2C_140_%C3%97_100_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne%2C_Centre_Pompidou%2C_Paris.jpg/552px-Georges_Braque%2C_1908%2C_Baigneuse_%28Le_Grand_Nu%2C_Large_Nude%29%2C_oil_on_canvas%2C_140_%C3%97_100_cm%2C_Mus%C3%A9e_National_d%27Art_Moderne%2C_Centre_Pompidou%2C_Paris.jpg"
     },
     {
-      "name": "La casa ad Adèlle",
-      "year": 1911,
+      "name": "Porto a l'Estaque",
+      "year": 1906,
       "author": "Georges Braque",
-      "description": "Rappresenta una casa in un paesaggio, esplorando le forme geometriche e l'uso della prospettiva cubista.",
+      "description": "Paesaggio dai colori intensi e contrastanti che raffigura il porto dell'Estaque, una località in cui Braque esplora forme semplificate e tonalità audaci.",
       "material": "Olio su tela",
-      "height": 80,
+      "height": 81,
+      "width": 100,
+      "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQviuhZPU89GzHx11GuYeBemzA37rqPGTq4w&s"
+    },
+    {
+      "name": "Case a l'Estaque",
+      "year": 1908,
+      "author": "Georges Braque",
+      "description": "Un'opera che mostra una veduta paesaggistica dalle forme geometriche e tonalità terrose, anticipando l'approccio cubista ma conservando colori intensi di ispirazione fauvista.",
+      "material": "Olio su tela",
+      "height": 73,
       "width": 60,
-      "link": ""
-    },
-    {
-      "name": "Natura morta con il giornale",
-      "year": 1912,
-      "author": "Georges Braque",
-      "description": "Un'opera cubista che unisce oggetti quotidiani in una composizione innovativa, simbolo della sua ricerca di nuove forme artistiche.",
-      "material": "Olio su tela",
-      "height": 65,
-      "width": 54,
-      "link": ""
+      "link": "https://www.finestresullarte.info/rivista/immagini/2022/fn/georges-braque-case-a-l-estaque.jpg"
     }
   ],
   "Pablo Picasso": [
