@@ -1,1577 +1,1713 @@
 {
-    "Guido da Siena": [
-        {
-            "name": "Madonna col Bambino",
-            "year": 1262,
-            "author": "Guido da Siena",
-            "description": "Icona della Madonna con il Bambino, caratterizzata da una rappresentazione ieratica e frontale tipica dello stile bizantino con tocchi di maggiore umanizzazione.",
-            "material": "Tempera su tavola",
-            "height": 150,
-            "width": 100,
-            "link": ""
-        },
-        {
-            "name": "Maestà di San Domenico",
-            "year": 1270,
-            "author": "Guido da Siena",
-            "description": "Dipinto raffigurante la Vergine Maria in trono con il Bambino, circondata da angeli e santi, caratterizzato da una transizione verso una maggiore espressività delle figure.",
-            "material": "Tempera su tavola",
-            "height": 200,
-            "width": 150,
-            "link": ""
-        },
-        {
-            "name": "Cristo Benedicente",
-            "year": 1265,
-            "author": "Guido da Siena",
-            "description": "Rappresentazione di Cristo benedicente, con una postura solenne e lo sfondo dorato tipico dell'arte medievale, mostrando un progressivo allontanamento dalla rigidità bizantina.",
-            "material": "Tempera su tavola",
-            "height": 120,
-            "width": 80,
-            "link": ""
-        }
-    ],
-    "Cimabue": [
-        {
-            "name": "Crocifisso di Santa Croce",
-            "year": 1270,
-            "author": "Cimabue",
-            "description": "Un crocifisso dipinto su legno che raffigura un Cristo sofferente. Rappresenta una delle prime opere a cercare un maggiore realismo rispetto allo stile bizantino.",
-            "material": "Tempera su legno",
-            "height": 336,
-            "width": 267
-        },
-        {
-            "name": "Maestà di Santa Trinita",
-            "year": 1280,
-            "author": "Cimabue",
-            "description": "Icona raffigurante la Vergine Maria su un trono con il Bambino, circondata da angeli. Introduce un senso di volume e spazio tridimensionale.",
-            "material": "Tempera su tavola",
-            "height": 385,
-            "width": 223
-        },
-        {
-            "name": "Crocifisso di Arezzo",
-            "year": 1265,
-            "author": "Cimabue",
-            "description": "Crocifisso ligneo che rappresenta un Cristo dolente. L'opera mostra i primi segni del naturalismo, con un focus sul dramma umano della crocifissione.",
-            "material": "Tempera su legno",
-            "height": 390,
-            "width": 340
-        }
-    ],
-    "Duccio di Buoninsegna": [
-        {
-            "name": "Maestà",
-            "year": 1308,
-            "author": "Duccio di Buoninsegna",
-            "description": "Un grande altare dipinto che rappresenta la Vergine Maria con il Bambino su un trono, circondata da santi e angeli. Questa opera segna un passaggio verso un maggiore naturalismo e un'attenzione alla narrazione.",
-            "material": "Tempera su tavola",
-            "height": 450,
-            "width": 460
-        },
-        {
-            "name": "Madonna Rucellai",
-            "year": 1285,
-            "author": "Duccio di Buoninsegna",
-            "description": "Icona raffigurante la Vergine Maria seduta su un trono, con il Bambino in grembo, circondata da sei angeli. Presenta un'evoluzione verso uno stile più morbido rispetto al rigore bizantino.",
-            "material": "Tempera su tavola",
-            "height": 450,
-            "width": 290
-        },
-        {
-            "name": "La Tentazione di Cristo sul Tempio",
-            "year": 1308,
-            "author": "Duccio di Buoninsegna",
-            "description": "Uno dei pannelli della grande Maestà, raffigurante l'episodio della tentazione di Cristo da parte del diavolo. La composizione narra la storia con vividi dettagli e una prospettiva architettonica.",
-            "material": "Tempera su tavola",
-            "height": 43,
-            "width": 46
-        }
-    ],
-    "Giotto": [
-        {
-            "name": "Lamentation",
-            "year": 1305,
-            "author": "Giotto",
-            "description": "Parte del ciclo di affreschi nella Cappella degli Scrovegni a Padova. Raffigura il momento in cui il corpo di Cristo viene pianto dopo la crocifissione, con un'innovativa espressività dei volti e una composizione dinamica.",
-            "material": "Affresco",
-            "height": 200,
-            "width": 185
-        },
-        {
-            "name": "Madonna di Ognissanti",
-            "year": 1310,
-            "author": "Giotto",
-            "description": "Una grande pala d'altare raffigurante la Madonna col Bambino, seduta su un trono gotico. L'opera segna un allontanamento dalla stilizzazione bizantina verso un maggior realismo e volume.",
-            "material": "Tempera su tavola",
-            "height": 325,
-            "width": 204
-        },
-        {
-            "name": "San Francesco che Riceve le Stimmate",
-            "year": 1295,
-            "author": "Giotto",
-            "description": "Pannello raffigurante San Francesco d'Assisi nel momento in cui riceve le stimmate. L'opera mostra un uso pionieristico della prospettiva e del paesaggio naturalistico.",
-            "material": "Tempera su tavola",
-            "height": 313,
-            "width": 163
-        }
-    ],
-    "Pietro Lorenzetti": [
-        {
-            "name": "Pala del Carmine",
-            "year": 1329,
-            "author": "Pietro Lorenzetti",
-            "description": "Un polittico dipinto per la chiesa del Carmine a Siena, raffigurante la Madonna con il Bambino e vari santi. Presenta dettagli realistici e una composizione narrativa complessa.",
-            "material": "Tempera su tavola",
-            "height": 230,
-            "width": 180
-        },
-        {
-            "name": "Annunciazione",
-            "year": 1342,
-            "author": "Pietro Lorenzetti",
-            "description": "Affresco raffigurante l'arcangelo Gabriele che annuncia la nascita di Gesù a Maria. L'opera mostra un'evoluzione verso un'interpretazione più realistica dello spazio e della luce.",
-            "material": "Affresco",
-            "height": 190,
-            "width": 170
-        },
-        {
-            "name": "Trittico di Santa Croce",
-            "year": 1320,
-            "author": "Pietro Lorenzetti",
-            "description": "Trittico che rappresenta la Crocifissione al centro, affiancata da altre scene sacre. Dimostra una narrazione dettagliata e l'uso innovativo della prospettiva.",
-            "material": "Tempera su tavola",
-            "height": 280,
-            "width": 240
-        }
-    ],
-    "Simone Martini": [
-        {
-            "name": "Annunciazione",
-            "year": 1333,
-            "author": "Simone Martini",
-            "description": "Pala d'altare realizzata in collaborazione con Lippo Memmi, raffigurante l'Annunciazione con l'arcangelo Gabriele che si avvicina a Maria. L'opera è nota per il suo stile elegante e per l'uso dell'oro.",
-            "material": "Tempera e oro su tavola",
-            "height": 305,
-            "width": 265
-        },
-        {
-            "name": "Maestà",
-            "year": 1315,
-            "author": "Simone Martini",
-            "description": "Grande affresco nel Palazzo Pubblico di Siena, raffigurante la Vergine Maria seduta in trono circondata da angeli e santi. Lo stile gotico è evidente nell'eleganza delle figure e nei dettagli decorativi.",
-            "material": "Affresco",
-            "height": 970,
-            "width": 763
-        },
-        {
-            "name": "Guidoriccio da Fogliano all'Assedio di Montemassi",
-            "year": 1330,
-            "author": "Simone Martini",
-            "description": "Affresco nel Palazzo Pubblico di Siena che raffigura il condottiero Guidoriccio da Fogliano a cavallo. L'opera è celebre per la raffigurazione paesaggistica e il ritratto del condottiero, elemento innovativo nell'arte dell'epoca.",
-            "material": "Affresco",
-            "height": 340,
-            "width": 968
-        }
-    ],
-    "Piero della Francesca": [
-        {
-            "name": "La Resurrezione",
-            "year": 1463,
-            "author": "Piero della Francesca",
-            "description": "Un affresco che raffigura Cristo risorto che emerge dal sepolcro con uno sguardo solenne. L'opera è nota per l'uso della prospettiva e l'equilibrio compositivo, tipico del Rinascimento.",
-            "material": "Affresco",
-            "height": 225,
-            "width": 200
-        },
-        {
-            "name": "La Flagellazione di Cristo",
-            "year": 1455,
-            "author": "Piero della Francesca",
-            "description": "Una complessa scena dipinta su tavola che raffigura la flagellazione di Cristo, utilizzando la prospettiva geometrica e una composizione innovativa per creare profondità spaziale.",
-            "material": "Tempera su tavola",
-            "height": 58.4,
-            "width": 81.5
-        },
-        {
-            "name": "Pala di Brera",
-            "year": 1472,
-            "author": "Piero della Francesca",
-            "description": "Conosciuta anche come 'Madonna col Bambino e Santi', questa pala d'altare raffigura la Vergine Maria con il Bambino, circondata da santi, con un imponente uovo di struzzo appeso in alto come simbolo di purezza.",
-            "material": "Tempera su tavola",
-            "height": 248,
-            "width": 170
-        }
-    ],
-    "Filippo Lippi": [
-        {
-            "name": "Madonna con Bambino e due angeli",
-            "year": 1465,
-            "author": "Filippo Lippi",
-            "description": "Una delle opere più celebri di Lippi, raffigurante la Vergine Maria che tiene il Bambino, assistita da due angeli. Conosciuta per l'eleganza delle figure e la dolcezza dell'espressione della Madonna.",
-            "material": "Tempera su tavola",
-            "height": 92,
-            "width": 63.5
-        },
-        {
-            "name": "L'Incoronazione della Vergine",
-            "year": 1447,
-            "author": "Filippo Lippi",
-            "description": "Una grande pala d'altare raffigurante la Vergine Maria incoronata dal Cristo, circondata da santi e angeli. L'opera presenta dettagli raffinati e un uso notevole della luce e della prospettiva.",
-            "material": "Tempera su tavola",
-            "height": 200,
-            "width": 287
-        },
-        {
-            "name": "Annunciazione",
-            "year": 1445,
-            "author": "Filippo Lippi",
-            "description": "Raffigurazione dell'Annunciazione dell'angelo a Maria, caratterizzata da un'elegante composizione e un uso delicato del colore per enfatizzare la spiritualità della scena.",
-            "material": "Tempera su tavola",
-            "height": 68,
-            "width": 151
-        }
-    ],
-    "Paolo Uccello": [
-        {
-            "name": "La Battaglia di San Romano",
-            "year": 1438,
-            "author": "Paolo Uccello",
-            "description": "Parte di una serie di pannelli che raffigurano la battaglia tra fiorentini e senesi. L'opera è celebre per l'uso innovativo della prospettiva e l'attenzione ai dettagli delle armature e delle armi.",
-            "material": "Tempera su tavola",
-            "height": 182,
-            "width": 320
-        },
-        {
-            "name": "San Giorgio e il Drago",
-            "year": 1456,
-            "author": "Paolo Uccello",
-            "description": "Dipinto che raffigura San Giorgio nell'atto di uccidere il drago per salvare la principessa. L'opera è conosciuta per la sua composizione prospettica e l'uso drammatico del colore.",
-            "material": "Tempera su tavola",
-            "height": 55.6,
-            "width": 74.2
-        },
-        {
-            "name": "Diluvio Universale e Arca di Noè",
-            "year": 1447,
-            "author": "Paolo Uccello",
-            "description": "Affresco che fa parte del ciclo di opere nella cattedrale di Santa Maria del Fiore a Firenze. Raffigura la scena biblica del diluvio con un forte uso della prospettiva per creare profondità.",
-            "material": "Affresco",
-            "height": 277,
-            "width": 540
-        }
-    ],
-    "Leonardo da Vinci": [
-        {
-            "name": "La Gioconda (Mona Lisa)",
-            "year": 1503,
-            "author": "Leonardo da Vinci",
-            "description": "Un ritratto della moglie di un mercante fiorentino, noto per il suo enigmatico sorriso e l'uso innovativo dello sfumato, che crea un'illusione di tridimensionalità e profondità.",
-            "material": "Olio su tavola di pioppo",
-            "height": 77,
-            "width": 53
-        },
-        {
-            "name": "L'Ultima Cena",
-            "year": 1495,
-            "author": "Leonardo da Vinci",
-            "description": "Affresco che raffigura l'ultimo pasto di Cristo con i suoi discepoli. Celebre per la composizione prospettica e l'uso del chiaroscuro, l'opera si trova nel refettorio del convento di Santa Maria delle Grazie a Milano.",
-            "material": "Tempera e olio su intonaco",
-            "height": 460,
-            "width": 880
-        },
-        {
-            "name": "L'Uomo Vitruviano",
-            "year": 1490,
-            "author": "Leonardo da Vinci",
-            "description": "Disegno che rappresenta le proporzioni ideali del corpo umano secondo Vitruvio. Simbolo dell'unione tra arte e scienza, mostra un uomo in due posizioni sovrapposte con braccia e gambe aperte.",
-            "material": "Inchiostro su carta",
-            "height": 34.4,
-            "width": 24.5
-        }
-    ],
-    "Michelangelo Buonarroti": [
-        {
-            "name": "David",
-            "year": 1501,
-            "author": "Michelangelo Buonarroti",
-            "description": "Una scultura in marmo raffigurante il giovane David prima dello scontro con Golia. Celebre per la sua anatomia dettagliata e il senso di tensione contenuta, l'opera è simbolo del Rinascimento fiorentino.",
-            "material": "Marmo di Carrara",
-            "height": 517,
-            "width": 199
-        },
-        {
-            "name": "Cappella Sistina (Volta)",
-            "year": 1508,
-            "author": "Michelangelo Buonarroti",
-            "description": "Affresco che copre il soffitto della Cappella Sistina in Vaticano. Include scene bibliche, come la Creazione di Adamo, famose per la composizione dinamica e l'uso del colore.",
-            "material": "Affresco",
-            "height": 1370,
-            "width": 390
-        },
-        {
-            "name": "Pietà",
-            "year": 1498,
-            "author": "Michelangelo Buonarroti",
-            "description": "Scultura che raffigura la Vergine Maria che tiene in braccio il corpo di Cristo morto. Conosciuta per la sua raffinatezza e la resa emotiva, è una delle opere più celebri di Michelangelo.",
-            "material": "Marmo di Carrara",
-            "height": 174,
-            "width": 195
-        }
-    ],
-    "Raffaello Sanzio": [
-        {
-            "name": "La Scuola di Atene",
-            "year": 1509,
-            "author": "Raffaello Sanzio",
-            "description": "Affresco situato nelle Stanze Vaticane che rappresenta i più grandi filosofi dell'antichità, tra cui Platone e Aristotele. Celebre per la composizione bilanciata e l'uso magistrale della prospettiva.",
-            "material": "Affresco",
-            "height": 500,
-            "width": 770
-        },
-        {
-            "name": "La Madonna Sistina",
-            "year": 1512,
-            "author": "Raffaello Sanzio",
-            "description": "Pala d'altare che raffigura la Vergine Maria con il Bambino, accompagnata da due santi e i celebri angioletti in basso. Conosciuta per la sua armonia compositiva e la dolcezza delle figure.",
-            "material": "Olio su tela",
-            "height": 265,
-            "width": 196
-        },
-        {
-            "name": "Il Trionfo di Galatea",
-            "year": 1512,
-            "author": "Raffaello Sanzio",
-            "description": "Affresco che raffigura la ninfa Galatea su un carro trainato da delfini. La composizione dinamica e l'uso del colore catturano il movimento delle figure classiche.",
-            "material": "Affresco",
-            "height": 295,
-            "width": 225
-        }
-    ],
-    "Caravaggio": [
-        {
-            "name": "La Vocazione di San Matteo",
-            "year": 1599,
-            "author": "Caravaggio",
-            "description": "Dipinto che raffigura Cristo che chiama San Matteo mentre è seduto a un tavolo con altri esattori delle tasse. Celebre per l'uso innovativo del chiaroscuro e la drammaticità della luce.",
-            "material": "Olio su tela",
-            "height": 322,
-            "width": 340
-        },
-        {
-            "name": "Giuditta e Oloferne",
-            "year": 1598,
-            "author": "Caravaggio",
-            "description": "Rappresenta Giuditta nell'atto di decapitare Oloferne. Il dipinto è noto per la rappresentazione realistica delle emozioni e il contrasto tra luce e ombra.",
-            "material": "Olio su tela",
-            "height": 145,
-            "width": 195
-        },
-        {
-            "name": "La Morte della Vergine",
-            "year": 1604,
-            "author": "Caravaggio",
-            "description": "Dipinto che raffigura la Vergine Maria sul letto di morte, circondata dagli apostoli in lutto. L'opera fu controversa per il suo realismo crudo e la rappresentazione non idealizzata della Vergine.",
-            "material": "Olio su tela",
-            "height": 369,
-            "width": 245
-        }
-    ],
-    "Peter Paul Rubens": [
-        {
-            "name": "La Discesa dalla Croce",
-            "year": 1611,
-            "author": "Peter Paul Rubens",
-            "description": "Parte di un trittico nella Cattedrale di Anversa, raffigura il corpo di Cristo mentre viene deposto dalla croce. Conosciuto per la sua drammaticità, il colore ricco e la composizione dinamica.",
-            "material": "Olio su pannello di legno",
-            "height": 421,
-            "width": 311
-        },
-        {
-            "name": "Le Tre Grazie",
-            "year": 1635,
-            "author": "Peter Paul Rubens",
-            "description": "Dipinto che raffigura le tre Grazie della mitologia classica, simboli di bellezza e amore. Celebre per l'uso della luce e la rappresentazione corpulenta e sensuale delle figure femminili.",
-            "material": "Olio su tela",
-            "height": 221,
-            "width": 181
-        },
-        {
-            "name": "Il Giudizio di Paride",
-            "year": 1636,
-            "author": "Peter Paul Rubens",
-            "description": "Dipinto mitologico che raffigura Paride mentre assegna la mela d'oro alla dea più bella. L'opera è nota per la sua vivida composizione e l'uso del colore per rappresentare le forme voluttuose.",
-            "material": "Olio su tela",
-            "height": 144,
-            "width": 193
-        }
-    ],
-    "Rembrandt": [
-        {
-            "name": "La Ronda di Notte",
-            "year": 1642,
-            "author": "Rembrandt",
-            "description": "Grande dipinto di gruppo che raffigura una compagnia di guardie civiche. Celebre per l'uso magistrale della luce e dell'ombra e per la composizione dinamica e narrativa.",
-            "material": "Olio su tela",
-            "height": 379,
-            "width": 453
-        },
-        {
-            "name": "La Lezione di Anatomia del Dottor Tulp",
-            "year": 1632,
-            "author": "Rembrandt",
-            "description": "Dipinto che raffigura una lezione di anatomia condotta dal Dottor Nicolaes Tulp. L'opera è famosa per il realismo psicologico e l'uso della luce per dirigere l'attenzione dell'osservatore.",
-            "material": "Olio su tela",
-            "height": 169.5,
-            "width": 216.5
-        },
-        {
-            "name": "Autoritratto con Berretto e Catena d'Oro",
-            "year": 1633,
-            "author": "Rembrandt",
-            "description": "Uno dei tanti autoritratti dell'artista, che lo raffigura con un cappello e una catena d'oro. Famoso per la sua introspezione psicologica e la tecnica impareggiabile nel rendere la luce e la texture.",
-            "material": "Olio su tela",
-            "height": 80.4,
-            "width": 67.3
-        }
-    ],
-    "Jean-Honoré Fragonard": [
-        {
-            "name": "Gli Altalena (The Swing)",
-            "year": 1767,
-            "author": "Jean-Honoré Fragonard",
-            "description": "Celebre dipinto rococò che raffigura una giovane donna su un'altalena sospesa da un albero, mentre un uomo la guarda con ammirazione. Conosciuto per il suo uso del colore e l'atmosfera giocosa e sensuale.",
-            "material": "Olio su tela",
-            "height": 81,
-            "width": 64.2
-        },
-        {
-            "name": "L'Amore e il Suo Trionfo",
-            "year": 1771,
-            "author": "Jean-Honoré Fragonard",
-            "description": "Scena amorosa e giocosa, che mostra l'allegoria dell'amore con figure mitologiche. Tipico esempio dello stile rococò, con toni caldi e morbidi e una composizione fluida.",
-            "material": "Olio su tela",
-            "height": 317.5,
-            "width": 152
-        },
-        {
-            "name": "La Lettura",
-            "year": 1776,
-            "author": "Jean-Honoré Fragonard",
-            "description": "Dipinto che ritrae una giovane donna immersa nella lettura di un libro. Conosciuto per l'intimità della scena e la delicatezza nell'uso della luce e dei colori pastello.",
-            "material": "Olio su tela",
-            "height": 81,
-            "width": 64
-        }
-    ],
-    "François Boucher": [
-        {
-            "name": "Madame de Pompadour",
-            "year": 1756,
-            "author": "François Boucher",
-            "description": "Ritratto di Madame de Pompadour, amante e influente mecenate di Luigi XV. L'opera è famosa per la raffinatezza della tecnica e l'uso di colori pastello, rappresentando il lusso e l'eleganza dell'epoca.",
-            "material": "Olio su tela",
-            "height": 91.4,
-            "width": 68.6
-        },
-        {
-            "name": "La Toilette di Venere",
-            "year": 1751,
-            "author": "François Boucher",
-            "description": "Dipinto che rappresenta la dea Venere durante la sua preparazione di bellezza, circondata da amorini. L'opera è caratterizzata da toni delicati e un'atmosfera intima e voluttuosa.",
-            "material": "Olio su tela",
-            "height": 108,
-            "width": 85
-        },
-        {
-            "name": "Il Triomfo di Venere",
-            "year": 1740,
-            "author": "François Boucher",
-            "description": "Scena mitologica che raffigura Venere, circondata da putti e figure marine, trionfante sopra le onde. Un'opera rappresentativa del rococò, piena di dettagli e colori luminosi.",
-            "material": "Olio su tela",
-            "height": 130,
-            "width": 162
-        }
-    ],
-    "Antoine Watteau": [
-        {
-            "name": "Imbarco per Citera",
-            "year": 1717,
-            "author": "Antoine Watteau",
-            "description": "Dipinto che rappresenta un gruppo di amanti in un paesaggio romantico mentre si preparano a partire per l'isola di Citera, simbolo dell'amore. Conosciuto per la sua atmosfera sognante e la delicatezza cromatica.",
-            "material": "Olio su tela",
-            "height": 129,
-            "width": 194
-        },
-        {
-            "name": "Gilles",
-            "year": 1719,
-            "author": "Antoine Watteau",
-            "description": "Ritratto di un attore della commedia dell'arte, in un costume bianco, circondato da figure enigmatiche. Celebre per l'espressione malinconica e il contrasto con l'ambiente circostante.",
-            "material": "Olio su tela",
-            "height": 184.5,
-            "width": 149.5
-        },
-        {
-            "name": "La Conversazione Galante",
-            "year": 1718,
-            "author": "Antoine Watteau",
-            "description": "Scena intima e romantica che mostra una coppia in un paesaggio naturale, circondata da una luce delicata. È un esempio dell'invenzione del genere pittorico della 'fête galante', tipico dell'opera di Watteau.",
-            "material": "Olio su tela",
-            "height": 46,
-            "width": 55
-        }
-    ],
-    "Eugène Delacroix": [
-        {
-            "name": "La Libertà che Guida il Popolo",
-            "year": 1830,
-            "author": "Eugène Delacroix",
-            "description": "Simbolo della Rivoluzione di Luglio, raffigura una donna allegorica della Libertà che guida un gruppo di rivoluzionari. L'opera è celebre per la sua energia, il dinamismo e l'uso dei colori vibranti.",
-            "material": "Olio su tela",
-            "height": 260,
-            "width": 325
-        },
-        {
-            "name": "La Morte di Sardanapalo",
-            "year": 1827,
-            "author": "Eugène Delacroix",
-            "description": "Scena drammatica che rappresenta il suicidio del re assiro Sardanapalo tra un caos di distruzione. Celebre per la sua composizione dinamica, i colori accesi e l'atmosfera decadente.",
-            "material": "Olio su tela",
-            "height": 392,
-            "width": 496
-        },
-        {
-            "name": "Donne di Algeri nei loro Appartamenti",
-            "year": 1834,
-            "author": "Eugène Delacroix",
-            "description": "Raffigura un gruppo di donne algerine in un ambiente esotico, esplorando temi di orientalismo. Conosciuto per il realismo dei dettagli e l'uso innovativo del colore.",
-            "material": "Olio su tela",
-            "height": 180,
-            "width": 229
-        }
-    ],
-    "William Turner": [
-        {
-            "name": "La Neve, Vapore e Velocità - La Grande Ferrovia dell'Ovest",
-            "year": 1844,
-            "author": "William Turner",
-            "description": "Raffigura un treno a vapore che attraversa un ponte sotto una tempesta, esplorando la tensione tra natura e progresso tecnologico. Famoso per l'uso sperimentale della luce e del colore.",
-            "material": "Olio su tela",
-            "height": 91,
-            "width": 121.8
-        },
-        {
-            "name": "Il Naufragio",
-            "year": 1805,
-            "author": "William Turner",
-            "description": "Drammatico dipinto marittimo che raffigura una nave naufragata in mezzo a onde turbolente, catturando la forza della natura. Conosciuto per l'uso evocativo della luce e dell'atmosfera.",
-            "material": "Olio su tela",
-            "height": 170,
-            "width": 241.9
-        },
-        {
-            "name": "L'Incendio delle Camere dei Lord e dei Comuni",
-            "year": 1835,
-            "author": "William Turner",
-            "description": "Scene drammatica dell'incendio del Parlamento di Londra, con il fuoco che illumina il cielo notturno. Celebre per l'effetto di luce e la resa drammatica della catastrofe.",
-            "material": "Olio su tela",
-            "height": 92,
-            "width": 123.2
-        }
-    ],
-    "Francesco Hayez": [
-        {
-            "name": "Il Bacio",
-            "year": 1859,
-            "author": "Francesco Hayez",
-            "description": "Celebre dipinto romantico che raffigura un bacio appassionato tra due giovani amanti. Simbolo di romanticismo e patriottismo italiano, caratterizzato da colori intensi e una composizione emozionante.",
-            "material": "Olio su tela",
-            "height": 112,
-            "width": 88
-        },
-        {
-            "name": "La Meditazione",
-            "year": 1851,
-            "author": "Francesco Hayez",
-            "description": "Ritratto allegorico di una donna in lutto, che riflette sul destino dell'Italia. Simbolo dell'oppressione e delle speranze risorgimentali, con un realismo dettagliato.",
-            "material": "Olio su tela",
-            "height": 126,
-            "width": 98
-        },
-        {
-            "name": "La Vendetta del Servo Saraceno",
-            "year": 1853,
-            "author": "Francesco Hayez",
-            "description": "Scena drammatica che raffigura un servo saraceno che vendica l'ingiustizia subita dal suo padrone. L'opera è nota per l'intensità emotiva e l'uso della luce e del colore.",
-            "material": "Olio su tela",
-            "height": 200,
-            "width": 145
-        }
-    ],
-    "Gustave Courbet": [
-        {
-            "name": "L'Atelier del Pittore",
-            "year": 1855,
-            "author": "Gustave Courbet",
-            "description": "Grande composizione allegorica che raffigura l'artista al centro del suo studio, circondato da amici, ammiratori e personaggi della vita quotidiana. Simbolo del realismo artistico, esalta la vita reale rispetto alla finzione.",
-            "material": "Olio su tela",
-            "height": 361,
-            "width": 598
-        },
-        {
-            "name": "Gli Spaccapietre",
-            "year": 1849,
-            "author": "Gustave Courbet",
-            "description": "Dipinto che mostra due uomini al lavoro, intenti a rompere pietre sulla strada. Considerato uno dei primi esempi del realismo sociale, rappresenta la dura vita dei lavoratori senza idealizzazioni.",
-            "material": "Olio su tela",
-            "height": 165,
-            "width": 257
-        },
-        {
-            "name": "Funerale a Ornans",
-            "year": 1850,
-            "author": "Gustave Courbet",
-            "description": "Scena che raffigura un funerale in un villaggio della Francia rurale, con una folla di persone comuni. L'opera è nota per il suo realismo dettagliato e l'uso di una composizione monumentale.",
-            "material": "Olio su tela",
-            "height": 315,
-            "width": 668
-        }
-    ],
-    "Jean-François Millet": [
-        {
-            "name": "L'Angelus",
-            "year": 1857,
-            "author": "Jean-François Millet",
-            "description": "Raffigura due contadini che interrompono il loro lavoro nei campi per recitare una preghiera serale. Celebre per l'intensità spirituale e la rappresentazione della vita rurale.",
-            "material": "Olio su tela",
-            "height": 55.5,
-            "width": 66
-        },
-        {
-            "name": "Le Spigolatrici",
-            "year": 1857,
-            "author": "Jean-François Millet",
-            "description": "Dipinto che mostra tre donne povere che raccolgono spighe di grano nei campi dopo la mietitura. L'opera è famosa per il suo realismo e l'attenzione alle classi lavoratrici.",
-            "material": "Olio su tela",
-            "height": 83.5,
-            "width": 111
-        },
-        {
-            "name": "Il Seminatore",
-            "year": 1850,
-            "author": "Jean-François Millet",
-            "description": "Raffigura un contadino che semina i campi con un gesto vigoroso, simbolo della durezza e dignità del lavoro agricolo. Conosciuto per l'uso del colore terroso e la rappresentazione della forza fisica.",
-            "material": "Olio su tela",
-            "height": 101,
-            "width": 82
-        }
-    ],
-    "Honoré Daumier": [
-        {
-            "name": "Il Vagone di Terza Classe",
-            "year": 1864,
-            "author": "Honoré Daumier",
-            "description": "Raffigura una scena di vita quotidiana in un vagone di terza classe, evidenziando la condizione delle classi sociali più umili. Celebre per il suo realismo sociale e la rappresentazione empatica dei poveri.",
-            "material": "Olio su tela",
-            "height": 65.4,
-            "width": 90.2
-        },
-        {
-            "name": "Don Chisciotte e Sancho Panza",
-            "year": 1868,
-            "author": "Honoré Daumier",
-            "description": "Dipinto che raffigura il famoso personaggio letterario Don Chisciotte con il suo fedele servitore Sancho Panza. Conosciuto per il suo approccio umoristico e caricaturale ai temi letterari.",
-            "material": "Olio su tela",
-            "height": 52,
-            "width": 32
-        },
-        {
-            "name": "L'Avvocato Difensore",
-            "year": 1862,
-            "author": "Honoré Daumier",
-            "description": "Rappresentazione satirica di un avvocato in tribunale, esempio della critica sociale e delle caricature politiche di Daumier. Famoso per il suo tratto dinamico e l'ironia sottile.",
-            "material": "Olio su tela",
-            "height": 51,
-            "width": 35
-        }
-    ],
-    "Claude Monet": [
-        {
-            "name": "Impressione, levar del sole",
-            "year": 1872,
-            "author": "Claude Monet",
-            "description": "Dipinto che ha dato il nome al movimento impressionista, raffigura il porto di Le Havre all'alba. Conosciuto per il suo uso di pennellate rapide e colori vibranti per catturare la luce.",
-            "material": "Olio su tela",
-            "height": 48,
-            "width": 63
-        },
-        {
-            "name": "Ninfee",
-            "year": 1906,
-            "author": "Claude Monet",
-            "description": "Una delle numerose tele raffiguranti lo stagno con ninfee nel giardino di Monet a Giverny. Famoso per la resa della luce e delle superfici riflettenti.",
-            "material": "Olio su tela",
-            "height": 89,
-            "width": 93
-        },
-        {
-            "name": "La Cattedrale di Rouen, Effetto di Sole",
-            "year": 1894,
-            "author": "Claude Monet",
-            "description": "Parte di una serie di dipinti che rappresentano la facciata della Cattedrale di Rouen in diversi momenti della giornata, esplorando le variazioni di luce e colore.",
-            "material": "Olio su tela",
-            "height": 100,
-            "width": 65
-        }
-    ],
-    "Edgar Degas": [
-        {
-            "name": "La Classe di Danza",
-            "year": 1874,
-            "author": "Edgar Degas",
-            "description": "Dipinto che raffigura una lezione di danza in uno studio di ballerine, catturando la grazia e la disciplina del balletto. Conosciuto per il realismo e l'attenzione al movimento.",
-            "material": "Olio su tela",
-            "height": 85,
-            "width": 75
-        },
-        {
-            "name": "L'Assenzio",
-            "year": 1876,
-            "author": "Edgar Degas",
-            "description": "Raffigura una scena di vita quotidiana in un caffè, con una donna che beve assenzio. Famoso per la sua rappresentazione della solitudine urbana e la composizione asimmetrica.",
-            "material": "Olio su tela",
-            "height": 92,
-            "width": 68
-        },
-        {
-            "name": "Piccola Danzatrice di Quattordici Anni",
-            "year": 1881,
-            "author": "Edgar Degas",
-            "description": "Scultura di una giovane ballerina in posa, famosa per il suo realismo e la combinazione di materiali come cera e stoffa. Un'opera innovativa che rompe con la tradizione accademica.",
-            "material": "Scultura in cera e stoffa",
-            "height": 98,
-            "width": 37
-        }
-    ],
-    "Pierre-Auguste Renoir": [
-        {
-            "name": "Il Ballo al Moulin de la Galette",
-            "year": 1876,
-            "author": "Pierre-Auguste Renoir",
-            "description": "Rappresenta una scena festiva e gioiosa in un giardino di Parigi, con figure danzanti e chiacchieranti. Celebre per l'atmosfera vivace e l'uso di colori brillanti.",
-            "material": "Olio su tela",
-            "height": 131,
-            "width": 175
-        },
-        {
-            "name": "La Colazione dei Canottieri",
-            "year": 1881,
-            "author": "Pierre-Auguste Renoir",
-            "description": "Dipinto che mostra un gruppo di amici in un'atmosfera rilassata su una terrazza, vicino al fiume Senna. Conosciuto per la rappresentazione della luce naturale e la gioia di vivere.",
-            "material": "Olio su tela",
-            "height": 129,
-            "width": 172.7
-        },
-        {
-            "name": "Le Bagnanti",
-            "year": 1918,
-            "author": "Pierre-Auguste Renoir",
-            "description": "Una delle ultime opere di Renoir, raffigura un gruppo di donne nude che si bagnano in un paesaggio naturale. Conosciuto per la fluidità delle forme e l'uso caldo e luminoso del colore.",
-            "material": "Olio su tela",
-            "height": 110,
-            "width": 160
-        }
-    ],
-    "Vincent van Gogh": [
-        {
-            "name": "Notte Stellata",
-            "year": 1889,
-            "author": "Vincent van Gogh",
-            "description": "Raffigura un cielo notturno vibrante, pieno di stelle e un cipresso, catturando l'emozione e la turbolenza dell'artista. Conosciuto per i colori intensi e il tratto espressivo.",
-            "material": "Olio su tela",
-            "height": 73.7,
-            "width": 92.1
-        },
-        {
-            "name": "I Girasoli",
-            "year": 1888,
-            "author": "Vincent van Gogh",
-            "description": "Una serie di dipinti che ritraggono girasoli in diverse fasi di vita, simbolo di gioia e calore. Celebre per l'uso audace del colore e la texture della pittura.",
-            "material": "Olio su tela",
-            "height": 92.1,
-            "width": 73
-        },
-        {
-            "name": "La Camera di Vincent ad Arles",
-            "year": 1888,
-            "author": "Vincent van Gogh",
-            "description": "Raffigura la camera dell'artista ad Arles, simbolo della sua ricerca di pace e rifugio. Conosciuto per il suo uso innovativo del colore e la composizione semplice.",
-            "material": "Olio su tela",
-            "height": 73,
-            "width": 92
-        }
-    ],
-    "Paul Cézanne": [
-        {
-            "name": "Il ponte di Manneporte",
-            "year": 1886,
-            "author": "Paul Cézanne",
-            "description": "Rappresenta il paesaggio normanno con il famoso ponte, evidenziando la struttura e la forma. Celebre per il suo approccio analitico e l'uso del colore.",
-            "material": "Olio su tela",
-            "height": 65,
-            "width": 81
-        },
-        {
-            "name": "Natura morta con mele",
-            "year": 1890,
-            "author": "Paul Cézanne",
-            "description": "Una composizione di mele su un tavolo, nota per la sua innovativa rappresentazione della forma e dell'uso del colore. Un'opera che ha influenzato il cubismo.",
-            "material": "Olio su tela",
-            "height": 65,
-            "width": 81
-        },
-        {
-            "name": "La Montagna di Sainte-Victoire",
-            "year": 1904,
-            "author": "Paul Cézanne",
-            "description": "Raffigura la Montagna di Sainte-Victoire in Provenza, un tema ricorrente nelle sue opere. Conosciuto per la sua innovativa rappresentazione della profondità e la strutturazione del paesaggio.",
-            "material": "Olio su tela",
-            "height": 73,
-            "width": 92
-        }
-    ],
-    "Paul Gauguin": [
-        {
-            "name": "Visione dopo il sermone",
-            "year": 1888,
-            "author": "Paul Gauguin",
-            "description": "Raffigura donne bretonne che assistono a una visione biblica, noto per l'uso audace del colore e delle forme semplificate. Un'opera che esplora la spiritualità e la religiosità.",
-            "material": "Olio su tela",
-            "height": 73,
-            "width": 92
-        },
-        {
-            "name": "Da dove veniamo? Chi siamo? Dove andiamo?",
-            "year": 1897,
-            "author": "Paul Gauguin",
-            "description": "Grande opera simbolista che rappresenta un viaggio esistenziale, con figure e paesaggi che riflettono il pensiero profondo dell'artista. Conosciuto per la sua composizione complessa e i colori vivaci.",
-            "material": "Olio su tela",
-            "height": 139,
-            "width": 375
-        },
-        {
-            "name": "Il mercato di Papeete",
-            "year": 1892,
-            "author": "Paul Gauguin",
-            "description": "Rappresenta una scena di mercato nelle Isole della Polinesia, nota per la sua vivacità e il modo in cui Gauguin cattura la cultura locale attraverso colori intensi e forme stilizzate.",
-            "material": "Olio su tela",
-            "height": 73,
-            "width": 92
-        }
-    ],
-    "Katsushika Hokusai": [
-        {
-            "name": "La Grande Onda di Kanagawa",
-            "year": 1831,
-            "author": "Katsushika Hokusai",
-            "description": "Un'iconica stampa ukiyo-e che rappresenta un'enorme onda che si abbatte su piccole barche, simbolo del potere della natura. Conosciuta per la sua composizione drammatica e l'uso audace del blu.",
-            "material": "Stampa a colori su carta",
-            "height": 25.7,
-            "width": 37.9
-        },
-        {
-            "name": "Il Monte Fuji visto da sotto il ponte Sudden",
-            "year": 1832,
-            "author": "Katsushika Hokusai",
-            "description": "Rappresenta una vista del Monte Fuji attraverso un ponte, esemplificando la bellezza del paesaggio giapponese. Famoso per l'integrazione della natura e dell'architettura.",
-            "material": "Stampa a colori su carta",
-            "height": 25.7,
-            "width": 37.9
-        },
-        {
-            "name": "Trenta-Sest’ immagini del Monte Fuji",
-            "year": 1835,
-            "author": "Katsushika Hokusai",
-            "description": "Serie di stampe che esplorano il Monte Fuji in vari contesti e atmosfere, rappresentando la sua importanza culturale e naturale nel Giappone. Caratterizzata da una varietà di colori e stili.",
-            "material": "Stampa a colori su carta",
-            "height": 25.7,
-            "width": 37.9
-        }
-    ],
-    "Kitagawa Utamaro": [
-        {
-            "name": "Giovane donna in un kimono con una pettinatura elaborata",
-            "year": 1793,
-            "author": "Kitagawa Utamaro",
-            "description": "Un'opera che mette in evidenza la bellezza e la grazia femminile, rappresentando una giovane donna con un kimono elegante e un'acconciatura intricata. Riconosciuto per il suo uso delicato del colore.",
-            "material": "Stampa a colori su carta",
-            "height": 36.2,
-            "width": 25
-        },
-        {
-            "name": "Le belle donne del quartiere di Yoshiwara",
-            "year": 1790,
-            "author": "Kitagawa Utamaro",
-            "description": "Serie di stampe che ritraggono le cortigiane del famoso quartiere di Yoshiwara a Edo, conosciute per la loro bellezza e abilità artistiche. Famosa per il suo realismo e l'attenzione ai dettagli.",
-            "material": "Stampa a colori su carta",
-            "height": 36.2,
-            "width": 25
-        },
-        {
-            "name": "Ritratto di una donna con fiori",
-            "year": 1800,
-            "author": "Kitagawa Utamaro",
-            "description": "Dipinto che raffigura una donna con un mazzo di fiori, simbolo di bellezza e delicatezza. Conosciuto per l'uso sensibile della luce e delle ombre.",
-            "material": "Stampa a colori su carta",
-            "height": 36.2,
-            "width": 25
-        }
-    ],
-    "Moronobu": [
-        {
-            "name": "Giovani donne che si divertono",
-            "year": 1670,
-            "author": "Moronobu",
-            "description": "Stampa che rappresenta donne in pose eleganti e giocose, evidenziando la vita quotidiana nell'Edo periodo. Conosciuto per la sua vivacità e uso espressivo del colore.",
-            "material": "Stampa a colori su carta",
-            "height": 36,
-            "width": 24
-        },
-        {
-            "name": "La danza delle geishe",
-            "year": 1680,
-            "author": "Moronobu",
-            "description": "Raffigura geishe in danza, mostrando la bellezza e la grazia della cultura giapponese. Celebre per il suo dettaglio e la qualità della stampa.",
-            "material": "Stampa a colori su carta",
-            "height": 36,
-            "width": 24
-        },
-        {
-            "name": "Pescatore al lavoro",
-            "year": 1685,
-            "author": "Moronobu",
-            "description": "Rappresenta un pescatore che svolge il suo lavoro quotidiano, simbolo della vita rurale giapponese. Famoso per il suo realismo e la semplicità della composizione.",
-            "material": "Stampa a colori su carta",
-            "height": 36,
-            "width": 24
-        }
-    ],
-    "Gustav Klimt": [
-        {
-            "name": "Il bacio",
-            "year": 1907,
-            "author": "Gustav Klimt",
-            "description": "Un'opera iconica che rappresenta una coppia avvolta in un abbraccio, circondata da un fondo dorato e decorativo. Famoso per l'uso di colori brillanti e motivi ornamentali.",
-            "material": "Olio su tela",
-            "height": 180,
-            "width": 180
-        },
-        {
-            "name": "Ritratto di Adele Bloch-Bauer I",
-            "year": 1907,
-            "author": "Gustav Klimt",
-            "description": "Un ritratto di una delle donne più influenti della Vienna di Klimt, noto per l'uso di oro e motivi decorativi. Celebre per la sua eleganza e la sensualità.",
-            "material": "Olio su tela",
-            "height": 138,
-            "width": 138
-        },
-        {
-            "name": "La speranza II",
-            "year": 1907,
-            "author": "Gustav Klimt",
-            "description": "Raffigura una figura femminile in gravidanza circondata da simboli di fertilità. Conosciuto per la sua intensa emotività e l'uso di colori vivaci.",
-            "material": "Olio su tela",
-            "height": 100,
-            "width": 80
-        }
-    ],
-    "Alphonse Mucha": [
-        {
-            "name": "La pubblicità di Sarah Bernhardt",
-            "year": 1894,
-            "author": "Alphonse Mucha",
-            "description": "Un famoso poster che ritrae l'attrice Sarah Bernhardt in uno stile tipico dell'Art Nouveau, caratterizzato da linee curve e decorazioni floreali.",
-            "material": "Litografia a colori",
-            "height": 132,
-            "width": 90
-        },
-        {
-            "name": "Le quattro stagioni",
-            "year": 1896,
-            "author": "Alphonse Mucha",
-            "description": "Una serie di quattro pannelli che rappresentano le stagioni attraverso figure femminili e simboli naturali, celebri per il loro stile decorativo e i colori pastello.",
-            "material": "Litografia a colori",
-            "height": 150,
-            "width": 100
-        },
-        {
-            "name": "La Reverie",
-            "year": 1897,
-            "author": "Alphonse Mucha",
-            "description": "Un'opera che rappresenta una giovane donna circondata da fiori e motivi ornamentali, incarnando l'essenza dell'Art Nouveau. Famosa per il suo uso delicato di colori e linee.",
-            "material": "Olio su tela",
-            "height": 85,
-            "width": 68
-        }
-    ],
-    "Henri de Toulouse-Lautrec": [
-        {
-            "name": "La Goulue al Moulin Rouge",
-            "year": 1891,
-            "author": "Henri de Toulouse-Lautrec",
-            "description": "Un poster che celebra la ballerina La Goulue, noto per la sua rappresentazione vivace della vita notturna parigina. Conosciuto per il suo stile distintivo e l'uso audace del colore.",
-            "material": "Litografia a colori",
-            "height": 126,
-            "width": 88
-        },
-        {
-            "name": "Alcools",
-            "year": 1893,
-            "author": "Henri de Toulouse-Lautrec",
-            "description": "Un'opera che rappresenta una serie di personaggi e scene di vita parigina, riflettendo il mondo dei cabaret e dei bar. Famosa per la sua capacità di catturare l'atmosfera della Belle Époque.",
-            "material": "Litografia a colori",
-            "height": 115,
-            "width": 80
-        },
-        {
-            "name": "Il divano rosso",
-            "year": 1893,
-            "author": "Henri de Toulouse-Lautrec",
-            "description": "Raffigura due donne sedute su un divano rosso in un ambiente intimo, evidenziando la vita sociale di Parigi. Conosciuto per il suo uso del colore e la rappresentazione della figura umana.",
-            "material": "Olio su tela",
-            "height": 92,
-            "width": 73
-        }
-    ]
+  "Guido da Siena": [
+    {
+      "name": "Madonna col Bambino",
+      "year": 1262,
+      "author": "Guido da Siena",
+      "description": "Icona della Madonna con il Bambino, caratterizzata da una rappresentazione ieratica e frontale tipica dello stile bizantino con tocchi di maggiore umanizzazione.",
+      "material": "Tempera su tavola",
+      "height": 150,
+      "width": 100,
+      "link": ""
+    },
+    {
+      "name": "Maestà di San Domenico",
+      "year": 1270,
+      "author": "Guido da Siena",
+      "description": "Dipinto raffigurante la Vergine Maria in trono con il Bambino, circondata da angeli e santi, caratterizzato da una transizione verso una maggiore espressività delle figure.",
+      "material": "Tempera su tavola",
+      "height": 200,
+      "width": 150,
+      "link": ""
+    },
+    {
+      "name": "Cristo Benedicente",
+      "year": 1265,
+      "author": "Guido da Siena",
+      "description": "Rappresentazione di Cristo benedicente, con una postura solenne e lo sfondo dorato tipico dell'arte medievale, mostrando un progressivo allontanamento dalla rigidità bizantina.",
+      "material": "Tempera su tavola",
+      "height": 120,
+      "width": 80,
+      "link": ""
+    }
+  ],
+  "Cimabue": [
+    {
+      "name": "Crocifisso di Santa Croce",
+      "year": 1270,
+      "author": "Cimabue",
+      "description": "Un crocifisso dipinto su legno che raffigura un Cristo sofferente. Rappresenta una delle prime opere a cercare un maggiore realismo rispetto allo stile bizantino.",
+      "material": "Tempera su legno",
+      "height": 336,
+      "width": 267
+    },
+    {
+      "name": "Maestà di Santa Trinita",
+      "year": 1280,
+      "author": "Cimabue",
+      "description": "Icona raffigurante la Vergine Maria su un trono con il Bambino, circondata da angeli. Introduce un senso di volume e spazio tridimensionale.",
+      "material": "Tempera su tavola",
+      "height": 385,
+      "width": 223
+    },
+    {
+      "name": "Crocifisso di Arezzo",
+      "year": 1265,
+      "author": "Cimabue",
+      "description": "Crocifisso ligneo che rappresenta un Cristo dolente. L'opera mostra i primi segni del naturalismo, con un focus sul dramma umano della crocifissione.",
+      "material": "Tempera su legno",
+      "height": 390,
+      "width": 340
+    }
+  ],
+  "Duccio di Buoninsegna": [
+    {
+      "name": "Maestà",
+      "year": 1308,
+      "author": "Duccio di Buoninsegna",
+      "description": "Un grande altare dipinto che rappresenta la Vergine Maria con il Bambino su un trono, circondata da santi e angeli. Questa opera segna un passaggio verso un maggiore naturalismo e un'attenzione alla narrazione.",
+      "material": "Tempera su tavola",
+      "height": 450,
+      "width": 460
+    },
+    {
+      "name": "Madonna Rucellai",
+      "year": 1285,
+      "author": "Duccio di Buoninsegna",
+      "description": "Icona raffigurante la Vergine Maria seduta su un trono, con il Bambino in grembo, circondata da sei angeli. Presenta un'evoluzione verso uno stile più morbido rispetto al rigore bizantino.",
+      "material": "Tempera su tavola",
+      "height": 450,
+      "width": 290
+    },
+    {
+      "name": "La Tentazione di Cristo sul Tempio",
+      "year": 1308,
+      "author": "Duccio di Buoninsegna",
+      "description": "Uno dei pannelli della grande Maestà, raffigurante l'episodio della tentazione di Cristo da parte del diavolo. La composizione narra la storia con vividi dettagli e una prospettiva architettonica.",
+      "material": "Tempera su tavola",
+      "height": 43,
+      "width": 46
+    }
+  ],
+  "Giotto": [
+    {
+      "name": "Lamentation",
+      "year": 1305,
+      "author": "Giotto",
+      "description": "Parte del ciclo di affreschi nella Cappella degli Scrovegni a Padova. Raffigura il momento in cui il corpo di Cristo viene pianto dopo la crocifissione, con un'innovativa espressività dei volti e una composizione dinamica.",
+      "material": "Affresco",
+      "height": 200,
+      "width": 185
+    },
+    {
+      "name": "Madonna di Ognissanti",
+      "year": 1310,
+      "author": "Giotto",
+      "description": "Una grande pala d'altare raffigurante la Madonna col Bambino, seduta su un trono gotico. L'opera segna un allontanamento dalla stilizzazione bizantina verso un maggior realismo e volume.",
+      "material": "Tempera su tavola",
+      "height": 325,
+      "width": 204
+    },
+    {
+      "name": "San Francesco che Riceve le Stimmate",
+      "year": 1295,
+      "author": "Giotto",
+      "description": "Pannello raffigurante San Francesco d'Assisi nel momento in cui riceve le stimmate. L'opera mostra un uso pionieristico della prospettiva e del paesaggio naturalistico.",
+      "material": "Tempera su tavola",
+      "height": 313,
+      "width": 163
+    }
+  ],
+  "Pietro Lorenzetti": [
+    {
+      "name": "Pala del Carmine",
+      "year": 1329,
+      "author": "Pietro Lorenzetti",
+      "description": "Un polittico dipinto per la chiesa del Carmine a Siena, raffigurante la Madonna con il Bambino e vari santi. Presenta dettagli realistici e una composizione narrativa complessa.",
+      "material": "Tempera su tavola",
+      "height": 230,
+      "width": 180
+    },
+    {
+      "name": "Annunciazione",
+      "year": 1342,
+      "author": "Pietro Lorenzetti",
+      "description": "Affresco raffigurante l'arcangelo Gabriele che annuncia la nascita di Gesù a Maria. L'opera mostra un'evoluzione verso un'interpretazione più realistica dello spazio e della luce.",
+      "material": "Affresco",
+      "height": 190,
+      "width": 170
+    },
+    {
+      "name": "Trittico di Santa Croce",
+      "year": 1320,
+      "author": "Pietro Lorenzetti",
+      "description": "Trittico che rappresenta la Crocifissione al centro, affiancata da altre scene sacre. Dimostra una narrazione dettagliata e l'uso innovativo della prospettiva.",
+      "material": "Tempera su tavola",
+      "height": 280,
+      "width": 240
+    }
+  ],
+  "Simone Martini": [
+    {
+      "name": "Annunciazione",
+      "year": 1333,
+      "author": "Simone Martini",
+      "description": "Pala d'altare realizzata in collaborazione con Lippo Memmi, raffigurante l'Annunciazione con l'arcangelo Gabriele che si avvicina a Maria. L'opera è nota per il suo stile elegante e per l'uso dell'oro.",
+      "material": "Tempera e oro su tavola",
+      "height": 305,
+      "width": 265
+    },
+    {
+      "name": "Maestà",
+      "year": 1315,
+      "author": "Simone Martini",
+      "description": "Grande affresco nel Palazzo Pubblico di Siena, raffigurante la Vergine Maria seduta in trono circondata da angeli e santi. Lo stile gotico è evidente nell'eleganza delle figure e nei dettagli decorativi.",
+      "material": "Affresco",
+      "height": 970,
+      "width": 763
+    },
+    {
+      "name": "Guidoriccio da Fogliano all'Assedio di Montemassi",
+      "year": 1330,
+      "author": "Simone Martini",
+      "description": "Affresco nel Palazzo Pubblico di Siena che raffigura il condottiero Guidoriccio da Fogliano a cavallo. L'opera è celebre per la raffigurazione paesaggistica e il ritratto del condottiero, elemento innovativo nell'arte dell'epoca.",
+      "material": "Affresco",
+      "height": 340,
+      "width": 968
+    }
+  ],
+  "Piero della Francesca": [
+    {
+      "name": "La Resurrezione",
+      "year": 1463,
+      "author": "Piero della Francesca",
+      "description": "Un affresco che raffigura Cristo risorto che emerge dal sepolcro con uno sguardo solenne. L'opera è nota per l'uso della prospettiva e l'equilibrio compositivo, tipico del Rinascimento.",
+      "material": "Affresco",
+      "height": 225,
+      "width": 200
+    },
+    {
+      "name": "La Flagellazione di Cristo",
+      "year": 1455,
+      "author": "Piero della Francesca",
+      "description": "Una complessa scena dipinta su tavola che raffigura la flagellazione di Cristo, utilizzando la prospettiva geometrica e una composizione innovativa per creare profondità spaziale.",
+      "material": "Tempera su tavola",
+      "height": 58.4,
+      "width": 81.5
+    },
+    {
+      "name": "Pala di Brera",
+      "year": 1472,
+      "author": "Piero della Francesca",
+      "description": "Conosciuta anche come 'Madonna col Bambino e Santi', questa pala d'altare raffigura la Vergine Maria con il Bambino, circondata da santi, con un imponente uovo di struzzo appeso in alto come simbolo di purezza.",
+      "material": "Tempera su tavola",
+      "height": 248,
+      "width": 170
+    }
+  ],
+  "Filippo Lippi": [
+    {
+      "name": "Madonna con Bambino e due angeli",
+      "year": 1465,
+      "author": "Filippo Lippi",
+      "description": "Una delle opere più celebri di Lippi, raffigurante la Vergine Maria che tiene il Bambino, assistita da due angeli. Conosciuta per l'eleganza delle figure e la dolcezza dell'espressione della Madonna.",
+      "material": "Tempera su tavola",
+      "height": 92,
+      "width": 63.5
+    },
+    {
+      "name": "L'Incoronazione della Vergine",
+      "year": 1447,
+      "author": "Filippo Lippi",
+      "description": "Una grande pala d'altare raffigurante la Vergine Maria incoronata dal Cristo, circondata da santi e angeli. L'opera presenta dettagli raffinati e un uso notevole della luce e della prospettiva.",
+      "material": "Tempera su tavola",
+      "height": 200,
+      "width": 287
+    },
+    {
+      "name": "Annunciazione",
+      "year": 1445,
+      "author": "Filippo Lippi",
+      "description": "Raffigurazione dell'Annunciazione dell'angelo a Maria, caratterizzata da un'elegante composizione e un uso delicato del colore per enfatizzare la spiritualità della scena.",
+      "material": "Tempera su tavola",
+      "height": 68,
+      "width": 151
+    }
+  ],
+  "Paolo Uccello": [
+    {
+      "name": "La Battaglia di San Romano",
+      "year": 1438,
+      "author": "Paolo Uccello",
+      "description": "Parte di una serie di pannelli che raffigurano la battaglia tra fiorentini e senesi. L'opera è celebre per l'uso innovativo della prospettiva e l'attenzione ai dettagli delle armature e delle armi.",
+      "material": "Tempera su tavola",
+      "height": 182,
+      "width": 320
+    },
+    {
+      "name": "San Giorgio e il Drago",
+      "year": 1456,
+      "author": "Paolo Uccello",
+      "description": "Dipinto che raffigura San Giorgio nell'atto di uccidere il drago per salvare la principessa. L'opera è conosciuta per la sua composizione prospettica e l'uso drammatico del colore.",
+      "material": "Tempera su tavola",
+      "height": 55.6,
+      "width": 74.2
+    },
+    {
+      "name": "Diluvio Universale e Arca di Noè",
+      "year": 1447,
+      "author": "Paolo Uccello",
+      "description": "Affresco che fa parte del ciclo di opere nella cattedrale di Santa Maria del Fiore a Firenze. Raffigura la scena biblica del diluvio con un forte uso della prospettiva per creare profondità.",
+      "material": "Affresco",
+      "height": 277,
+      "width": 540,
+      "link": ""
+    }
+  ],
+  "Leonardo da Vinci": [
+    {
+      "name": "La Gioconda (Mona Lisa)",
+      "year": 1503,
+      "author": "Leonardo da Vinci",
+      "description": "Un ritratto della moglie di un mercante fiorentino, noto per il suo enigmatico sorriso e l'uso innovativo dello sfumato, che crea un'illusione di tridimensionalità e profondità.",
+      "material": "Olio su tavola di pioppo",
+      "height": 77,
+      "width": 53,
+      "link": ""
+    },
+    {
+      "name": "L'Ultima Cena",
+      "year": 1495,
+      "author": "Leonardo da Vinci",
+      "description": "Affresco che raffigura l'ultimo pasto di Cristo con i suoi discepoli. Celebre per la composizione prospettica e l'uso del chiaroscuro, l'opera si trova nel refettorio del convento di Santa Maria delle Grazie a Milano.",
+      "material": "Tempera e olio su intonaco",
+      "height": 460,
+      "width": 880,
+      "link": ""
+    },
+    {
+      "name": "L'Uomo Vitruviano",
+      "year": 1490,
+      "author": "Leonardo da Vinci",
+      "description": "Disegno che rappresenta le proporzioni ideali del corpo umano secondo Vitruvio. Simbolo dell'unione tra arte e scienza, mostra un uomo in due posizioni sovrapposte con braccia e gambe aperte.",
+      "material": "Inchiostro su carta",
+      "height": 34.4,
+      "width": 24.5,
+      "link": ""
+    }
+  ],
+  "Michelangelo Buonarroti": [
+    {
+      "name": "David",
+      "year": 1501,
+      "author": "Michelangelo Buonarroti",
+      "description": "Una scultura in marmo raffigurante il giovane David prima dello scontro con Golia. Celebre per la sua anatomia dettagliata e il senso di tensione contenuta, l'opera è simbolo del Rinascimento fiorentino.",
+      "material": "Marmo di Carrara",
+      "height": 517,
+      "width": 199,
+      "link": ""
+    },
+    {
+      "name": "Cappella Sistina (Volta)",
+      "year": 1508,
+      "author": "Michelangelo Buonarroti",
+      "description": "Affresco che copre il soffitto della Cappella Sistina in Vaticano. Include scene bibliche, come la Creazione di Adamo, famose per la composizione dinamica e l'uso del colore.",
+      "material": "Affresco",
+      "height": 1370,
+      "width": 390,
+      "link": ""
+    },
+    {
+      "name": "Pietà",
+      "year": 1498,
+      "author": "Michelangelo Buonarroti",
+      "description": "Scultura che raffigura la Vergine Maria che tiene in braccio il corpo di Cristo morto. Conosciuta per la sua raffinatezza e la resa emotiva, è una delle opere più celebri di Michelangelo.",
+      "material": "Marmo di Carrara",
+      "height": 174,
+      "width": 195,
+      "link": ""
+    }
+  ],
+  "Raffaello Sanzio": [
+    {
+      "name": "La Scuola di Atene",
+      "year": 1509,
+      "author": "Raffaello Sanzio",
+      "description": "Affresco situato nelle Stanze Vaticane che rappresenta i più grandi filosofi dell'antichità, tra cui Platone e Aristotele. Celebre per la composizione bilanciata e l'uso magistrale della prospettiva.",
+      "material": "Affresco",
+      "height": 500,
+      "width": 770,
+      "link": ""
+    },
+    {
+      "name": "La Madonna Sistina",
+      "year": 1512,
+      "author": "Raffaello Sanzio",
+      "description": "Pala d'altare che raffigura la Vergine Maria con il Bambino, accompagnata da due santi e i celebri angioletti in basso. Conosciuta per la sua armonia compositiva e la dolcezza delle figure.",
+      "material": "Olio su tela",
+      "height": 265,
+      "width": 196,
+      "link": ""
+    },
+    {
+      "name": "Il Trionfo di Galatea",
+      "year": 1512,
+      "author": "Raffaello Sanzio",
+      "description": "Affresco che raffigura la ninfa Galatea su un carro trainato da delfini. La composizione dinamica e l'uso del colore catturano il movimento delle figure classiche.",
+      "material": "Affresco",
+      "height": 295,
+      "width": 225,
+      "link": ""
+    }
+  ],
+  "Caravaggio": [
+    {
+      "name": "La Vocazione di San Matteo",
+      "year": 1599,
+      "author": "Caravaggio",
+      "description": "Dipinto che raffigura Cristo che chiama San Matteo mentre è seduto a un tavolo con altri esattori delle tasse. Celebre per l'uso innovativo del chiaroscuro e la drammaticità della luce.",
+      "material": "Olio su tela",
+      "height": 322,
+      "width": 340,
+      "link": ""
+    },
+    {
+      "name": "Giuditta e Oloferne",
+      "year": 1598,
+      "author": "Caravaggio",
+      "description": "Rappresenta Giuditta nell'atto di decapitare Oloferne. Il dipinto è noto per la rappresentazione realistica delle emozioni e il contrasto tra luce e ombra.",
+      "material": "Olio su tela",
+      "height": 145,
+      "width": 195,
+      "link": ""
+    },
+    {
+      "name": "La Morte della Vergine",
+      "year": 1604,
+      "author": "Caravaggio",
+      "description": "Dipinto che raffigura la Vergine Maria sul letto di morte, circondata dagli apostoli in lutto. L'opera fu controversa per il suo realismo crudo e la rappresentazione non idealizzata della Vergine.",
+      "material": "Olio su tela",
+      "height": 369,
+      "width": 245,
+      "link": ""
+    }
+  ],
+  "Peter Paul Rubens": [
+    {
+      "name": "La Discesa dalla Croce",
+      "year": 1611,
+      "author": "Peter Paul Rubens",
+      "description": "Parte di un trittico nella Cattedrale di Anversa, raffigura il corpo di Cristo mentre viene deposto dalla croce. Conosciuto per la sua drammaticità, il colore ricco e la composizione dinamica.",
+      "material": "Olio su pannello di legno",
+      "height": 421,
+      "width": 311,
+      "link": ""
+    },
+    {
+      "name": "Le Tre Grazie",
+      "year": 1635,
+      "author": "Peter Paul Rubens",
+      "description": "Dipinto che raffigura le tre Grazie della mitologia classica, simboli di bellezza e amore. Celebre per l'uso della luce e la rappresentazione corpulenta e sensuale delle figure femminili.",
+      "material": "Olio su tela",
+      "height": 221,
+      "width": 181,
+      "link": ""
+    },
+    {
+      "name": "Il Giudizio di Paride",
+      "year": 1636,
+      "author": "Peter Paul Rubens",
+      "description": "Dipinto mitologico che raffigura Paride mentre assegna la mela d'oro alla dea più bella. L'opera è nota per la sua vivida composizione e l'uso del colore per rappresentare le forme voluttuose.",
+      "material": "Olio su tela",
+      "height": 144,
+      "width": 193,
+      "link": ""
+    }
+  ],
+  "Rembrandt": [
+    {
+      "name": "La Ronda di Notte",
+      "year": 1642,
+      "author": "Rembrandt",
+      "description": "Grande dipinto di gruppo che raffigura una compagnia di guardie civiche. Celebre per l'uso magistrale della luce e dell'ombra e per la composizione dinamica e narrativa.",
+      "material": "Olio su tela",
+      "height": 379,
+      "width": 453,
+      "link": ""
+    },
+    {
+      "name": "La Lezione di Anatomia del Dottor Tulp",
+      "year": 1632,
+      "author": "Rembrandt",
+      "description": "Dipinto che raffigura una lezione di anatomia condotta dal Dottor Nicolaes Tulp. L'opera è famosa per il realismo psicologico e l'uso della luce per dirigere l'attenzione dell'osservatore.",
+      "material": "Olio su tela",
+      "height": 169.5,
+      "width": 216.5,
+      "link": ""
+    },
+    {
+      "name": "Autoritratto con Berretto e Catena d'Oro",
+      "year": 1633,
+      "author": "Rembrandt",
+      "description": "Uno dei tanti autoritratti dell'artista, che lo raffigura con un cappello e una catena d'oro. Famoso per la sua introspezione psicologica e la tecnica impareggiabile nel rendere la luce e la texture.",
+      "material": "Olio su tela",
+      "height": 80.4,
+      "width": 67.3,
+      "link": ""
+    }
+  ],
+  "Jean-Honoré Fragonard": [
+    {
+      "name": "Gli Altalena (The Swing)",
+      "year": 1767,
+      "author": "Jean-Honoré Fragonard",
+      "description": "Celebre dipinto rococò che raffigura una giovane donna su un'altalena sospesa da un albero, mentre un uomo la guarda con ammirazione. Conosciuto per il suo uso del colore e l'atmosfera giocosa e sensuale.",
+      "material": "Olio su tela",
+      "height": 81,
+      "width": 64.2,
+      "link": ""
+    },
+    {
+      "name": "L'Amore e il Suo Trionfo",
+      "year": 1771,
+      "author": "Jean-Honoré Fragonard",
+      "description": "Scena amorosa e giocosa, che mostra l'allegoria dell'amore con figure mitologiche. Tipico esempio dello stile rococò, con toni caldi e morbidi e una composizione fluida.",
+      "material": "Olio su tela",
+      "height": 317.5,
+      "width": 152,
+      "link": ""
+    },
+    {
+      "name": "La Lettura",
+      "year": 1776,
+      "author": "Jean-Honoré Fragonard",
+      "description": "Dipinto che ritrae una giovane donna immersa nella lettura di un libro. Conosciuto per l'intimità della scena e la delicatezza nell'uso della luce e dei colori pastello.",
+      "material": "Olio su tela",
+      "height": 81,
+      "width": 64,
+      "link": ""
+    }
+  ],
+  "François Boucher": [
+    {
+      "name": "Madame de Pompadour",
+      "year": 1756,
+      "author": "François Boucher",
+      "description": "Ritratto di Madame de Pompadour, amante e influente mecenate di Luigi XV. L'opera è famosa per la raffinatezza della tecnica e l'uso di colori pastello, rappresentando il lusso e l'eleganza dell'epoca.",
+      "material": "Olio su tela",
+      "height": 91.4,
+      "width": 68.6,
+      "link": ""
+    },
+    {
+      "name": "La Toilette di Venere",
+      "year": 1751,
+      "author": "François Boucher",
+      "description": "Dipinto che rappresenta la dea Venere durante la sua preparazione di bellezza, circondata da amorini. L'opera è caratterizzata da toni delicati e un'atmosfera intima e voluttuosa.",
+      "material": "Olio su tela",
+      "height": 108,
+      "width": 85,
+      "link": ""
+    },
+    {
+      "name": "Il Triomfo di Venere",
+      "year": 1740,
+      "author": "François Boucher",
+      "description": "Scena mitologica che raffigura Venere, circondata da putti e figure marine, trionfante sopra le onde. Un'opera rappresentativa del rococò, piena di dettagli e colori luminosi.",
+      "material": "Olio su tela",
+      "height": 130,
+      "width": 162,
+      "link": ""
+    }
+  ],
+  "Antoine Watteau": [
+    {
+      "name": "Imbarco per Citera",
+      "year": 1717,
+      "author": "Antoine Watteau",
+      "description": "Dipinto che rappresenta un gruppo di amanti in un paesaggio romantico mentre si preparano a partire per l'isola di Citera, simbolo dell'amore. Conosciuto per la sua atmosfera sognante e la delicatezza cromatica.",
+      "material": "Olio su tela",
+      "height": 129,
+      "width": 194,
+      "link": ""
+    },
+    {
+      "name": "Gilles",
+      "year": 1719,
+      "author": "Antoine Watteau",
+      "description": "Ritratto di un attore della commedia dell'arte, in un costume bianco, circondato da figure enigmatiche. Celebre per l'espressione malinconica e il contrasto con l'ambiente circostante.",
+      "material": "Olio su tela",
+      "height": 184.5,
+      "width": 149.5,
+      "link": ""
+    },
+    {
+      "name": "La Conversazione Galante",
+      "year": 1718,
+      "author": "Antoine Watteau",
+      "description": "Scena intima e romantica che mostra una coppia in un paesaggio naturale, circondata da una luce delicata. È un esempio dell'invenzione del genere pittorico della 'fête galante', tipico dell'opera di Watteau.",
+      "material": "Olio su tela",
+      "height": 46,
+      "width": 55,
+      "link": ""
+    }
+  ],
+  "Eugène Delacroix": [
+    {
+      "name": "La Libertà che Guida il Popolo",
+      "year": 1830,
+      "author": "Eugène Delacroix",
+      "description": "Simbolo della Rivoluzione di Luglio, raffigura una donna allegorica della Libertà che guida un gruppo di rivoluzionari. L'opera è celebre per la sua energia, il dinamismo e l'uso dei colori vibranti.",
+      "material": "Olio su tela",
+      "height": 260,
+      "width": 325,
+      "link": ""
+    },
+    {
+      "name": "La Morte di Sardanapalo",
+      "year": 1827,
+      "author": "Eugène Delacroix",
+      "description": "Scena drammatica che rappresenta il suicidio del re assiro Sardanapalo tra un caos di distruzione. Celebre per la sua composizione dinamica, i colori accesi e l'atmosfera decadente.",
+      "material": "Olio su tela",
+      "height": 392,
+      "width": 496,
+      "link": ""
+    },
+    {
+      "name": "Donne di Algeri nei loro Appartamenti",
+      "year": 1834,
+      "author": "Eugène Delacroix",
+      "description": "Raffigura un gruppo di donne algerine in un ambiente esotico, esplorando temi di orientalismo. Conosciuto per il realismo dei dettagli e l'uso innovativo del colore.",
+      "material": "Olio su tela",
+      "height": 180,
+      "width": 229,
+      "link": ""
+    }
+  ],
+  "William Turner": [
+    {
+      "name": "La Neve, Vapore e Velocità - La Grande Ferrovia dell'Ovest",
+      "year": 1844,
+      "author": "William Turner",
+      "description": "Raffigura un treno a vapore che attraversa un ponte sotto una tempesta, esplorando la tensione tra natura e progresso tecnologico. Famoso per l'uso sperimentale della luce e del colore.",
+      "material": "Olio su tela",
+      "height": 91,
+      "width": 121.8,
+      "link": ""
+    },
+    {
+      "name": "Il Naufragio",
+      "year": 1805,
+      "author": "William Turner",
+      "description": "Drammatico dipinto marittimo che raffigura una nave naufragata in mezzo a onde turbolente, catturando la forza della natura. Conosciuto per l'uso evocativo della luce e dell'atmosfera.",
+      "material": "Olio su tela",
+      "height": 170,
+      "width": 241.9,
+      "link": ""
+    },
+    {
+      "name": "L'Incendio delle Camere dei Lord e dei Comuni",
+      "year": 1835,
+      "author": "William Turner",
+      "description": "Scene drammatica dell'incendio del Parlamento di Londra, con il fuoco che illumina il cielo notturno. Celebre per l'effetto di luce e la resa drammatica della catastrofe.",
+      "material": "Olio su tela",
+      "height": 92,
+      "width": 123.2,
+      "link": ""
+    }
+  ],
+  "Francesco Hayez": [
+    {
+      "name": "Il Bacio",
+      "year": 1859,
+      "author": "Francesco Hayez",
+      "description": "Celebre dipinto romantico che raffigura un bacio appassionato tra due giovani amanti. Simbolo di romanticismo e patriottismo italiano, caratterizzato da colori intensi e una composizione emozionante.",
+      "material": "Olio su tela",
+      "height": 112,
+      "width": 88,
+      "link": ""
+    },
+    {
+      "name": "La Meditazione",
+      "year": 1851,
+      "author": "Francesco Hayez",
+      "description": "Ritratto allegorico di una donna in lutto, che riflette sul destino dell'Italia. Simbolo dell'oppressione e delle speranze risorgimentali, con un realismo dettagliato.",
+      "material": "Olio su tela",
+      "height": 126,
+      "width": 98,
+      "link": ""
+    },
+    {
+      "name": "La Vendetta del Servo Saraceno",
+      "year": 1853,
+      "author": "Francesco Hayez",
+      "description": "Scena drammatica che raffigura un servo saraceno che vendica l'ingiustizia subita dal suo padrone. L'opera è nota per l'intensità emotiva e l'uso della luce e del colore.",
+      "material": "Olio su tela",
+      "height": 200,
+      "width": 145,
+      "link": ""
+    }
+  ],
+  "Gustave Courbet": [
+    {
+      "name": "L'Atelier del Pittore",
+      "year": 1855,
+      "author": "Gustave Courbet",
+      "description": "Grande composizione allegorica che raffigura l'artista al centro del suo studio, circondato da amici, ammiratori e personaggi della vita quotidiana. Simbolo del realismo artistico, esalta la vita reale rispetto alla finzione.",
+      "material": "Olio su tela",
+      "height": 361,
+      "width": 598,
+      "link": ""
+    },
+    {
+      "name": "Gli Spaccapietre",
+      "year": 1849,
+      "author": "Gustave Courbet",
+      "description": "Dipinto che mostra due uomini al lavoro, intenti a rompere pietre sulla strada. Considerato uno dei primi esempi del realismo sociale, rappresenta la dura vita dei lavoratori senza idealizzazioni.",
+      "material": "Olio su tela",
+      "height": 165,
+      "width": 257,
+      "link": ""
+    },
+    {
+      "name": "Funerale a Ornans",
+      "year": 1850,
+      "author": "Gustave Courbet",
+      "description": "Scena che raffigura un funerale in un villaggio della Francia rurale, con una folla di persone comuni. L'opera è nota per il suo realismo dettagliato e l'uso di una composizione monumentale.",
+      "material": "Olio su tela",
+      "height": 315,
+      "width": 668,
+      "link": ""
+    }
+  ],
+  "Jean-François Millet": [
+    {
+      "name": "L'Angelus",
+      "year": 1857,
+      "author": "Jean-François Millet",
+      "description": "Raffigura due contadini che interrompono il loro lavoro nei campi per recitare una preghiera serale. Celebre per l'intensità spirituale e la rappresentazione della vita rurale.",
+      "material": "Olio su tela",
+      "height": 55.5,
+      "width": 66,
+      "link": ""
+    },
+    {
+      "name": "Le Spigolatrici",
+      "year": 1857,
+      "author": "Jean-François Millet",
+      "description": "Dipinto che mostra tre donne povere che raccolgono spighe di grano nei campi dopo la mietitura. L'opera è famosa per il suo realismo e l'attenzione alle classi lavoratrici.",
+      "material": "Olio su tela",
+      "height": 83.5,
+      "width": 111,
+      "link": ""
+    },
+    {
+      "name": "Il Seminatore",
+      "year": 1850,
+      "author": "Jean-François Millet",
+      "description": "Raffigura un contadino che semina i campi con un gesto vigoroso, simbolo della durezza e dignità del lavoro agricolo. Conosciuto per l'uso del colore terroso e la rappresentazione della forza fisica.",
+      "material": "Olio su tela",
+      "height": 101,
+      "width": 82,
+      "link": ""
+    }
+  ],
+  "Honoré Daumier": [
+    {
+      "name": "Il Vagone di Terza Classe",
+      "year": 1864,
+      "author": "Honoré Daumier",
+      "description": "Raffigura una scena di vita quotidiana in un vagone di terza classe, evidenziando la condizione delle classi sociali più umili. Celebre per il suo realismo sociale e la rappresentazione empatica dei poveri.",
+      "material": "Olio su tela",
+      "height": 65.4,
+      "width": 90.2,
+      "link": ""
+    },
+    {
+      "name": "Don Chisciotte e Sancho Panza",
+      "year": 1868,
+      "author": "Honoré Daumier",
+      "description": "Dipinto che raffigura il famoso personaggio letterario Don Chisciotte con il suo fedele servitore Sancho Panza. Conosciuto per il suo approccio umoristico e caricaturale ai temi letterari.",
+      "material": "Olio su tela",
+      "height": 52,
+      "width": 32,
+      "link": ""
+    },
+    {
+      "name": "L'Avvocato Difensore",
+      "year": 1862,
+      "author": "Honoré Daumier",
+      "description": "Rappresentazione satirica di un avvocato in tribunale, esempio della critica sociale e delle caricature politiche di Daumier. Famoso per il suo tratto dinamico e l'ironia sottile.",
+      "material": "Olio su tela",
+      "height": 51,
+      "width": 35,
+      "link": ""
+    }
+  ],
+  "Claude Monet": [
+    {
+      "name": "Impressione, levar del sole",
+      "year": 1872,
+      "author": "Claude Monet",
+      "description": "Dipinto che ha dato il nome al movimento impressionista, raffigura il porto di Le Havre all'alba. Conosciuto per il suo uso di pennellate rapide e colori vibranti per catturare la luce.",
+      "material": "Olio su tela",
+      "height": 48,
+      "width": 63,
+      "link": ""
+    },
+    {
+      "name": "Ninfee",
+      "year": 1906,
+      "author": "Claude Monet",
+      "description": "Una delle numerose tele raffiguranti lo stagno con ninfee nel giardino di Monet a Giverny. Famoso per la resa della luce e delle superfici riflettenti.",
+      "material": "Olio su tela",
+      "height": 89,
+      "width": 93,
+      "link": ""
+    },
+    {
+      "name": "La Cattedrale di Rouen, Effetto di Sole",
+      "year": 1894,
+      "author": "Claude Monet",
+      "description": "Parte di una serie di dipinti che rappresentano la facciata della Cattedrale di Rouen in diversi momenti della giornata, esplorando le variazioni di luce e colore.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 65,
+      "link": ""
+    }
+  ],
+  "Edgar Degas": [
+    {
+      "name": "La Classe di Danza",
+      "year": 1874,
+      "author": "Edgar Degas",
+      "description": "Dipinto che raffigura una lezione di danza in uno studio di ballerine, catturando la grazia e la disciplina del balletto. Conosciuto per il realismo e l'attenzione al movimento.",
+      "material": "Olio su tela",
+      "height": 85,
+      "width": 75,
+      "link": ""
+    },
+    {
+      "name": "L'Assenzio",
+      "year": 1876,
+      "author": "Edgar Degas",
+      "description": "Raffigura una scena di vita quotidiana in un caffè, con una donna che beve assenzio. Famoso per la sua rappresentazione della solitudine urbana e la composizione asimmetrica.",
+      "material": "Olio su tela",
+      "height": 92,
+      "width": 68,
+      "link": ""
+    },
+    {
+      "name": "Piccola Danzatrice di Quattordici Anni",
+      "year": 1881,
+      "author": "Edgar Degas",
+      "description": "Scultura di una giovane ballerina in posa, famosa per il suo realismo e la combinazione di materiali come cera e stoffa. Un'opera innovativa che rompe con la tradizione accademica.",
+      "material": "Scultura in cera e stoffa",
+      "height": 98,
+      "width": 37,
+      "link": ""
+    }
+  ],
+  "Pierre-Auguste Renoir": [
+    {
+      "name": "Il Ballo al Moulin de la Galette",
+      "year": 1876,
+      "author": "Pierre-Auguste Renoir",
+      "description": "Rappresenta una scena festiva e gioiosa in un giardino di Parigi, con figure danzanti e chiacchieranti. Celebre per l'atmosfera vivace e l'uso di colori brillanti.",
+      "material": "Olio su tela",
+      "height": 131,
+      "width": 175,
+      "link": ""
+    },
+    {
+      "name": "La Colazione dei Canottieri",
+      "year": 1881,
+      "author": "Pierre-Auguste Renoir",
+      "description": "Dipinto che mostra un gruppo di amici in un'atmosfera rilassata su una terrazza, vicino al fiume Senna. Conosciuto per la rappresentazione della luce naturale e la gioia di vivere.",
+      "material": "Olio su tela",
+      "height": 129,
+      "width": 172.7,
+      "link": ""
+    },
+    {
+      "name": "Le Bagnanti",
+      "year": 1918,
+      "author": "Pierre-Auguste Renoir",
+      "description": "Una delle ultime opere di Renoir, raffigura un gruppo di donne nude che si bagnano in un paesaggio naturale. Conosciuto per la fluidità delle forme e l'uso caldo e luminoso del colore.",
+      "material": "Olio su tela",
+      "height": 110,
+      "width": 160,
+      "link": ""
+    }
+  ],
+  "Vincent van Gogh": [
+    {
+      "name": "Notte Stellata",
+      "year": 1889,
+      "author": "Vincent van Gogh",
+      "description": "Raffigura un cielo notturno vibrante, pieno di stelle e un cipresso, catturando l'emozione e la turbolenza dell'artista. Conosciuto per i colori intensi e il tratto espressivo.",
+      "material": "Olio su tela",
+      "height": 73.7,
+      "width": 92.1,
+      "link": ""
+    },
+    {
+      "name": "I Girasoli",
+      "year": 1888,
+      "author": "Vincent van Gogh",
+      "description": "Una serie di dipinti che ritraggono girasoli in diverse fasi di vita, simbolo di gioia e calore. Celebre per l'uso audace del colore e la texture della pittura.",
+      "material": "Olio su tela",
+      "height": 92.1,
+      "width": 73,
+      "link": ""
+    },
+    {
+      "name": "La Camera di Vincent ad Arles",
+      "year": 1888,
+      "author": "Vincent van Gogh",
+      "description": "Raffigura la camera dell'artista ad Arles, simbolo della sua ricerca di pace e rifugio. Conosciuto per il suo uso innovativo del colore e la composizione semplice.",
+      "material": "Olio su tela",
+      "height": 73,
+      "width": 92,
+      "link": ""
+    }
+  ],
+  "Paul Cézanne": [
+    {
+      "name": "Il ponte di Manneporte",
+      "year": 1886,
+      "author": "Paul Cézanne",
+      "description": "Rappresenta il paesaggio normanno con il famoso ponte, evidenziando la struttura e la forma. Celebre per il suo approccio analitico e l'uso del colore.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 81,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con mele",
+      "year": 1890,
+      "author": "Paul Cézanne",
+      "description": "Una composizione di mele su un tavolo, nota per la sua innovativa rappresentazione della forma e dell'uso del colore. Un'opera che ha influenzato il cubismo.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 81,
+      "link": ""
+    },
+    {
+      "name": "La Montagna di Sainte-Victoire",
+      "year": 1904,
+      "author": "Paul Cézanne",
+      "description": "Raffigura la Montagna di Sainte-Victoire in Provenza, un tema ricorrente nelle sue opere. Conosciuto per la sua innovativa rappresentazione della profondità e la strutturazione del paesaggio.",
+      "material": "Olio su tela",
+      "height": 73,
+      "width": 92,
+      "link": ""
+    }
+  ],
+  "Paul Gauguin": [
+    {
+      "name": "Visione dopo il sermone",
+      "year": 1888,
+      "author": "Paul Gauguin",
+      "description": "Raffigura donne bretonne che assistono a una visione biblica, noto per l'uso audace del colore e delle forme semplificate. Un'opera che esplora la spiritualità e la religiosità.",
+      "material": "Olio su tela",
+      "height": 73,
+      "width": 92,
+      "link": ""
+    },
+    {
+      "name": "Da dove veniamo? Chi siamo? Dove andiamo?",
+      "year": 1897,
+      "author": "Paul Gauguin",
+      "description": "Grande opera simbolista che rappresenta un viaggio esistenziale, con figure e paesaggi che riflettono il pensiero profondo dell'artista. Conosciuto per la sua composizione complessa e i colori vivaci.",
+      "material": "Olio su tela",
+      "height": 139,
+      "width": 375,
+      "link": ""
+    },
+    {
+      "name": "Il mercato di Papeete",
+      "year": 1892,
+      "author": "Paul Gauguin",
+      "description": "Rappresenta una scena di mercato nelle Isole della Polinesia, nota per la sua vivacità e il modo in cui Gauguin cattura la cultura locale attraverso colori intensi e forme stilizzate.",
+      "material": "Olio su tela",
+      "height": 73,
+      "width": 92,
+      "link": ""
+    }
+  ],
+  "Katsushika Hokusai": [
+    {
+      "name": "La Grande Onda di Kanagawa",
+      "year": 1831,
+      "author": "Katsushika Hokusai",
+      "description": "Un'iconica stampa ukiyo-e che rappresenta un'enorme onda che si abbatte su piccole barche, simbolo del potere della natura. Conosciuta per la sua composizione drammatica e l'uso audace del blu.",
+      "material": "Stampa a colori su carta",
+      "height": 25.7,
+      "width": 37.9,
+      "link": ""
+    },
+    {
+      "name": "Il Monte Fuji visto da sotto il ponte Sudden",
+      "year": 1832,
+      "author": "Katsushika Hokusai",
+      "description": "Rappresenta una vista del Monte Fuji attraverso un ponte, esemplificando la bellezza del paesaggio giapponese. Famoso per l'integrazione della natura e dell'architettura.",
+      "material": "Stampa a colori su carta",
+      "height": 25.7,
+      "width": 37.9,
+      "link": ""
+    },
+    {
+      "name": "Trenta-Sest’ immagini del Monte Fuji",
+      "year": 1835,
+      "author": "Katsushika Hokusai",
+      "description": "Serie di stampe che esplorano il Monte Fuji in vari contesti e atmosfere, rappresentando la sua importanza culturale e naturale nel Giappone. Caratterizzata da una varietà di colori e stili.",
+      "material": "Stampa a colori su carta",
+      "height": 25.7,
+      "width": 37.9,
+      "link": ""
+    }
+  ],
+  "Kitagawa Utamaro": [
+    {
+      "name": "Giovane donna in un kimono con una pettinatura elaborata",
+      "year": 1793,
+      "author": "Kitagawa Utamaro",
+      "description": "Un'opera che mette in evidenza la bellezza e la grazia femminile, rappresentando una giovane donna con un kimono elegante e un'acconciatura intricata. Riconosciuto per il suo uso delicato del colore.",
+      "material": "Stampa a colori su carta",
+      "height": 36.2,
+      "width": 25,
+      "link": ""
+    },
+    {
+      "name": "Le belle donne del quartiere di Yoshiwara",
+      "year": 1790,
+      "author": "Kitagawa Utamaro",
+      "description": "Serie di stampe che ritraggono le cortigiane del famoso quartiere di Yoshiwara a Edo, conosciute per la loro bellezza e abilità artistiche. Famosa per il suo realismo e l'attenzione ai dettagli.",
+      "material": "Stampa a colori su carta",
+      "height": 36.2,
+      "width": 25,
+      "link": ""
+    },
+    {
+      "name": "Ritratto di una donna con fiori",
+      "year": 1800,
+      "author": "Kitagawa Utamaro",
+      "description": "Dipinto che raffigura una donna con un mazzo di fiori, simbolo di bellezza e delicatezza. Conosciuto per l'uso sensibile della luce e delle ombre.",
+      "material": "Stampa a colori su carta",
+      "height": 36.2,
+      "width": 25,
+      "link": ""
+    }
+  ],
+  "Moronobu": [
+    {
+      "name": "Giovani donne che si divertono",
+      "year": 1670,
+      "author": "Moronobu",
+      "description": "Stampa che rappresenta donne in pose eleganti e giocose, evidenziando la vita quotidiana nell'Edo periodo. Conosciuto per la sua vivacità e uso espressivo del colore.",
+      "material": "Stampa a colori su carta",
+      "height": 36,
+      "width": 24,
+      "link": ""
+    },
+    {
+      "name": "La danza delle geishe",
+      "year": 1680,
+      "author": "Moronobu",
+      "description": "Raffigura geishe in danza, mostrando la bellezza e la grazia della cultura giapponese. Celebre per il suo dettaglio e la qualità della stampa.",
+      "material": "Stampa a colori su carta",
+      "height": 36,
+      "width": 24,
+      "link": ""
+    },
+    {
+      "name": "Pescatore al lavoro",
+      "year": 1685,
+      "author": "Moronobu",
+      "description": "Rappresenta un pescatore che svolge il suo lavoro quotidiano, simbolo della vita rurale giapponese. Famoso per il suo realismo e la semplicità della composizione.",
+      "material": "Stampa a colori su carta",
+      "height": 36,
+      "width": 24,
+      "link": ""
+    }
+  ],
+  "Gustav Klimt": [
+    {
+      "name": "Il bacio",
+      "year": 1907,
+      "author": "Gustav Klimt",
+      "description": "Un'opera iconica che rappresenta una coppia avvolta in un abbraccio, circondata da un fondo dorato e decorativo. Famoso per l'uso di colori brillanti e motivi ornamentali.",
+      "material": "Olio su tela",
+      "height": 180,
+      "width": 180,
+      "link": ""
+    },
+    {
+      "name": "Ritratto di Adele Bloch-Bauer I",
+      "year": 1907,
+      "author": "Gustav Klimt",
+      "description": "Un ritratto di una delle donne più influenti della Vienna di Klimt, noto per l'uso di oro e motivi decorativi. Celebre per la sua eleganza e la sensualità.",
+      "material": "Olio su tela",
+      "height": 138,
+      "width": 138,
+      "link": ""
+    },
+    {
+      "name": "La speranza II",
+      "year": 1907,
+      "author": "Gustav Klimt",
+      "description": "Raffigura una figura femminile in gravidanza circondata da simboli di fertilità. Conosciuto per la sua intensa emotività e l'uso di colori vivaci.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 80,
+      "link": ""
+    }
+  ],
+  "Alphonse Mucha": [
+    {
+      "name": "La pubblicità di Sarah Bernhardt",
+      "year": 1894,
+      "author": "Alphonse Mucha",
+      "description": "Un famoso poster che ritrae l'attrice Sarah Bernhardt in uno stile tipico dell'Art Nouveau, caratterizzato da linee curve e decorazioni floreali.",
+      "material": "Litografia a colori",
+      "height": 132,
+      "width": 90,
+      "link": ""
+    },
+    {
+      "name": "Le quattro stagioni",
+      "year": 1896,
+      "author": "Alphonse Mucha",
+      "description": "Una serie di quattro pannelli che rappresentano le stagioni attraverso figure femminili e simboli naturali, celebri per il loro stile decorativo e i colori pastello.",
+      "material": "Litografia a colori",
+      "height": 150,
+      "width": 100,
+      "link": ""
+    },
+    {
+      "name": "La Reverie",
+      "year": 1897,
+      "author": "Alphonse Mucha",
+      "description": "Un'opera che rappresenta una giovane donna circondata da fiori e motivi ornamentali, incarnando l'essenza dell'Art Nouveau. Famosa per il suo uso delicato di colori e linee.",
+      "material": "Olio su tela",
+      "height": 85,
+      "width": 68,
+      "link": ""
+    }
+  ],
+  "Henri de Toulouse-Lautrec": [
+    {
+      "name": "La Goulue al Moulin Rouge",
+      "year": 1891,
+      "author": "Henri de Toulouse-Lautrec",
+      "description": "Un poster che celebra la ballerina La Goulue, noto per la sua rappresentazione vivace della vita notturna parigina. Conosciuto per il suo stile distintivo e l'uso audace del colore.",
+      "material": "Litografia a colori",
+      "height": 126,
+      "width": 88,
+      "link": ""
+    },
+    {
+      "name": "Alcools",
+      "year": 1893,
+      "author": "Henri de Toulouse-Lautrec",
+      "description": "Un'opera che rappresenta una serie di personaggi e scene di vita parigina, riflettendo il mondo dei cabaret e dei bar. Famosa per la sua capacità di catturare l'atmosfera della Belle Époque.",
+      "material": "Litografia a colori",
+      "height": 115,
+      "width": 80,
+      "link": ""
+    },
+    {
+      "name": "Il divano rosso",
+      "year": 1893,
+      "author": "Henri de Toulouse-Lautrec",
+      "description": "Raffigura due donne sedute su un divano rosso in un ambiente intimo, evidenziando la vita sociale di Parigi. Conosciuto per il suo uso del colore e la rappresentazione della figura umana.",
+      "material": "Olio su tela",
+      "height": 92,
+      "width": 73,
+      "link": ""
+    }
+  ]
 ,
-    "Henri Matisse": [
-      {
-        "name": "La Danse",
-        "year": 1910,
-        "author": "Henri Matisse",
-        "description": "Un'opera iconica che rappresenta figure danzanti in un paesaggio vibrante, esemplificando l'uso audace del colore e la semplificazione delle forme.",
-        "material": "Olio su tela",
-        "height": 260,
-        "width": 391
-      },
-      {
-        "name": "La stanza rossa",
-        "year": 1908,
-        "author": "Henri Matisse",
-        "description": "Raffigura una stanza con pareti rosse e una tavola apparecchiata, noto per il suo uso innovativo del colore e la composizione audace.",
-        "material": "Olio su tela",
-        "height": 180,
-        "width": 220
-      },
-      {
-        "name": "La persiana verde",
-        "year": 1905,
-        "author": "Henri Matisse",
-        "description": "Rappresenta una giovane donna seduta in un ambiente interiore, caratterizzata da colori vivaci e un senso di decoratività.",
-        "material": "Olio su tela",
-        "height": 89,
-        "width": 60
-      }
-    ],
-    "André Derain": [
-      {
-        "name": "Il ponte di Charing Cross",
-        "year": 1906,
-        "author": "André Derain",
-        "description": "Un'opera che cattura il paesaggio urbano di Londra con colori vivaci e pennellate energiche, simbolo del fauvismo.",
-        "material": "Olio su tela",
-        "height": 73,
-        "width": 92
-      },
-      {
-        "name": "Il ballo",
-        "year": 1906,
-        "author": "André Derain",
-        "description": "Rappresenta una scena di danza all'aperto, evidenziando la gioia e l'energia della vita. Conosciuto per l'uso audace di colori brillanti.",
-        "material": "Olio su tela",
-        "height": 146,
-        "width": 114
-      },
-      {
-        "name": "Natura morta con frutta",
-        "year": 1908,
-        "author": "André Derain",
-        "description": "Un'opera che ritrae una natura morta con frutta e oggetti vari, noto per il suo approccio innovativo al colore e alla forma.",
-        "material": "Olio su tela",
-        "height": 65,
-        "width": 81
-      }
-    ],
-    "Georges Braque2": [
-      {
-        "name": "Violon e Candela",
-        "year": 1910,
-        "author": "Georges Braque",
-        "description": "Un'opera cubista che rappresenta un violino e una candela, nota per la sua complessità formale e l'uso di colori terrosi.",
-        "material": "Olio su tela",
-        "height": 60,
-        "width": 73
-      },
-      {
-        "name": "La casa ad Adèlle",
-        "year": 1911,
-        "author": "Georges Braque",
-        "description": "Rappresenta una casa in un paesaggio, esplorando le forme geometriche e l'uso della prospettiva cubista.",
-        "material": "Olio su tela",
-        "height": 80,
-        "width": 60
-      },
-      {
-        "name": "Natura morta con il giornale",
-        "year": 1912,
-        "author": "Georges Braque",
-        "description": "Un'opera cubista che unisce oggetti quotidiani in una composizione innovativa, simbolo della sua ricerca di nuove forme artistiche.",
-        "material": "Olio su tela",
-        "height": 65,
-        "width": 54
-      }
-    ]
-  ,
-    "Pablo Picasso": [
-      {
-        "name": "Les Demoiselles d'Avignon",
-        "year": 1907,
-        "author": "Pablo Picasso",
-        "description": "Un'opera rivoluzionaria che segna l'inizio del Cubismo, raffigurante cinque donne in forme geometriche e angoli audaci.",
-        "material": "Olio su tela",
-        "height": 243,
-        "width": 233
-      },
-      {
-        "name": "Guernica",
-        "year": 1937,
-        "author": "Pablo Picasso",
-        "description": "Un potente affresco anti-bellico che rappresenta il bombardamento della città di Guernica, famoso per il suo drammatico uso del bianco e nero.",
-        "material": "Olio su tela",
-        "height": 349,
-        "width": 776
-      },
-      {
-        "name": "Il sogno",
-        "year": 1932,
-        "author": "Pablo Picasso",
-        "description": "Un'opera che rappresenta una donna addormentata, caratterizzata da colori vivaci e forme stilizzate, simbolo della sua esplorazione del sogno e della sensualità.",
-        "material": "Olio su tela",
-        "height": 130,
-        "width": 97
-      }
-    ],
-    "Georges Braque": [
-      {
-        "name": "Violon e Candela",
-        "year": 1910,
-        "author": "Georges Braque",
-        "description": "Un'opera cubista che rappresenta un violino e una candela, nota per la sua complessità formale e l'uso di colori terrosi.",
-        "material": "Olio su tela",
-        "height": 60,
-        "width": 73
-      },
-      {
-        "name": "La casa ad Adèlle",
-        "year": 1911,
-        "author": "Georges Braque",
-        "description": "Rappresenta una casa in un paesaggio, esplorando le forme geometriche e l'uso della prospettiva cubista.",
-        "material": "Olio su tela",
-        "height": 80,
-        "width": 60
-      },
-      {
-        "name": "Natura morta con il giornale",
-        "year": 1912,
-        "author": "Georges Braque",
-        "description": "Un'opera cubista che unisce oggetti quotidiani in una composizione innovativa, simbolo della sua ricerca di nuove forme artistiche.",
-        "material": "Olio su tela",
-        "height": 65,
-        "width": 54
-      }
-    ],
-    "Juan Gris": [
-      {
-        "name": "Violon et Pichet",
-        "year": 1910,
-        "author": "Juan Gris",
-        "description": "Un'opera che rappresenta un violino e un boccale, mostrando l'influenza del Cubismo analitico e l'uso di forme semplificate.",
-        "material": "Olio su tela",
-        "height": 64,
-        "width": 81
-      },
-      {
-        "name": "Natura morta con giornale",
-        "year": 1916,
-        "author": "Juan Gris",
-        "description": "Raffigura un'accurata composizione di oggetti, unendo elementi quotidiani in un linguaggio visivo cubista distintivo.",
-        "material": "Olio su tela",
-        "height": 65,
-        "width": 50
-      },
-      {
-        "name": "Ritratto di Josette",
-        "year": 1913,
-        "author": "Juan Gris",
-        "description": "Un ritratto che combina forme geometriche con un uso innovativo del colore, rappresentando la sua partner Josette.",
-        "material": "Olio su tela",
-        "height": 72,
-        "width": 60
-      }
-    ]
-  ,
-    "Umberto Boccioni": [
-      {
-        "name": "La città che sale",
-        "year": 1910,
-        "author": "Umberto Boccioni",
-        "description": "Un'opera simbolo del Futurismo che rappresenta la dinamicità e l'energia della modernità, con un'architettura in costruzione.",
-        "material": "Olio su tela",
-        "height": 220,
-        "width": 176
-      },
-      {
-        "name": "Forme uniche della continuità nello spazio",
-        "year": 1913,
-        "author": "Umberto Boccioni",
-        "description": "Una scultura che cattura il movimento e la velocità, rappresentando una figura umana in corsa in un modo innovativo e dinamico.",
-        "material": "Bronzo",
-        "height": 111,
-        "width": 35
-      },
-      {
-        "name": "Stati d'animo. I. Gli stati d'animo: La fuga",
-        "year": 1911,
-        "author": "Umberto Boccioni",
-        "description": "Un'opera che esprime il tumulto emotivo e la tensione attraverso forme e colori intensi, esplorando le emozioni umane.",
-        "material": "Olio su tela",
-        "height": 150,
-        "width": 130
-      }
-    ],
-    "Giacomo Balla": [
-      {
-        "name": "Dinamismo di un cane al guinzaglio",
-        "year": 1912,
-        "author": "Giacomo Balla",
-        "description": "Un'opera che rappresenta un cane e il suo padrone in movimento, catturando il dinamismo e la velocità attraverso linee e forme sfuggenti.",
-        "material": "Olio su tela",
-        "height": 90,
-        "width": 70
-      },
-      {
-        "name": "La lampada ad arco",
-        "year": 1909,
-        "author": "Giacomo Balla",
-        "description": "Un'opera che esplora la luce e il movimento attraverso forme geometriche e colori brillanti, evidenziando il Futurismo.",
-        "material": "Olio su tela",
-        "height": 80,
-        "width": 60
-      },
-      {
-        "name": "Velocità astratta",
-        "year": 1913,
-        "author": "Giacomo Balla",
-        "description": "Un'opera che rappresenta il concetto di velocità attraverso l'uso di colori e forme che sembrano muoversi e vibrare.",
-        "material": "Olio su tela",
-        "height": 100,
-        "width": 70
-      }
-    ],
-    "Carlo Carrà": [
-      {
-        "name": "Il funerale dell'anarchico Galli",
-        "year": 1911,
-        "author": "Carlo Carrà",
-        "description": "Un'opera che rappresenta un funerale, esprimendo un forte messaggio sociale attraverso la composizione e l'uso del colore.",
-        "material": "Olio su tela",
-        "height": 160,
-        "width": 210
-      },
-      {
-        "name": "Natura morta con mele e libro",
-        "year": 1910,
-        "author": "Carlo Carrà",
-        "description": "Una composizione semplice ma potente che gioca con forme e colori, tipica dello stile metafisico.",
-        "material": "Olio su tela",
-        "height": 80,
-        "width": 60
-      },
-      {
-        "name": "Il grande stallone",
-        "year": 1916,
-        "author": "Carlo Carrà",
-        "description": "Rappresenta un cavallo in movimento, evidenziando la potenza e la bellezza dell'animale attraverso forme dinamiche.",
-        "material": "Olio su tela",
-        "height": 100,
-        "width": 80
-      }
-    ]
-  ,
-    "Edvard Munch": [
-      {
-        "name": "L'urlo",
-        "year": 1893,
-        "author": "Edvard Munch",
-        "description": "Un'opera iconica che esprime l'angoscia e l'ansia esistenziale attraverso una figura che urla in un paesaggio colorato e distorto.",
-        "material": "Olio su tela",
-        "height": 91,
-        "width": 73.5
-      },
-      {
-        "name": "Il bacio",
-        "year": 1897,
-        "author": "Edvard Munch",
-        "description": "Rappresenta un abbraccio appassionato, simbolizzando l'intensità delle emozioni umane attraverso colori vividi e una composizione intensa.",
-        "material": "Olio su tela",
-        "height": 97,
-        "width": 95
-      },
-      {
-        "name": "La Madonna",
-        "year": 1894,
-        "author": "Edvard Munch",
-        "description": "Un'opera che rappresenta la figura femminile in modo enigmatico, esplorando temi di amore, morte e desiderio.",
-        "material": "Olio su tela",
-        "height": 91,
-        "width": 73
-      }
-    ],
-    "Wassily Kandinsky": [
-      {
-        "name": "Composizione VII",
-        "year": 1913,
-        "author": "Wassily Kandinsky",
-        "description": "Un'opera espressionista che cattura emozioni intense attraverso forme astratte e colori vivaci, rappresentando una sinfonia visiva.",
-        "material": "Olio su tela",
-        "height": 200,
-        "width": 300
-      },
-      {
-        "name": "Il giallo, il rosso, il blu",
-        "year": 1925,
-        "author": "Wassily Kandinsky",
-        "description": "Un'opera che esplora l'interazione tra colore e forma, esprimendo sentimenti attraverso un linguaggio visivo astratto.",
-        "material": "Olio su tela",
-        "height": 120,
-        "width": 100
-      },
-      {
-        "name": "Improvvisazione 31 (mare)",
-        "year": 1910,
-        "author": "Wassily Kandinsky",
-        "description": "Rappresenta un paesaggio marino in modo astratto, esprimendo emozioni e sensazioni attraverso l'uso del colore e della forma.",
-        "material": "Olio su tela",
-        "height": 120,
-        "width": 140
-      }
-    ],
-    "Marc Chagall": [
-      {
-        "name": "Il violinista",
-        "year": 1912,
-        "author": "Marc Chagall",
-        "description": "Un'opera che rappresenta un violinista fluttuante sopra un paesaggio, simbolo dell'arte e della cultura ebraica.",
-        "material": "Olio su tela",
-        "height": 200,
-        "width": 150
-      },
-      {
-        "name": "La mia vita",
-        "year": 1911,
-        "author": "Marc Chagall",
-        "description": "Un autoritratto che combina elementi della vita personale dell'artista con simboli e colori vividi, esprimendo la sua identità culturale.",
-        "material": "Olio su tela",
-        "height": 150,
-        "width": 120
-      },
-      {
-        "name": "La festa",
-        "year": 1912,
-        "author": "Marc Chagall",
-        "description": "Rappresenta una celebrazione vivace e colorata, con figure fluttuanti e un uso audace del colore, tipico dello stile di Chagall.",
-        "material": "Olio su tela",
-        "height": 100,
-        "width": 150
-      }
-    ]
-  ,
-    "Salvador Dalí": [
-      {
-        "name": "La persistenza della memoria",
-        "year": 1931,
-        "author": "Salvador Dalí",
-        "description": "Un'opera iconica che rappresenta orologi fusi in un paesaggio onirico, esplorando il tema del tempo e della relatività.",
-        "material": "Olio su tela",
-        "height": 24,
-        "width": 33
-      },
-      {
-        "name": "Il sogno",
-        "year": 1937,
-        "author": "Salvador Dalí",
-        "description": "Un'opera che rappresenta una figura femminile immersa in un paesaggio surreale, esplorando il confine tra sogno e realtà.",
-        "material": "Olio su tela",
-        "height": 51,
-        "width": 77
-      },
-      {
-        "name": "La tentazione di Sant'Antonio",
-        "year": 1946,
-        "author": "Salvador Dalí",
-        "description": "Un'opera che illustra la lotta tra il bene e il male attraverso visioni surreali e simboliche, con figure fantastiche e tormentate.",
-        "material": "Olio su tela",
-        "height": 150,
-        "width": 120
-      }
-    ],
-    "René Magritte": [
-      {
-        "name": "Il tradimento delle immagini",
-        "year": 1929,
-        "author": "René Magritte",
-        "description": "Un'opera famosa che mostra una pipa con la scritta 'Ceci n'est pas une pipe', sfidando le percezioni e il linguaggio visivo.",
-        "material": "Olio su tela",
-        "height": 60,
-        "width": 81
-      },
-      {
-        "name": "La chiave dei sogni",
-        "year": 1930,
-        "author": "René Magritte",
-        "description": "Un'opera che esplora il confine tra il sogno e la realtà, con una figura umana che tiene una chiave che si perde nel paesaggio.",
-        "material": "Olio su tela",
-        "height": 77,
-        "width": 60
-      },
-      {
-        "name": "L'amore libero",
-        "year": 1935,
-        "author": "René Magritte",
-        "description": "Un'opera che rappresenta un abbraccio romantico in un paesaggio onirico, sfidando la logica attraverso l'immagine e il contesto.",
-        "material": "Olio su tela",
-        "height": 90,
-        "width": 70
-      }
-    ],
-    "Max Ernst": [
-      {
-        "name": "L'interpretazione dei sogni",
-        "year": 1920,
-        "author": "Max Ernst",
-        "description": "Un'opera surrealista che esplora il subconscio attraverso collage e assemblaggi, dando vita a immagini fantastiche e inquietanti.",
-        "material": "Olio su tela",
-        "height": 81,
-        "width": 65
-      },
-      {
-        "name": "La gioia di vivere",
-        "year": 1936,
-        "author": "Max Ernst",
-        "description": "Un'opera che combina elementi fantastici con una palette di colori vivaci, esplorando temi di amore e libertà.",
-        "material": "Olio su tela",
-        "height": 110,
-        "width": 90
-      },
-      {
-        "name": "La guerra",
-        "year": 1920,
-        "author": "Max Ernst",
-        "description": "Un'opera che rappresenta il conflitto attraverso forme astratte e simboliche, catturando il caos e la distruzione della guerra.",
-        "material": "Olio su tela",
-        "height": 100,
-        "width": 80
-      }
-    ]
+  "Henri Matisse": [
+    {
+      "name": "La Danse",
+      "year": 1910,
+      "author": "Henri Matisse",
+      "description": "Un'opera iconica che rappresenta figure danzanti in un paesaggio vibrante, esemplificando l'uso audace del colore e la semplificazione delle forme.",
+      "material": "Olio su tela",
+      "height": 260,
+      "width": 391,
+      "link": ""
+    },
+    {
+      "name": "La stanza rossa",
+      "year": 1908,
+      "author": "Henri Matisse",
+      "description": "Raffigura una stanza con pareti rosse e una tavola apparecchiata, noto per il suo uso innovativo del colore e la composizione audace.",
+      "material": "Olio su tela",
+      "height": 180,
+      "width": 220,
+      "link": ""
+    },
+    {
+      "name": "La persiana verde",
+      "year": 1905,
+      "author": "Henri Matisse",
+      "description": "Rappresenta una giovane donna seduta in un ambiente interiore, caratterizzata da colori vivaci e un senso di decoratività.",
+      "material": "Olio su tela",
+      "height": 89,
+      "width": 60,
+      "link": ""
+    }
+  ],
+  "André Derain": [
+    {
+      "name": "Il ponte di Charing Cross",
+      "year": 1906,
+      "author": "André Derain",
+      "description": "Un'opera che cattura il paesaggio urbano di Londra con colori vivaci e pennellate energiche, simbolo del fauvismo.",
+      "material": "Olio su tela",
+      "height": 73,
+      "width": 92,
+      "link": ""
+    },
+    {
+      "name": "Il ballo",
+      "year": 1906,
+      "author": "André Derain",
+      "description": "Rappresenta una scena di danza all'aperto, evidenziando la gioia e l'energia della vita. Conosciuto per l'uso audace di colori brillanti.",
+      "material": "Olio su tela",
+      "height": 146,
+      "width": 114,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con frutta",
+      "year": 1908,
+      "author": "André Derain",
+      "description": "Un'opera che ritrae una natura morta con frutta e oggetti vari, noto per il suo approccio innovativo al colore e alla forma.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 81,
+      "link": ""
+    }
+  ],
+  "Georges Braque2": [
+    {
+      "name": "Violon e Candela",
+      "year": 1910,
+      "author": "Georges Braque",
+      "description": "Un'opera cubista che rappresenta un violino e una candela, nota per la sua complessità formale e l'uso di colori terrosi.",
+      "material": "Olio su tela",
+      "height": 60,
+      "width": 73,
+      "link": ""
+    },
+    {
+      "name": "La casa ad Adèlle",
+      "year": 1911,
+      "author": "Georges Braque",
+      "description": "Rappresenta una casa in un paesaggio, esplorando le forme geometriche e l'uso della prospettiva cubista.",
+      "material": "Olio su tela",
+      "height": 80,
+      "width": 60,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con il giornale",
+      "year": 1912,
+      "author": "Georges Braque",
+      "description": "Un'opera cubista che unisce oggetti quotidiani in una composizione innovativa, simbolo della sua ricerca di nuove forme artistiche.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 54,
+      "link": ""
+    }
+  ]
 ,
-    "Wassily Kandinsky2": [
-      {
-        "name": "Composizione VIII",
-        "year": 1923,
-        "author": "Wassily Kandinsky",
-        "description": "Un'opera astratta che gioca con forme geometriche e colori intensi, riflettendo la ricerca di un linguaggio visivo puro.",
-        "material": "Olio su tela",
-        "height": 140,
-        "width": 201
-      },
-      {
-        "name": "Improvvisazione 10",
-        "year": 1910,
-        "author": "Wassily Kandinsky",
-        "description": "Un'opera che esplora la connessione tra arte e musica, con una composizione di forme libere e colori vivaci.",
-        "material": "Olio su tela",
-        "height": 125,
-        "width": 135
-      },
-      {
-        "name": "Cercle de la couleur",
-        "year": 1926,
-        "author": "Wassily Kandinsky",
-        "description": "Un lavoro che combina forme circolari e una palette vivace, esprimendo l'armonia e la relazione tra colore e forma.",
-        "material": "Olio su tela",
-        "height": 100,
-        "width": 75
-      }
-    ],
-    "Kazimir Malevich": [
-      {
-        "name": "Quadrato nero",
-        "year": 1915,
-        "author": "Kazimir Malevich",
-        "description": "Un'opera pionieristica del suprematismo che presenta un quadrato nero su sfondo bianco, simbolo di una nuova visione dell'arte.",
-        "material": "Olio su tela",
-        "height": 79,
-        "width": 79
-      },
-      {
-        "name": "Senza titolo (Composizione con cerchi)",
-        "year": 1920,
-        "author": "Kazimir Malevich",
-        "description": "Un'opera che esplora forme geometriche e colori, rappresentando il movimento e l'astrazione.",
-        "material": "Olio su tela",
-        "height": 95,
-        "width": 95
-      },
-      {
-        "name": "La donna con il girasole",
-        "year": 1934,
-        "author": "Kazimir Malevich",
-        "description": "Un'opera che combina elementi figurativi e astratti, riflettendo il passaggio tra il suprematismo e il realismo.",
-        "material": "Olio su tela",
-        "height": 150,
-        "width": 100
-      }
-    ],
-    "Piet Mondrian": [
-      {
-        "name": "Composizione con rosso, blu e giallo",
-        "year": 1930,
-        "author": "Piet Mondrian",
-        "description": "Un'opera che rappresenta l'essenza del neoplasticismo, utilizzando linee nere e colori primari per creare un equilibrio visivo.",
-        "material": "Olio su tela",
-        "height": 60,
-        "width": 60
-      },
-      {
-        "name": "Broadway Boogie Woogie",
-        "year": 1942,
-        "author": "Piet Mondrian",
-        "description": "Un'opera che cattura il ritmo e l'energia di New York attraverso un reticolo di colori vivaci e forme geometriche.",
-        "material": "Olio su tela",
-        "height": 127,
-        "width": 127
-      },
-      {
-        "name": "Composizione in rosso, blu e giallo",
-        "year": 1937,
-        "author": "Piet Mondrian",
-        "description": "Un lavoro che riflette la sua continua ricerca di armonia attraverso l'astrazione, usando colori primari e linee rette.",
-        "material": "Olio su tela",
-        "height": 90,
-        "width": 70
-      }
-    ]
-  }
+  "Pablo Picasso": [
+    {
+      "name": "Les Demoiselles d'Avignon",
+      "year": 1907,
+      "author": "Pablo Picasso",
+      "description": "Un'opera rivoluzionaria che segna l'inizio del Cubismo, raffigurante cinque donne in forme geometriche e angoli audaci.",
+      "material": "Olio su tela",
+      "height": 243,
+      "width": 233,
+      "link": ""
+    },
+    {
+      "name": "Guernica",
+      "year": 1937,
+      "author": "Pablo Picasso",
+      "description": "Un potente affresco anti-bellico che rappresenta il bombardamento della città di Guernica, famoso per il suo drammatico uso del bianco e nero.",
+      "material": "Olio su tela",
+      "height": 349,
+      "width": 776,
+      "link": ""
+    },
+    {
+      "name": "Il sogno",
+      "year": 1932,
+      "author": "Pablo Picasso",
+      "description": "Un'opera che rappresenta una donna addormentata, caratterizzata da colori vivaci e forme stilizzate, simbolo della sua esplorazione del sogno e della sensualità.",
+      "material": "Olio su tela",
+      "height": 130,
+      "width": 97,
+      "link": ""
+    }
+  ],
+  "Georges Braque": [
+    {
+      "name": "Violon e Candela",
+      "year": 1910,
+      "author": "Georges Braque",
+      "description": "Un'opera cubista che rappresenta un violino e una candela, nota per la sua complessità formale e l'uso di colori terrosi.",
+      "material": "Olio su tela",
+      "height": 60,
+      "width": 73,
+      "link": ""
+    },
+    {
+      "name": "La casa ad Adèlle",
+      "year": 1911,
+      "author": "Georges Braque",
+      "description": "Rappresenta una casa in un paesaggio, esplorando le forme geometriche e l'uso della prospettiva cubista.",
+      "material": "Olio su tela",
+      "height": 80,
+      "width": 60,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con il giornale",
+      "year": 1912,
+      "author": "Georges Braque",
+      "description": "Un'opera cubista che unisce oggetti quotidiani in una composizione innovativa, simbolo della sua ricerca di nuove forme artistiche.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 54,
+      "link": ""
+    }
+  ],
+  "Juan Gris": [
+    {
+      "name": "Violon et Pichet",
+      "year": 1910,
+      "author": "Juan Gris",
+      "description": "Un'opera che rappresenta un violino e un boccale, mostrando l'influenza del Cubismo analitico e l'uso di forme semplificate.",
+      "material": "Olio su tela",
+      "height": 64,
+      "width": 81,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con giornale",
+      "year": 1916,
+      "author": "Juan Gris",
+      "description": "Raffigura un'accurata composizione di oggetti, unendo elementi quotidiani in un linguaggio visivo cubista distintivo.",
+      "material": "Olio su tela",
+      "height": 65,
+      "width": 50,
+      "link": ""
+    },
+    {
+      "name": "Ritratto di Josette",
+      "year": 1913,
+      "author": "Juan Gris",
+      "description": "Un ritratto che combina forme geometriche con un uso innovativo del colore, rappresentando la sua partner Josette.",
+      "material": "Olio su tela",
+      "height": 72,
+      "width": 60,
+      "link": ""
+    }
+  ]
+,
+  "Umberto Boccioni": [
+    {
+      "name": "La città che sale",
+      "year": 1910,
+      "author": "Umberto Boccioni",
+      "description": "Un'opera simbolo del Futurismo che rappresenta la dinamicità e l'energia della modernità, con un'architettura in costruzione.",
+      "material": "Olio su tela",
+      "height": 220,
+      "width": 176,
+      "link": ""
+    },
+    {
+      "name": "Forme uniche della continuità nello spazio",
+      "year": 1913,
+      "author": "Umberto Boccioni",
+      "description": "Una scultura che cattura il movimento e la velocità, rappresentando una figura umana in corsa in un modo innovativo e dinamico.",
+      "material": "Bronzo",
+      "height": 111,
+      "width": 35,
+      "link": ""
+    },
+    {
+      "name": "Stati d'animo. I. Gli stati d'animo: La fuga",
+      "year": 1911,
+      "author": "Umberto Boccioni",
+      "description": "Un'opera che esprime il tumulto emotivo e la tensione attraverso forme e colori intensi, esplorando le emozioni umane.",
+      "material": "Olio su tela",
+      "height": 150,
+      "width": 130,
+      "link": ""
+    }
+  ],
+  "Giacomo Balla": [
+    {
+      "name": "Dinamismo di un cane al guinzaglio",
+      "year": 1912,
+      "author": "Giacomo Balla",
+      "description": "Un'opera che rappresenta un cane e il suo padrone in movimento, catturando il dinamismo e la velocità attraverso linee e forme sfuggenti.",
+      "material": "Olio su tela",
+      "height": 90,
+      "width": 70,
+      "link": ""
+    },
+    {
+      "name": "La lampada ad arco",
+      "year": 1909,
+      "author": "Giacomo Balla",
+      "description": "Un'opera che esplora la luce e il movimento attraverso forme geometriche e colori brillanti, evidenziando il Futurismo.",
+      "material": "Olio su tela",
+      "height": 80,
+      "width": 60,
+      "link": ""
+    },
+    {
+      "name": "Velocità astratta",
+      "year": 1913,
+      "author": "Giacomo Balla",
+      "description": "Un'opera che rappresenta il concetto di velocità attraverso l'uso di colori e forme che sembrano muoversi e vibrare.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 70,
+      "link": ""
+    }
+  ],
+  "Carlo Carrà": [
+    {
+      "name": "Il funerale dell'anarchico Galli",
+      "year": 1911,
+      "author": "Carlo Carrà",
+      "description": "Un'opera che rappresenta un funerale, esprimendo un forte messaggio sociale attraverso la composizione e l'uso del colore.",
+      "material": "Olio su tela",
+      "height": 160,
+      "width": 210,
+      "link": ""
+    },
+    {
+      "name": "Natura morta con mele e libro",
+      "year": 1910,
+      "author": "Carlo Carrà",
+      "description": "Una composizione semplice ma potente che gioca con forme e colori, tipica dello stile metafisico.",
+      "material": "Olio su tela",
+      "height": 80,
+      "width": 60,
+      "link": ""
+    },
+    {
+      "name": "Il grande stallone",
+      "year": 1916,
+      "author": "Carlo Carrà",
+      "description": "Rappresenta un cavallo in movimento, evidenziando la potenza e la bellezza dell'animale attraverso forme dinamiche.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 80,
+      "link": ""
+    }
+  ]
+,
+  "Edvard Munch": [
+    {
+      "name": "L'urlo",
+      "year": 1893,
+      "author": "Edvard Munch",
+      "description": "Un'opera iconica che esprime l'angoscia e l'ansia esistenziale attraverso una figura che urla in un paesaggio colorato e distorto.",
+      "material": "Olio su tela",
+      "height": 91,
+      "width": 73.5,
+      "link": ""
+    },
+    {
+      "name": "Il bacio",
+      "year": 1897,
+      "author": "Edvard Munch",
+      "description": "Rappresenta un abbraccio appassionato, simbolizzando l'intensità delle emozioni umane attraverso colori vividi e una composizione intensa.",
+      "material": "Olio su tela",
+      "height": 97,
+      "width": 95,
+      "link": ""
+    },
+    {
+      "name": "La Madonna",
+      "year": 1894,
+      "author": "Edvard Munch",
+      "description": "Un'opera che rappresenta la figura femminile in modo enigmatico, esplorando temi di amore, morte e desiderio.",
+      "material": "Olio su tela",
+      "height": 91,
+      "width": 73,
+      "link": ""
+    }
+  ],
+  "Wassily Kandinsky": [
+    {
+      "name": "Composizione VII",
+      "year": 1913,
+      "author": "Wassily Kandinsky",
+      "description": "Un'opera espressionista che cattura emozioni intense attraverso forme astratte e colori vivaci, rappresentando una sinfonia visiva.",
+      "material": "Olio su tela",
+      "height": 200,
+      "width": 300,
+      "link": ""
+    },
+    {
+      "name": "Il giallo, il rosso, il blu",
+      "year": 1925,
+      "author": "Wassily Kandinsky",
+      "description": "Un'opera che esplora l'interazione tra colore e forma, esprimendo sentimenti attraverso un linguaggio visivo astratto.",
+      "material": "Olio su tela",
+      "height": 120,
+      "width": 100,
+      "link": ""
+    },
+    {
+      "name": "Improvvisazione 31 (mare)",
+      "year": 1910,
+      "author": "Wassily Kandinsky",
+      "description": "Rappresenta un paesaggio marino in modo astratto, esprimendo emozioni e sensazioni attraverso l'uso del colore e della forma.",
+      "material": "Olio su tela",
+      "height": 120,
+      "width": 140,
+      "link": ""
+    }
+  ],
+  "Marc Chagall": [
+    {
+      "name": "Il violinista",
+      "year": 1912,
+      "author": "Marc Chagall",
+      "description": "Un'opera che rappresenta un violinista fluttuante sopra un paesaggio, simbolo dell'arte e della cultura ebraica.",
+      "material": "Olio su tela",
+      "height": 200,
+      "width": 150,
+      "link": ""
+    },
+    {
+      "name": "La mia vita",
+      "year": 1911,
+      "author": "Marc Chagall",
+      "description": "Un autoritratto che combina elementi della vita personale dell'artista con simboli e colori vividi, esprimendo la sua identità culturale.",
+      "material": "Olio su tela",
+      "height": 150,
+      "width": 120,
+      "link": ""
+    },
+    {
+      "name": "La festa",
+      "year": 1912,
+      "author": "Marc Chagall",
+      "description": "Rappresenta una celebrazione vivace e colorata, con figure fluttuanti e un uso audace del colore, tipico dello stile di Chagall.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 150,
+      "link": ""
+    }
+  ]
+,
+  "Salvador Dalí": [
+    {
+      "name": "La persistenza della memoria",
+      "year": 1931,
+      "author": "Salvador Dalí",
+      "description": "Un'opera iconica che rappresenta orologi fusi in un paesaggio onirico, esplorando il tema del tempo e della relatività.",
+      "material": "Olio su tela",
+      "height": 24,
+      "width": 33,
+      "link": ""
+    },
+    {
+      "name": "Il sogno",
+      "year": 1937,
+      "author": "Salvador Dalí",
+      "description": "Un'opera che rappresenta una figura femminile immersa in un paesaggio surreale, esplorando il confine tra sogno e realtà.",
+      "material": "Olio su tela",
+      "height": 51,
+      "width": 77,
+      "link": ""
+    },
+    {
+      "name": "La tentazione di Sant'Antonio",
+      "year": 1946,
+      "author": "Salvador Dalí",
+      "description": "Un'opera che illustra la lotta tra il bene e il male attraverso visioni surreali e simboliche, con figure fantastiche e tormentate.",
+      "material": "Olio su tela",
+      "height": 150,
+      "width": 120,
+      "link": ""
+    }
+  ],
+  "René Magritte": [
+    {
+      "name": "Il tradimento delle immagini",
+      "year": 1929,
+      "author": "René Magritte",
+      "description": "Un'opera famosa che mostra una pipa con la scritta 'Ceci n'est pas une pipe', sfidando le percezioni e il linguaggio visivo.",
+      "material": "Olio su tela",
+      "height": 60,
+      "width": 81,
+      "link": ""
+    },
+    {
+      "name": "La chiave dei sogni",
+      "year": 1930,
+      "author": "René Magritte",
+      "description": "Un'opera che esplora il confine tra il sogno e la realtà, con una figura umana che tiene una chiave che si perde nel paesaggio.",
+      "material": "Olio su tela",
+      "height": 77,
+      "width": 60,
+      "link": ""
+    },
+    {
+      "name": "L'amore libero",
+      "year": 1935,
+      "author": "René Magritte",
+      "description": "Un'opera che rappresenta un abbraccio romantico in un paesaggio onirico, sfidando la logica attraverso l'immagine e il contesto.",
+      "material": "Olio su tela",
+      "height": 90,
+      "width": 70,
+      "link": ""
+    }
+  ],
+  "Max Ernst": [
+    {
+      "name": "L'interpretazione dei sogni",
+      "year": 1920,
+      "author": "Max Ernst",
+      "description": "Un'opera surrealista che esplora il subconscio attraverso collage e assemblaggi, dando vita a immagini fantastiche e inquietanti.",
+      "material": "Olio su tela",
+      "height": 81,
+      "width": 65,
+      "link": ""
+    },
+    {
+      "name": "La gioia di vivere",
+      "year": 1936,
+      "author": "Max Ernst",
+      "description": "Un'opera che combina elementi fantastici con una palette di colori vivaci, esplorando temi di amore e libertà.",
+      "material": "Olio su tela",
+      "height": 110,
+      "width": 90,
+      "link": ""
+    },
+    {
+      "name": "La guerra",
+      "year": 1920,
+      "author": "Max Ernst",
+      "description": "Un'opera che rappresenta il conflitto attraverso forme astratte e simboliche, catturando il caos e la distruzione della guerra.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 80,
+      "link": ""
+    }
+  ]
+,
+  "Wassily Kandinsky2": [
+    {
+      "name": "Composizione VIII",
+      "year": 1923,
+      "author": "Wassily Kandinsky",
+      "description": "Un'opera astratta che gioca con forme geometriche e colori intensi, riflettendo la ricerca di un linguaggio visivo puro.",
+      "material": "Olio su tela",
+      "height": 140,
+      "width": 201,
+      "link": ""
+    },
+    {
+      "name": "Improvvisazione 10",
+      "year": 1910,
+      "author": "Wassily Kandinsky",
+      "description": "Un'opera che esplora la connessione tra arte e musica, con una composizione di forme libere e colori vivaci.",
+      "material": "Olio su tela",
+      "height": 125,
+      "width": 135,
+      "link": ""
+    },
+    {
+      "name": "Cercle de la couleur",
+      "year": 1926,
+      "author": "Wassily Kandinsky",
+      "description": "Un lavoro che combina forme circolari e una palette vivace, esprimendo l'armonia e la relazione tra colore e forma.",
+      "material": "Olio su tela",
+      "height": 100,
+      "width": 75,
+      "link": ""
+    }
+  ],
+  "Kazimir Malevich": [
+    {
+      "name": "Quadrato nero",
+      "year": 1915,
+      "author": "Kazimir Malevich",
+      "description": "Un'opera pionieristica del suprematismo che presenta un quadrato nero su sfondo bianco, simbolo di una nuova visione dell'arte.",
+      "material": "Olio su tela",
+      "height": 79,
+      "width": 79,
+      "link": ""
+    },
+    {
+      "name": "Senza titolo (Composizione con cerchi)",
+      "year": 1920,
+      "author": "Kazimir Malevich",
+      "description": "Un'opera che esplora forme geometriche e colori, rappresentando il movimento e l'astrazione.",
+      "material": "Olio su tela",
+      "height": 95,
+      "width": 95,
+      "link": ""
+    },
+    {
+      "name": "La donna con il girasole",
+      "year": 1934,
+      "author": "Kazimir Malevich",
+      "description": "Un'opera che combina elementi figurativi e astratti, riflettendo il passaggio tra il suprematismo e il realismo.",
+      "material": "Olio su tela",
+      "height": 150,
+      "width": 100,
+      "link": ""
+    }
+  ],
+  "Piet Mondrian": [
+    {
+      "name": "Composizione con rosso, blu e giallo",
+      "year": 1930,
+      "author": "Piet Mondrian",
+      "description": "Un'opera che rappresenta l'essenza del neoplasticismo, utilizzando linee nere e colori primari per creare un equilibrio visivo.",
+      "material": "Olio su tela",
+      "height": 60,
+      "width": 60,
+      "link":"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lospettacolo.it%2Fcomposizione-rosso-blu-giallo%2F&psig=AOvVaw3SczaecYxwvYHY_B4OMxc8&ust=1730209998492000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJCL_92csYkDFQAAAAAdAAAAABAE"
+    },
+    {
+      "name": "Broadway Boogie Woogie",
+      "year": 1942,
+      "author": "Piet Mondrian",
+      "description": "Un'opera che cattura il ritmo e l'energia di New York attraverso un reticolo di colori vivaci e forme geometriche.",
+      "material": "Olio su tela",
+      "height": 127,
+      "width": 127,
+      "link":"https://www.google.com/imgres?q=broadway%20boogie%20woogie&imgurl=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F3%2F30%2FPiet_Mondrian%252C_1942_-_Broadway_Boogie_Woogie.jpg%2F1200px-Piet_Mondrian%252C_1942_-_Broadway_Boogie_Woogie.jpg&imgrefurl=https%3A%2F%2Fit.wikipedia.org%2Fwiki%2FBroadway_Boogie-Woogie&docid=oKIIjZ4YRFFzZM&tbnid=F6rmzkceMaGG2M&vet=12ahUKEwibn4mGnLGJAxV6g_0HHQs7BoEQM3oECBcQAA..i&w=1200&h=1202&hcb=2&ved=2ahUKEwibn4mGnLGJAxV6g_0HHQs7BoEQM3oECBcQAA"
+    },
+    {
+      "name": "Composizione in rosso, blu e giallo",
+      "year": 1937,
+      "author": "Piet Mondrian",
+      "description": "Un lavoro che riflette la sua continua ricerca di armonia attraverso l'astrazione, usando colori primari e linee rette.",
+      "material": "Olio su tela",
+      "height": 90,
+      "width": 70,
+      "link":"https://francescovisalli.it/wp-content/uploads/2017/03/francesco-visalli_inside-mondriaan-project_37_B310_piet-mondrian.jpg"
+    }
+  ]
+}
