@@ -9,4 +9,6 @@ public class Stanza {
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
     private String nome;
+    @OneToOne
+    private Corrente corrente;
 }

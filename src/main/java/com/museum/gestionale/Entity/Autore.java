@@ -7,86 +7,87 @@ import java.util.Date;
 @Table(name="autore")
 public class Autore {
 
-	private String Nome;
-	private String Cognome;
-	private Date DataNascita;
-	private Date DataMorte;
-	private String LuogoNascita;
-	private String LuogoMorte;
-	private String Corrente;
+	private String name;
+	private String lastname;
+	private Date bornDate;
+	private Date deathDate;
+	private String bornPlace;
+	private String deathPlace;
+	@ManyToOne
+	private Corrente currents;
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 
 
 	public Autore(String nome, String cognome, Date dataNascita, Date dataMorte, String luogoNascita, String luogoMorte, String corrente) {
-		Nome = nome;
-		Cognome = cognome;
-		DataNascita = dataNascita;
-		DataMorte = dataMorte;
-		LuogoNascita = luogoNascita;
-		LuogoMorte = luogoMorte;
-		Corrente = corrente;
+		this.name = nome;
+		this.lastname = cognome;
+		this.bornDate = dataNascita;
+		this.deathDate = dataMorte;
+		this.bornPlace = luogoNascita;
+		this.deathPlace = luogoMorte;
+		corrente = corrente;
 	}
 
 	public Autore() {
 
 	}
 
-	public String getNome() {
-		return Nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		Nome = nome;
+	public void setName(String nome) {
+		this.name = nome;
 	}
 
-	public String getCognome() {
-		return Cognome;
+	public String getLastname() {
+		return lastname;
 	}
 
-	public void setCognome(String cognome) {
-		Cognome = cognome;
+	public void setLastname(String cognome) {
+		this.lastname = cognome;
 	}
 
-	public Date getDataNascita() {
-		return DataNascita;
+	public Date getBornDate() {
+		return bornDate;
 	}
 
-	public void setDataNascita(Date dataNascita) {
-		DataNascita = dataNascita;
+	public void setBornDate(Date dataNascita) {
+		this.bornDate = dataNascita;
 	}
 
-	public Date getDataMorte() {
-		return DataMorte;
+	public Date getDeathDate() {
+		return deathDate;
 	}
 
-	public void setDataMorte(Date dataMorte) {
-		DataMorte = dataMorte;
+	public void setDeathDate(Date dataMorte) {
+		this.deathDate = dataMorte;
 	}
 
-	public String getLuogoNascita() {
-		return LuogoNascita;
+	public String getBornPlace() {
+		return bornPlace;
 	}
 
-	public void setLuogoNascita(String luogoNascita) {
-		LuogoNascita = luogoNascita;
+	public void setBornPlace(String luogoNascita) {
+		this.bornPlace = luogoNascita;
 	}
 
-	public String getLuogoMorte() {
-		return LuogoMorte;
+	public String getDeathPlace() {
+		return deathPlace;
 	}
 
-	public void setLuogoMorte(String luogoMorte) {
-		LuogoMorte = luogoMorte;
+	public void setDeathPlace(String luogoMorte) {
+		this.deathPlace = luogoMorte;
 	}
 
-	public String getCorrente() {
-		return Corrente;
+	public Corrente getCurrents() {
+		return currents;
 	}
 
-	public void setCorrente(String corrente) {
-		Corrente = corrente;
+	public void setCurrents(Corrente corrente) {
+		this.currents = corrente;
 	}
 
 	public void setId(Long id) {
