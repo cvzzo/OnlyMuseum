@@ -18,7 +18,7 @@ public class Current {
 	@Column(columnDefinition = "TEXT")
 	private String description;
 
-	@ManyToMany(mappedBy = "current")
+	@ManyToMany(mappedBy = "currents")
 	private Set<Author> authors;
 
 
