@@ -2,246 +2,197 @@
   {
     "opera": "Madonna col Bambino",
     "tag": [
-      "Madonna", "Religioso", "Sacro", "Pala", "Tempera su tavola", "Italia"
+      "Madonna",
+      "Religioso",
+      "Sacro",
+      "Pala",
+      "Tempera su tavola",
+      "Italia"
     ]
   },
   {
     "opera": "Maestà di San Domenico",
     "tag": [
-      "Madonna", "Religioso", "Angeli", "Santi", "Sacro", "Pala", "Tempera su tavola", "Italia"
+      "Madonna",
+      "Religioso",
+      "Angeli",
+      "Santi",
+      "Sacro",
+      "Pala",
+      "Tempera su tavola",
+      "Italia"
     ]
   },
   {
     "opera": "Cristo Benedicente",
-    "tag": [
-      "Gesù", "Religioso", "Sacro", "Tempera su tavola", "Italia"
-    ]
+    "tag": ["Gesù", "Religioso", "Sacro", "Tempera su tavola", "Italia"]
   },
   {
     "opera": "Crocifisso di Santa Croce",
     "tag": [
-      "Crocifisso", "Gesù", "Morte", "Chiaroscuro", "Religioso", "Tempera su legno", "Italia"
+      "Crocifisso",
+      "Gesù",
+      "Morte",
+      "Chiaroscuro",
+      "Religioso",
+      "Tempera su legno",
+      "Italia"
     ]
   },
   {
     "opera": "Maestà di Santa Trinita",
     "tag": [
-      "Madonna", "Religioso", "Angeli", "Sacro", "Pala", "Tempera su tavola", "Italia"
+      "Madonna",
+      "Religioso",
+      "Angeli",
+      "Sacro",
+      "Pala",
+      "Tempera su tavola",
+      "Italia"
     ]
   },
   {
     "opera": "Maestà",
     "tag": [
-      "Madonna", "Religioso", "Angeli", "Santi", "Sacro", "Pala", "Tempera su tavola", "Italia"
+      "Madonna",
+      "Religioso",
+      "Angeli",
+      "Santi",
+      "Sacro",
+      "Pala",
+      "Tempera su tavola",
+      "Italia"
     ]
   },
   {
     "opera": "Lamentazione",
     "tag": [
-      "Gesù", "Religioso", "Morte", "Affresco", "Italia", "Chiaroscuro", "Notte"
+      "Gesù",
+      "Religioso",
+      "Morte",
+      "Affresco",
+      "Italia",
+      "Chiaroscuro",
+      "Notte"
     ]
   },
   {
     "opera": "San Francesco che Riceve le Stimmate",
     "tag": [
-      "Religioso", "Sacro", "Tempera su tavola", "Italia", "Santi", "Natura"
+      "Religioso",
+      "Sacro",
+      "Tempera su tavola",
+      "Italia",
+      "Santi",
+      "Natura"
     ]
   },
   {
     "opera": "La Resurrezione",
-    "tag": [
-      "Gesù", "Religioso", "Sacro", "Affresco", "Italia", "Resurrezione"
-    ]
+    "tag": ["Gesù", "Religioso", "Sacro", "Affresco", "Italia", "Resurrezione"]
   },
   {
     "opera": "Giuditta e Oloferne",
     "tag": [
-      "Morte", "Chiaroscuro", "Nudo", "Religioso", "Olio su tela", "Italia", "Guerra"
+      "Morte",
+      "Chiaroscuro",
+      "Nudo",
+      "Religioso",
+      "Olio su tela",
+      "Italia",
+      "Guerra"
     ]
   },
   {
     "opera": "La Grande Onda di Kanagawa",
     "tag": [
-      "Natura", "Mare", "Giappone", "Paesaggio", "Notte", "Stampa su carta"
+      "Natura",
+      "Mare",
+      "Giappone",
+      "Paesaggio",
+      "Notte",
+      "Stampa su carta"
     ]
   },
   {
     "opera": "Il Bacio",
-    "tag": [
-      "Bacio", "Sentimenti", "Italia", "Olio su tela", "Colori vivaci"
-    ]
+    "tag": ["Bacio", "Sentimenti", "Italia", "Olio su tela", "Colori vivaci"]
   },
-  [
   {
     "opera": "La Meditazione",
-    "tag": [
-      "Ritratto femminile",
-      "Italia",
-      "Olio su tela",
-      "Sogni"
-    ]
+    "tag": ["Ritratto femminile", "Italia", "Olio su tela", "Sogni"]
   },
   {
     "opera": "La Vendetta del Servo Saraceno",
-    "tag": [
-      "Guerra",
-      "Francia",
-      "Olio su tela",
-      "Denuncia sociale"
-    ]
+    "tag": ["Guerra", "Francia", "Olio su tela", "Denuncia sociale"]
   },
   {
     "opera": "L'Atelier del Pittore",
-    "tag": [
-      "Ritratto Maschile",
-      "Francia",
-      "Olio su tela",
-      "Quotidiano"
-    ]
+    "tag": ["Ritratto Maschile", "Francia", "Olio su tela", "Quotidiano"]
   },
   {
     "opera": "Gli Spaccapietre",
-    "tag": [
-      "Guerra",
-      "Francia",
-      "Olio su tela",
-      "Denuncia sociale"
-    ]
+    "tag": ["Guerra", "Francia", "Olio su tela", "Denuncia sociale"]
   },
   {
     "opera": "Funerale a Ornans",
-    "tag": [
-      "Morte",
-      "Francia",
-      "Olio su tela",
-      "Denuncia sociale"
-    ]
+    "tag": ["Morte", "Francia", "Olio su tela", "Denuncia sociale"]
   },
   {
     "opera": "L'Angelus",
-    "tag": [
-      "Religioso",
-      "Francia",
-      "Olio su tela",
-      "Sentimenti"
-    ]
+    "tag": ["Religioso", "Francia", "Olio su tela", "Sentimenti"]
   },
   {
     "opera": "Le Spigolatrici",
-    "tag": [
-      "Quotidiano",
-      "Francia",
-      "Olio su tela",
-      "Denuncia sociale"
-    ]
+    "tag": ["Quotidiano", "Francia", "Olio su tela", "Denuncia sociale"]
   },
   {
     "opera": "Il Seminatore",
-    "tag": [
-      "Quotidiano",
-      "Francia",
-      "Olio su tela",
-      "Denuncia sociale"
-    ]
+    "tag": ["Quotidiano", "Francia", "Olio su tela", "Denuncia sociale"]
   },
   {
     "opera": "Il Vagone di Terza Classe",
-    "tag": [
-      "Denuncia sociale",
-      "Francia",
-      "Olio su tela",
-      "Quotidiano"
-    ]
+    "tag": ["Denuncia sociale", "Francia", "Olio su tela", "Quotidiano"]
   },
   {
     "opera": "Don Chisciotte e Sancho Panza",
-    "tag": [
-      "Fantasy",
-      "Francia",
-      "Olio su tela",
-      "Umorismo"
-    ]
+    "tag": ["Fantasy", "Francia", "Olio su tela", "Umorismo"]
   },
   {
     "opera": "L'Avvocato Difensore",
-    "tag": [
-      "Denuncia sociale",
-      "Francia",
-      "Olio su tela",
-      "Umorismo"
-    ]
+    "tag": ["Denuncia sociale", "Francia", "Olio su tela", "Umorismo"]
   },
   {
     "opera": "Impressione, levar del sole",
-    "tag": [
-      "Luce",
-      "Francia",
-      "Olio su tela",
-      "Paesaggio"
-    ]
+    "tag": ["Luce", "Francia", "Olio su tela", "Paesaggio"]
   },
   {
     "opera": "Ninfee",
-    "tag": [
-      "Natura",
-      "Francia",
-      "Olio su tela",
-      "Colori Vivaci"
-    ]
+    "tag": ["Natura", "Francia", "Olio su tela", "Colori Vivaci"]
   },
   {
     "opera": "La Cattedrale di Rouen, Effetto di Sole",
-    "tag": [
-      "Architettura",
-      "Francia",
-      "Olio su tela",
-      "Luce"
-    ]
+    "tag": ["Architettura", "Francia", "Olio su tela", "Luce"]
   },
   {
     "opera": "La Classe di Danza",
-    "tag": [
-      "Danza",
-      "Francia",
-      "Olio su tela",
-      "Sentimenti"
-    ]
+    "tag": ["Danza", "Francia", "Olio su tela", "Sentimenti"]
   },
   {
     "opera": "L'Assenzio",
-    "tag": [
-      "Quotidiano",
-      "Francia",
-      "Olio su tela",
-      "Sentimenti"
-    ]
+    "tag": ["Quotidiano", "Francia", "Olio su tela", "Sentimenti"]
   },
   {
     "opera": "Ballerine Blu",
-    "tag": [
-      "Danza",
-      "Francia",
-      "Olio su tela",
-      "Sentimenti"
-    ]
+    "tag": ["Danza", "Francia", "Olio su tela", "Sentimenti"]
   },
   {
     "opera": "Il Ballo al Moulin de la Galette",
-    "tag": [
-      "Quotidiano",
-      "Francia",
-      "Olio su tela",
-      "Colori Vivaci"
-    ]
+    "tag": ["Quotidiano", "Francia", "Olio su tela", "Colori Vivaci"]
   },
   {
     "opera": "La Colazione dei Canottieri",
-    "tag": [
-      "Quotidiano",
-      "Francia",
-      "Olio su tela",
-      "Sentimenti"
-    ]
+    "tag": ["Quotidiano", "Francia", "Olio su tela", "Sentimenti"]
   },
   {
     "opera": "Le Bagnanti",
@@ -333,11 +284,21 @@
   },
   {
     "opera": "La pubblicità di Sarah Bernhardt",
-    "tag": ["Ritratto femminile", "Denuncia sociale", "Litografia a colori", "Repubblica Ceca"]
+    "tag": [
+      "Ritratto femminile",
+      "Denuncia sociale",
+      "Litografia a colori",
+      "Repubblica Ceca"
+    ]
   },
   {
     "opera": "Le quattro stagioni",
-    "tag": ["Serie di quadri", "Natura", "Litografia a colori", "Repubblica Ceca"]
+    "tag": [
+      "Serie di quadri",
+      "Natura",
+      "Litografia a colori",
+      "Repubblica Ceca"
+    ]
   },
   {
     "opera": "La Reverie",
@@ -523,13 +484,7 @@
   },
   {
     "opera": "La lampada ad arco",
-    "tag": [
-      "Pittura su tela",
-      "Italia",
-      "Olio su tela",
-      "Futurismo",
-      "Luce"
-    ]
+    "tag": ["Pittura su tela", "Italia", "Olio su tela", "Futurismo", "Luce"]
   },
   {
     "opera": "Velocità astratta",
@@ -630,13 +585,7 @@
   },
   {
     "opera": "Improvvisazione 31 (mare)",
-    "tag": [
-      "Olio su tela",
-      "Russo",
-      "Astratto",
-      "Mare",
-      "Emozioni"
-    ]
+    "tag": ["Olio su tela", "Russo", "Astratto", "Mare", "Emozioni"]
   },
   {
     "opera": "Il violinista",
@@ -670,13 +619,7 @@
   },
   {
     "opera": "La Persistenza della Memoria",
-    "tag": [
-      "Olio su tela",
-      "Spagnolo",
-      "Surrealista",
-      "Tempo",
-      "Relatività"
-    ]
+    "tag": ["Olio su tela", "Spagnolo", "Surrealista", "Tempo", "Relatività"]
   },
   {
     "opera": "Il grande masturbatore",
@@ -700,23 +643,11 @@
   },
   {
     "opera": "Il tradimento delle immagini",
-    "tag": [
-      "Olio su tela",
-      "Belga",
-      "Surrealista",
-      "Concetto",
-      "Percezione"
-    ]
+    "tag": ["Olio su tela", "Belga", "Surrealista", "Concetto", "Percezione"]
   },
   {
     "opera": "La chiave dei sogni",
-    "tag": [
-      "Olio su tela",
-      "Belga",
-      "Surrealista",
-      "Sogno",
-      "Realtà"
-    ]
+    "tag": ["Olio su tela", "Belga", "Surrealista", "Sogno", "Realtà"]
   },
   {
     "opera": "L'amore libero",
@@ -730,53 +661,23 @@
   },
   {
     "opera": "L'interpretazione dei sogni",
-    "tag": [
-      "Olio su tela",
-      "Tedesco",
-      "Surrealista",
-      "Subconscio",
-      "Collage"
-    ]
+    "tag": ["Olio su tela", "Tedesco", "Surrealista", "Subconscio", "Collage"]
   },
   {
     "opera": "La gioia di vivere",
-    "tag": [
-      "Olio su tela",
-      "Tedesco",
-      "Surrealista",
-      "Amore",
-      "Colori vivaci"
-    ]
+    "tag": ["Olio su tela", "Tedesco", "Surrealista", "Amore", "Colori vivaci"]
   },
   {
     "opera": "La guerra",
-    "tag": [
-      "Olio su tela",
-      "Tedesco",
-      "Surrealista",
-      "Conflitto",
-      "Astrazione"
-    ]
+    "tag": ["Olio su tela", "Tedesco", "Surrealista", "Conflitto", "Astrazione"]
   },
   {
     "opera": "Composizione VIII",
-    "tag": [
-      "Olio su tela",
-      "Russo",
-      "Astratto",
-      "Geometrico",
-      "Colore"
-    ]
+    "tag": ["Olio su tela", "Russo", "Astratto", "Geometrico", "Colore"]
   },
   {
     "opera": "Improvvisazione 10",
-    "tag": [
-      "Olio su tela",
-      "Russo",
-      "Astratto",
-      "Musica",
-      "Colori vivaci"
-    ]
+    "tag": ["Olio su tela", "Russo", "Astratto", "Musica", "Colori vivaci"]
   },
   {
     "opera": "Cercle de la couleur",
@@ -800,54 +701,50 @@
   },
   {
     "opera": "Senza titolo (Composizione con cerchi)",
+    "tag": ["Olio su tela", "Russo", "Astratto", "Geometrico", "Movimento"]
+  },
+  {
+    "opera": "La donna con il girasole",
     "tag": [
-      "Olio su tela",
-      "Russo",
+      "Figurativo",
       "Astratto",
-      "Geometrico",
-      "Movimento"
+      "Suprematismo",
+      "Olio su tela",
+      "Russia",
+      "Fiori"
     ]
   },
-    {
-  "opera": "La donna con il girasole",
-  "tag": [
-    "Figurativo",
-    "Astratto",
-    "Suprematismo",
-    "Olio su tela",
-    "Russia",
-    "Fiori"
-  ]
-},{
-  "opera": "Composizione con rosso, blu e giallo",
-  "tag": [
-    "Neoplasticismo",
-    "Astratto",
-    "Olio su tela",
-    "Olanda",
-    "Colori Vivaci",
-    "Figure Geometriche"
-  ]
-},{
-  "opera": "Broadway Boogie Woogie",
-  "tag": [
-    "Neoplasticismo",
-    "Astratto",
-    "Olio su tela",
-    "Olanda",
-    "Colori Vivaci",
-    "Musica"
-  ]
-},
-    {
-  "opera": "Composizione in rosso, blu e giallo",
-  "tag": [
-    "Neoplasticismo",
-    "Astratto",
-    "Olio su tela",
-    "Olanda",
-    "Colori Vivaci",
-    "Figure Geometriche"
-  ]
-}
-  ]
+  {
+    "opera": "Composizione con rosso, blu e giallo",
+    "tag": [
+      "Neoplasticismo",
+      "Astratto",
+      "Olio su tela",
+      "Olanda",
+      "Colori Vivaci",
+      "Figure Geometriche"
+    ]
+  },
+  {
+    "opera": "Broadway Boogie Woogie",
+    "tag": [
+      "Neoplasticismo",
+      "Astratto",
+      "Olio su tela",
+      "Olanda",
+      "Colori Vivaci",
+      "Musica"
+    ]
+  },
+  {
+    "opera": "Composizione in rosso, blu e giallo",
+    "tag": [
+      "Neoplasticismo",
+      "Astratto",
+      "Olio su tela",
+      "Olanda",
+      "Colori Vivaci",
+      "Figure Geometriche"
+    ]
+  }
+]
