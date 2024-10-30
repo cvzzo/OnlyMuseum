@@ -13,8 +13,8 @@ public class Author {
 	private Long id;
 
 	private String name;
-	private Date bornDate;
-	private Date deathDate;
+	private int bornDate;
+	private int deathDate;
 	private String bornPlace;
 	private String deathPlace;
 
@@ -55,19 +55,19 @@ public class Author {
 		this.name = name;
 	}
 
-	public Date getBornDate() {
+	public int getBornDate() {
 		return bornDate;
 	}
 
-	public void setBornDate(Date bornDate) {
+	public void setBornDate(int bornDate) {
 		this.bornDate = bornDate;
 	}
 
-	public Date getDeathDate() {
+	public int getDeathDate() {
 		return deathDate;
 	}
 
-	public void setDeathDate(Date deathDate) {
+	public void setDeathDate(int deathDate) {
 		this.deathDate = deathDate;
 	}
 
