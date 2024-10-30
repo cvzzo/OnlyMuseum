@@ -4,28 +4,25 @@ import jakarta.persistence.*;
 
 import java.util.Set;
 
+
 @Entity
-@Table(name="tag")
-public class Tag {
+@Table(name="room")
+public class Room {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     private String name;
 
-    @ManyToMany(mappedBy = "tags")
+    @OneToOne
+    @JoinColumn(name = "current_id")
+    private Current current;
+
+    @OneToMany(mappedBy = "room")
     private Set<Painting> paintings;
 
-    public Tag(Long id, String name, Set<Painting> paintings) {
-        this.id = id;
-        this.name = name;
-        this.paintings = paintings;
+    public Room() {
     }
-
-    public Tag() {
-
-    }
-
 
     public Long getId() {
         return id;
@@ -35,12 +32,21 @@ public class Tag {
         this.id = id;
     }
 
+
     public String getName() {
         return name;
     }
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public Current getCurrent() {
+        return current;
+    }
+
+    public void setCurrent(Current current) {
+        this.current = current;
     }
 
     public Set<Painting> getPaintings() {
