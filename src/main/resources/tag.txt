@@ -43,7 +43,6 @@ Musica
 Architettura
 Sentimenti
 Sogni
-
 Italia
 Francia 
 Olanda
@@ -52,3 +51,11 @@ Germania
 Spagna
 Belgio
 Russia
+Olio su tela
+Pittura su rame
+Acquerello su carta
+Affresco
+Pittura su tavola
+Disegno a matita
+Tempera su tavola
+Inchiostro su carta
