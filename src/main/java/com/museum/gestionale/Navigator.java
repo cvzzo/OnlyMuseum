@@ -60,7 +60,6 @@ public class Navigator {
 			model.addAttribute("painting", painting);
 			return "info";
 		}
-		// Redirect to index if painting not found
 		return "redirect:/";
 	}
 
