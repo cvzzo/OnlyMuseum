@@ -14,82 +14,167 @@
 <div th:replace="fragments/navbar :: navbar"></div>
 
 
-    <h1>La nostra collezione</h1>
+<h1>La nostra collezione</h1>
 
-    <div class="sort-container">
-        <input type="text" id="search" placeholder="Cerca...">
-        <select id="sort">
-            <option value="year">Sort by: Year ↓</option>
-            <option value="title">Sort by: Title</option>
-            <option value="artist">Sort by: Artist</option>
-        </select>
-    </div>
-
-    <div class="gallery" id="gallery"></div>
+<div class="sort-container">
+    <input type="text" id="search" placeholder="Cerca...">
+    <select id="sort">
+        <option value="year">Sort by: Year ↓</option>
+        <option value="title">Sort by: Title</option>
+        <option value="artist">Sort by: Artist</option>
+    </select>
 </div>
 
-<script>
-    // Sample data - in a real application, this would come from a database or API
-    const artworks = [
-        { id: 1, title: "La grande onda di Kanagawa", artist: "Hokusai", year: 1830, image: "../img/images.jpeg" },
-        { id: 2, title: "Gioconda", artist: "Leonardo da Vinci", year: 1503, image: "../img/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg" },
-        { id: 3, title: "Il bacio", artist: "Gustav Klimt", year: 1908, image: "../img/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg.webp" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_(5776925).jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/images.jpeg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" },
-        { id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg" }
-    ];
+<div th:if="${#lists.isEmpty(paintings)}">
+    <p>No paintings found in the database.</p>
+</div>
 
-    function renderGallery(artworks) {
-        const gallery = document.getElementById('gallery');
-        gallery.innerHTML = '';
-        artworks.forEach(artwork => {
-            const artworkElement = document.createElement('div');
-            artworkElement.className = 'artwork';
-            artworkElement.innerHTML = `
+<div class="gallery" id="gallery">
+    <div th:unless="${#lists.isEmpty(paintings)}">
+        <div th:each="painting : ${paintings}">
+            <a th:href="@{info.html}">
+                <img th:src="${painting.getLink()}" th:alt="${painting.getName()}">
+                <div class="artwork-title" th:text="${painting.getName()}"></div>
+            </a>
+        </div>
+
+    </div>
+
+    <script>
+        // Sample data - in a real application, this would come from a database or API
+        const artworks = [
+            {id: 1, title: "La grande onda di Kanagawa", artist: "Hokusai", year: 1830, image: "../img/images.jpeg"},
+            {
+                id: 2,
+                title: "Gioconda",
+                artist: "Leonardo da Vinci",
+                year: 1503,
+                image: "../img/Leonardo_da_Vinci_-_The_Last_Supper_high_res.jpg"
+            },
+            {
+                id: 3,
+                title: "Il bacio",
+                artist: "Gustav Klimt",
+                year: 1908,
+                image: "../img/Mona_Lisa,_by_Leonardo_da_Vinci,_from_C2RMF_retouched.jpg.webp"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Vincent_van_Gogh_-_The_potato_eaters_-_Google_Art_Project_(5776925).jpg"
+            },
+            {id: 4, title: "La notte stellata", artist: "Vincent van Gogh", year: 1889, image: "../img/images.jpeg"},
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            },
+            {
+                id: 4,
+                title: "La notte stellata",
+                artist: "Vincent van Gogh",
+                year: 1889,
+                image: "../img/Van_Gogh_-_Starry_Night_-_Google_Art_Project.jpg"
+            }
+        ];
+
+        function renderGallery() {
+            const gallery = document.getElementById('gallery');
+            gallery.innerHTML = '';
+
+            artworks.forEach(paintings => {
+                const artworkElement = document.createElement('div');
+                artworkElement.className = 'artwork';
+                artworkElement.innerHTML = `
             <a th:href= "@{info.html}">
-                <img th:href="@{artwork.image}" alt="${artwork.title}">
+                <img th:href="@{paintings.image}" alt="${artwork.title}">
                 <div class="artwork-title">${artwork.title}</div>
             </a>
             `;
-            gallery.appendChild(artworkElement);
+                gallery.appendChild(artworkElement);
+            });
+        }
+
+        function sortArtworks(criteria) {
+            return [...artworks].sort((a, b) => {
+                if (a[criteria] < b[criteria]) return criteria === 'year' ? 1 : -1;
+                if (a[criteria] > b[criteria]) return criteria === 'year' ? -1 : 1;
+                return 0;
+            });
+        }
+
+        function filterArtworks(searchTerm) {
+            return artworks.filter(artwork =>
+                artwork.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                artwork.artist.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+        }
+
+        document.getElementById('sort').addEventListener('change', (e) => {
+            const sortedArtworks = sortArtworks(e.target.value);
+            renderGallery(sortedArtworks);
         });
-    }
 
-    function sortArtworks(criteria) {
-        return [...artworks].sort((a, b) => {
-            if (a[criteria] < b[criteria]) return criteria === 'year' ? 1 : -1;
-            if (a[criteria] > b[criteria]) return criteria === 'year' ? -1 : 1;
-            return 0;
+        document.getElementById('search').addEventListener('input', (e) => {
+            const filteredArtworks = filterArtworks(e.target.value);
+            renderGallery(filteredArtworks);
         });
-    }
 
-    function filterArtworks(searchTerm) {
-        return artworks.filter(artwork =>
-            artwork.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            artwork.artist.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-    }
-
-    document.getElementById('sort').addEventListener('change', (e) => {
-        const sortedArtworks = sortArtworks(e.target.value);
-        renderGallery(sortedArtworks);
-    });
-
-    document.getElementById('search').addEventListener('input', (e) => {
-        const filteredArtworks = filterArtworks(e.target.value);
-        renderGallery(filteredArtworks);
-    });
-
-    // Initial render
-    renderGallery(artworks);
-</script>
+        // Initial render
+        renderGallery(artworks);
+    </script>
 </body>
 </html>
