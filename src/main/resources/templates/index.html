@@ -6,58 +6,20 @@
     <title>OnlyMuseum - La nostra collezione</title>
     <link rel="stylesheet" th:href="@{index.css}"/>
 </head>
+
+<div th:replace="fragments/navbar :: navbar"></div>
+
 <body>
 
 
 <div th:replace="fragments/navbar :: navbar"></div>
 
 
-<h1>La nostra collezione</h1>
+<h1>Benvenuto nel nostro museo</h1>
 
-<div class="sort-container">
-    <input type="text" id="search" placeholder="Cerca...">
-    <select id="sort">
-        <option value="year">Sort by: Year ↓</option>
-        <option value="title">Sort by: Title</option>
-        <option value="artist">Sort by: Artist</option>
-    </select>
+<div>
+    <img src="../../../../Museum.svg">
 </div>
 
-<div th:if="${#lists.isEmpty(paintings)}">
-    <p>No paintings found in the database.</p>
-</div>
-
-<div th:each="painting : ${paintings}" class="gallery-item">
-    <a th:href="@{/info/{id}(id=${painting.id})}">
-        <img th:src="${painting.link}" th:alt="${painting.name}" loading="lazy" decoding="async">
-        <div class="artwork-title" th:text="${painting.name}"></div>
-    </a>
-</div>
-
-</div>
-<script>
-    // Optional: Implement Intersection Observer for more efficient lazy loading
-    document.addEventListener('DOMContentLoaded', function () {
-        const images = document.querySelectorAll('.gallery-item img');
-
-        const imageObserver = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    const img = entry.target;
-                    if (img.dataset.src) {
-                        img.src = img.dataset.src;
-                        img.removeAttribute('data-src');
-                    }
-                    observer.unobserve(img);
-                }
-            });
-        }, {
-            rootMargin: '50px 0px', // Start loading images 50px before they enter viewport
-            threshold: 0.1
-        });
-
-        images.forEach(img => imageObserver.observe(img));
-    });
-</script>
 </body>
 </html>
