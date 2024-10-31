@@ -1,7 +1,8 @@
 package com.museum.gestionale;
 
 
-import com.museum.gestionale.DbManager.OperaDao;
+import com.museum.gestionale.Dao.PaintingDao;
+import com.museum.gestionale.Entity.Painting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -11,14 +12,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.multipart.MultipartFile;
 
+import java.util.List;
+
 @Controller
 public class Navigator {
 
 //	@Autowired
-//	private AutoreDao autoreDao;
+//	private AuthorDao autoreDao;
 //
 	@Autowired
-	private OperaDao operaDao;
+	private PaintingDao paintingDao;
 
 	@RequestMapping()
 	public String landingPage() {
@@ -26,9 +29,18 @@ public class Navigator {
 	}
 
 	@GetMapping("/")
-	public String index() {
+	public String index(Model model) {
+		List<Painting> paintingList = paintingDao.findAll();
+		model.addAttribute("paintings", paintingList);
 
 		return "index";
+	}
+
+	@RequestMapping("/paintings")
+	public String paintings(Model model) {
+		List<Painting> paintingList = paintingDao.findAll();
+		model.addAttribute("paintings", paintingList);
+		return "paintings";
 	}
 
 	@RequestMapping("/info")
