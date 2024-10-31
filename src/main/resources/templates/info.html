@@ -12,35 +12,28 @@
     <div class="tool">
         <h1>La nostra collezione</h1>
     </div>
-    <a href = "index.html">← ‎ ‎ Go back</a>
+    <a href="paintings.html">← ‎ ‎ Go back</a>
 
     <div class="info">
-        <!-- Dynamic image -->
-        <img th:src="${painting.imageUrl}" id="mainImage" alt="Painting Image" th:if="${painting.imageUrl != null}">
+        <img th:src="${painting.link}" id="mainImage" alt="Painting Image" th:if="${painting.link != null}">
 
         <div class="testo">
-            <!-- Painting Details -->
             <h3 th:text="${painting.name}">Nome quadro</h3>
             <h4 th:text="${painting.year}">Anno quadro</h4>
 
-            <h3 th:text="${painting.artist.name}">Nome autore</h3>
-            <h4 th:text="|${painting.artist.birthYear} - ${painting.artist.birthPlace}, ${painting.artist.deathYear} - ${painting.artist.deathPlace}|">
-                A. nascita e luogo - A. morte e luogo
-            </h4>
+            <h3 th:text="${painting.getAuthor().name}">Nome autore</h3>
 
-            <!-- Description -->
+
             <p th:text="${painting.description}">
-                Lorem ipsum dolor sit amet...
             </p>
         </div>
 
-    <div id="popup" class="popup">
-        <span id="close" class="close">&times;</span>
-        <img class="popup-content" id="popupImage">
+        <div id="popup" class="popup">
+            <span id="close" class="close">&times;</span>
+            <img class="popup-content" id="popupImage">
+        </div>
     </div>
 </div>
-
-    <script src="../static/script.js"></script>
 </body>
 
 </html>

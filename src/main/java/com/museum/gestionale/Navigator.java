@@ -1,9 +1,7 @@
 package com.museum.gestionale;
 
 
-import com.museum.gestionale.Dao.AuthorDao;
 import com.museum.gestionale.Dao.PaintingDao;
-import com.museum.gestionale.Entity.Author;
 import com.museum.gestionale.Entity.Painting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -22,7 +20,7 @@ public class Navigator {
 
 	@RequestMapping()
 	public String landingPage() {
-		return "index";
+		return "paintings";
 	}
 
 	@GetMapping("/")
@@ -31,7 +29,7 @@ public class Navigator {
 		System.out.println(paintingList);
 		model.addAttribute("paintings", paintingList);
 
-		return "index";
+		return "paintings";
 	}
 
 

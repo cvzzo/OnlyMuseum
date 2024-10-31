@@ -6,7 +6,8 @@ import org.springframework.data.repository.CrudRepository;
 import java.util.List;
 
 public interface AuthorDao extends CrudRepository<Author, Long> {
+	Author findById(long id);
 	List<Author> findByName(String name);
 	List<Author> findAll();
-	Author findById(long id);
+
 }
