@@ -1,0 +1,97 @@
+[
+  {
+    "name": "Romanico",
+    "period": "9th - 12th centuries",
+    "description": "Romanesque art, known for its solid and massive structures, rounded arches, and symbolic religious iconography, focused on depicting biblical narratives."
+  },
+  {
+    "name": "Gotico",
+    "period": "12th - 16th centuries",
+    "description": "Gothic art is characterized by its use of pointed arches, ribbed vaults, and flying buttresses, with an emphasis on verticality and light-filled structures, especially in cathedrals."
+  },
+  {
+    "name": "Umanesimo",
+    "period": "14th - 16th centuries",
+    "description": "Humanism, an intellectual movement that inspired art with a focus on the human form, classical antiquity, and the exploration of individualism, laying the groundwork for the Renaissance."
+  },
+  {
+    "name": "Rinascimento",
+    "period": "14th - 17th centuries",
+    "description": "Renaissance art emphasized realism, proportion, and perspective, with artists striving for idealized beauty and balance, heavily influenced by classical Greco-Roman art."
+  },
+  {
+    "name": "Barocco",
+    "period": "17th - mid 18th centuries",
+    "description": "Baroque art is known for its dramatic use of light and shadow, emotional intensity, and elaborate ornamentation, often used to evoke awe and convey power, particularly in religious contexts."
+  },
+  {
+    "name": "Rococo",
+    "period": "18th century",
+    "description": "Rococo is an ornate style marked by playful, light, and decorative elements, often with themes of love and nature, emphasizing asymmetry and elaborate detail."
+  },
+  {
+    "name": "Neoclassicismo",
+    "period": "mid 18th - early 19th centuries",
+    "description": "Neoclassicism drew inspiration from the simplicity and symmetry of ancient Greek and Roman art, reflecting Enlightenment ideals and emphasizing rationality, order, and classical restraint."
+  },
+  {
+    "name": "Romanticismo",
+    "period": "late 18th - mid 19th centuries",
+    "description": "Romanticism focused on individual emotion, nature, and imagination, often presenting themes of heroism, exoticism, and the sublime as a reaction against industrialization and neoclassicism."
+  },
+  {
+    "name": "Realismo",
+    "period": "mid 19th century",
+    "description": "Realism depicted everyday life and ordinary people with accuracy and detail, rejecting idealization and focusing on the unvarnished truth of social conditions and labor."
+  },
+  {
+    "name": "Impressionismo",
+    "period": "late 19th century",
+    "description": "Impressionism captured the effects of light and color in everyday scenes, often with visible brushstrokes and emphasis on atmosphere, movement, and fleeting moments."
+  },
+  {
+    "name": "Post-Impressionismo",
+    "period": "late 19th - early 20th centuries",
+    "description": "Post-Impressionism extended the ideas of Impressionism but emphasized symbolic content, formal structure, and expressive color, leading to diverse styles such as pointillism and synthetism."
+  },
+  {
+    "name": "Giapposismo",
+    "period": "late 19th century",
+    "description": "Japonisme refers to the influence of Japanese art on Western artists, characterized by asymmetry, flat planes of color, and decorative, simplified compositions."
+  },
+  {
+    "name": "Art Nouveau",
+    "period": "late 19th - early 20th centuries",
+    "description": "Art Nouveau, marked by flowing lines, organic forms, and intricate patterns, often combined craftsmanship with industrial materials, inspired by natural motifs."
+  },
+  {
+    "name": "Fauvismo",
+    "period": "early 20th century",
+    "description": "Fauvism used bold, non-naturalistic colors and simple forms to express emotion, with an emphasis on painterly qualities over realistic representation."
+  },
+  {
+    "name": "Cubismo",
+    "period": "early 20th century",
+    "description": "Cubism broke down objects into geometric shapes and multiple perspectives within a single plane, emphasizing abstraction and the flatness of the canvas."
+  },
+  {
+    "name": "Futurismo",
+    "period": "early 20th century",
+    "description": "Futurism celebrated speed, technology, and modernity, with dynamic compositions representing movement and the power of industrial society."
+  },
+  {
+    "name": "Espressionismo",
+    "period": "early 20th century",
+    "description": "Expressionism sought to convey subjective emotions and responses, often through distorted forms, intense colors, and loose brushwork to evoke mood."
+  },
+  {
+    "name": "Surrealismo",
+    "period": "1920s - 1940s",
+    "description": "Surrealism explored the unconscious mind through dreamlike and fantastical scenes, combining strange juxtapositions and illogical imagery to challenge reality."
+  },
+  {
+    "name": "Astrattismo",
+    "period": "early 20th century - present",
+    "description": "Abstract art moved away from representation to focus on colors, shapes, and forms to evoke ideas or emotions, existing independently from the physical world."
+  }
+]

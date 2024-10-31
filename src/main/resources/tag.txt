@@ -59,3 +59,22 @@ Pittura su tavola
 Disegno a matita
 Tempera su tavola
 Inchiostro su carta
+Romanico
+Gotico
+Umanesimo
+Rinascimento
+Barocco
+Rococo
+Neoclassicismo
+Romanticismo
+Realismo 
+Impressionismo
+Post-Impressionismo
+Giapposismo
+Art Nouvuea
+Fauvismo
+Cubismo
+Futurismo
+Espressionismo
+Surrealismo
+Astrattismo
