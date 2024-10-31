@@ -9,38 +9,11 @@ Questa parte del progetto si occupa della gestione dell'inventario dei museo, pe
 - Corrente
 - Nationalita' autore
 - Posizione nel museo
-- Se in prestito
 
 <br>
 <br>
 <hr>
 
-# Classi
-Ogni opera avra' i seguenti attributi:
-- Titolo
-- Anno di creazione
-- Autore
-- Descrizione
-- Materiale/Tecnica
-- Posizione all'interno del museo
-- Museo di appartenenza
-- Altezza
-- Larghezza
-- Tag
-
-Ogni Autore avra' i seguenti attributi:
-- Nome Cognome
-- Data di nascita
-- Luogo di nascita
-- Data di morte
-- Luogo di morte
-- Nazionalita'
-- Corrente
-
-Museo classe singleton:
-- Lista posizioni
-
-<hr>
 
 # Database
 ```mermaid
