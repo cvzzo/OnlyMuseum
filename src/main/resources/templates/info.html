@@ -15,15 +15,24 @@
     <a href = "index.html">← ‎ ‎ Go back</a>
 
     <div class="info">
-        <img id="mainImage" src="" />
+        <!-- Dynamic image -->
+        <img th:src="${painting.imageUrl}" id="mainImage" alt="Painting Image" th:if="${painting.imageUrl != null}">
+
         <div class="testo">
-            <h3>Nome quadro</h3>
-            <h4>Anno quadro</h4>
-            <h3>Nome autore</h3>
-            <h4>A. nascita e luogo - A. morte e luogo</h4>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <!-- Painting Details -->
+            <h3 th:text="${painting.name}">Nome quadro</h3>
+            <h4 th:text="${painting.year}">Anno quadro</h4>
+
+            <h3 th:text="${painting.artist.name}">Nome autore</h3>
+            <h4 th:text="|${painting.artist.birthYear} - ${painting.artist.birthPlace}, ${painting.artist.deathYear} - ${painting.artist.deathPlace}|">
+                A. nascita e luogo - A. morte e luogo
+            </h4>
+
+            <!-- Description -->
+            <p th:text="${painting.description}">
+                Lorem ipsum dolor sit amet...
+            </p>
         </div>
-    </div>
 
     <div id="popup" class="popup">
         <span id="close" class="close">&times;</span>

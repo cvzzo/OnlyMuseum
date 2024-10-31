@@ -52,16 +52,16 @@ public class Painting {
 	public Painting(int id, String name, int year, Author author, String description, String material, Room room, float height, float width, String link, Museum museum, Set<Tag> tags, Current current) {
 		this.id = id;
 		this.name = name;
-		this.year = year;
+		this.year = year; //anno
 		this.author = author;
 		this.description = description;
 		this.material = material;
-		this.room = room;
+		this.room = room; //pos in museum
 		this.height = height;
 		this.width = width;
-		this.link = link;
-		this.museum = museum;
-		this.tags = tags;
+		this.link = link; //img url
+		this.museum = museum; //original museum
+		this.tags = tags; //tags separeted by comma
 		this.current = current;
 	}
 

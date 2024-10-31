@@ -19,8 +19,8 @@
     <label for="author">Author:</label>
     <input type="text" id="author" name="author" required>
 
-    <label for="date">Date:</label>
-    <input type="date" id="date" name="date" required>
+    <label for="date">Year:</label>
+    <input type="number" id="date" name="date" required>
 
     <label for="description">Description:</label>
     <textarea id="description" name="description" rows="4" required></textarea>
@@ -40,11 +40,11 @@
     <label for="width">Width (cm):</label>
     <input type="number" id="width" name="width" step="0.01" required>
 
-    <label for="image">Upload Image:</label>
-    <input type="file" id="image" name="image" accept="image/*" required>
+    <label for="tags">Tags (separated by comma):</label>
+    <input type="text" id="tags" name="tags" step="0.01" required>
 
-    <label for="fille">Upload JSON:</label>
-    <input type="file" id="fille" name="image" accept="image/*">
+    <label for="image">Image URL:</label>
+    <input type="url" id="image" name="image" accept="image/*" required>
 
     <button type="submit">Submit</button>
   </form>
