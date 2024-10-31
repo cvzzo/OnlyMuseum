@@ -60,6 +60,7 @@ h1 {
     will-change: transform;
     transform: translateZ(0);
     -webkit-font-smoothing: antialiased;
+    overflow: hidden;
 }
 
 .gallery-item img {
@@ -67,13 +68,14 @@ h1 {
     height: 100%;
     object-fit: cover;
     backface-visibility: hidden;
+    transition: transform 0.2s ease-in-out;
 }
 
 
 
 .gallery-item img:hover {
-    transform: scale(1.05);
-    transition: transform 0.3s cubic-bezier(0.4,0,0.2,1);
+    transform: scale(1.09);
+    opacity: 0.8;
 }
 
 
