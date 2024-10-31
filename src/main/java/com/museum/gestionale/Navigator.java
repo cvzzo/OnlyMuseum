@@ -1,7 +1,9 @@
 package com.museum.gestionale;
 
 
+import com.museum.gestionale.Dao.CurrentDao;
 import com.museum.gestionale.Dao.PaintingDao;
+import com.museum.gestionale.Entity.Current;
 import com.museum.gestionale.Entity.Painting;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -18,6 +20,9 @@ public class Navigator {
 	@Autowired
 	private PaintingDao paintingDao;
 
+	@Autowired
+	private CurrentDao currentDao;
+
 	@RequestMapping()
 	public String landingPage() {
 		return "paintings";
@@ -29,23 +34,9 @@ public class Navigator {
 		System.out.println(paintingList);
 		model.addAttribute("paintings", paintingList);
 
-		return "paintings";
+		return "index";
 	}
 
-
-	@RequestMapping("/paintings")
-	public String paintings(Model model) {
-		List<Painting> paintingList = paintingDao.findAll();
-
-		model.addAttribute("paintings", paintingList);
-		return "paintings";
-	}
-
-	@RequestMapping("/info")
-	//passiamo il nome dell'opera, query sull'opera
-	public String operePage() {
-		return "info";
-	}
 
 
 	@RequestMapping("/form")
@@ -53,15 +44,6 @@ public class Navigator {
 		return "form";
 	}
 
-	@GetMapping("/painting/info/{id}")
-	public String paintingInfo(@PathVariable int id, Model model) {
-		Painting painting = paintingDao.findById(id);
-		if (painting != null) {
-			model.addAttribute("painting", painting);
-			return "info";
-		}
-		return "redirect:/";
-	}
 
 	@PostMapping("/submitPainting")
 	public String submitPainting(
@@ -74,7 +56,7 @@ public class Navigator {
 			@RequestParam String material,
 			@RequestParam double height,
 			@RequestParam double width,
-			@RequestParam MultipartFile image,
+
 			Model model
 	) {
 		//creo oggetto

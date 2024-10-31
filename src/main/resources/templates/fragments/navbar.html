@@ -11,11 +11,12 @@
 </head>
 <body>
 <nav th:fragment="navbar" class="navbar">
-    <a href="../paintings.html" class="logo"><h1>Only Museum</h1></a>
+    <a th:href="@{/}" class="logo"><h1>Only Museum</h1></a>
     <div class="navbar-links">
-        <a href="../authors.html">Authors</a>
-        <a href="../map.html">Map</a>
-        <a href="../paintings.html">Paintings</a>
+        <a th:href="@{paintings}">Paintings</a>
+        <a th:href="@{authors}">Authors</a>
+        <a th:href="@{form}">Form</a>
+        <a th:href="@{currents}">Currents</a>
     </div>
 </nav>
 </body>

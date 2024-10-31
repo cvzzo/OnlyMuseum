@@ -7,7 +7,6 @@
     <link rel="stylesheet" th:href="@{index.css}"/>
 </head>
 
-<div th:replace="fragments/navbar :: navbar"></div>
 
 <body>
 
@@ -15,20 +14,19 @@
 <div th:replace="fragments/navbar :: navbar"></div>
 
 
+<div>
 
-</div>
-
-<<<<<<<< HEAD:src/main/resources/templates/paintings.html
-<div th:if="${#lists.isEmpty(paintings)}">
-    <p>No paintings found in the database.</p>
-</div>
-
-    <div th:each="painting : ${paintings}" class="gallery-item">
-            <img th:src="${painting.link}" th:alt="${painting.name}" loading="lazy" decoding="async">
-            <div class="artwork-title" th:text="${painting.name}"></div>
-        </a>
+    <div th:if="${#lists.isEmpty(paintings)}">
+        <p>No paintings found in the database.</p>
     </div>
-</div>
+    <div class="gallery">
+        <div th:each="painting : ${paintings}" class="gallery-item">
+            <a th:href="@{/paintings/{id}(id=${painting.id})}">
+                <img th:src="${painting.link}" th:alt="${painting.name}" loading="lazy" decoding="async">
+                <div class="artwork-title" th:text="${painting.name}"></div>
+            </a>
+        </div>
+    </div>
 </div>
 <script>
     // Optional: Implement Intersection Observer for more efficient lazy loading
@@ -54,7 +52,6 @@
         images.forEach(img => imageObserver.observe(img));
     });
 </script>
-========
->>>>>>>> origin/master:src/main/resources/templates/index.html
+
 </body>
 </html>
