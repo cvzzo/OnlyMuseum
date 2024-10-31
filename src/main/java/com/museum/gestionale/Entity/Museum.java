@@ -10,7 +10,7 @@ public class Museum {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
-	private String nome;
+	private String name;
 
 	@OneToMany(mappedBy = "museum", fetch = FetchType.LAZY)
 	private Set<Painting> paintings;
@@ -27,12 +27,12 @@ public class Museum {
 		this.id = id;
 	}
 
-	public String getNome() {
-		return nome;
+	public String getName() {
+		return name;
 	}
 
-	public void setNome(String nome) {
-		this.nome = nome;
+	public void setName(String name) {
+		this.name = name;
 	}
 
 	public Set<Painting> getPaintings() {
