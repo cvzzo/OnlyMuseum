@@ -47,29 +47,30 @@ Museo classe singleton:
 erDiagram
     Opera {
         int idOpera PK
-        varchar(100) Name
-        date Anno_di_creazione
-        int idAutore FK
-        varchar(100) Descrizione
-        varchar(100) Materiale
-        varchar(100) Posizione
-        double Altezza
-        double Larghezza
-        double AltezzaImmagine
-        double LarghezzaImmagine
+        varchar(100) name
+        date year
+        int Author FK
+        TEXT Description
+        TEXT Material
+        TEXT Room 
+        double Height
+        double Width 
         text linkImmagine
         int idMuseo FK
+        TEXT Tags
+        String corrente
         }
+
     Autore ||--|{ Opera:create
+
     Autore {
         int ID PK
-        varchar(100) Nome
-        varchar(100) Cognome
-        Date Data_di_Nascita
-        Date Data_di_Morte
-        varchar(100) Luogo_di_Nascita
-        varchar(100) Luogo_di_Morte
-        varchar(100) Corrente
+        varchar(100) Name
+        year bornDate
+        year deathDate
+        varchar(100) bornPlace
+        varchar(100) deathPlace
+        String corrente
         }
     
     Museo {
@@ -80,23 +81,31 @@ erDiagram
    Opera }|--|| Museo:contiene
 
     
-    TagMap{
-        int ID PK
-        int idOpera FK
-        int idTag FK
-    }
-
-    TagMap || -- |{ Tag: associa
-
-    TagMap || -- |{ Opera: associa
+    Autore }|--|{ Corrente: autore_corrente
+    Opera }| -- |{ Tag: OPERE_TAG
 
 
     Tag{
-    int idTag PK
+    int id_tag PK
     varchar name
     }
 
-    
+    Corrente{
+    int id_corrente PK
+    VARCHAR(100) Name
+    TEXT Description
+    TEXT period
+    String author 
+    }
+
+    Stanza {
+    int id_Stanza PK
+    String corrente
+    }
+
+    Stanza || -- |{ Opera :Contiene
+    Stanza || -- || Corrente: Associa
+    Opera }| -- || Corrente: Appartiene
 ```
 
 
