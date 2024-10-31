@@ -46,6 +46,7 @@ public class Navigator {
 	}
 
 	@RequestMapping("/info")
+	//passiamo il nome dell'opera, query sull'opera
 	public String operePage() {
 		return "info";
 	}
