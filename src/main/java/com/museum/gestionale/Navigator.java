@@ -31,6 +31,7 @@ public class Navigator {
 	@GetMapping("/")
 	public String index(Model model) {
 		List<Painting> paintingList = paintingDao.findAll();
+		System.out.println(paintingList);
 		model.addAttribute("paintings", paintingList);
 
 		return "index";
@@ -39,6 +40,7 @@ public class Navigator {
 	@RequestMapping("/paintings")
 	public String paintings(Model model) {
 		List<Painting> paintingList = paintingDao.findAll();
+
 		model.addAttribute("paintings", paintingList);
 		return "paintings";
 	}
@@ -68,7 +70,8 @@ public class Navigator {
 			@RequestParam MultipartFile image,
 			Model model
 	) {
-
+		//creo oggetto
+		paintingDao.save(new Painting());
 		model.addAttribute("message", "Painting submitted successfully!");
 		return "result";
 	}

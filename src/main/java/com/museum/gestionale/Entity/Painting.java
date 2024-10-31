@@ -17,7 +17,7 @@ public class Painting {
 	@ManyToOne(fetch = FetchType.EAGER)
 	@JoinColumn(name = "author_id")
 	private Author author;
-
+	@Column(columnDefinition = "TEXT")
 	private String description;
 	private String material;
 
@@ -27,6 +27,7 @@ public class Painting {
 
 	private float height;
 	private float width;
+	@Column(columnDefinition = "TEXT")
 	private String link;
 
 	@ManyToOne(fetch = FetchType.EAGER)
