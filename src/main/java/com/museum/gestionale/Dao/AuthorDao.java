@@ -8,4 +8,5 @@ import java.util.List;
 public interface AuthorDao extends CrudRepository<Author, Long> {
 	List<Author> findByName(String name);
 	List<Author> findAll();
+	Author findById(long id);
 }
