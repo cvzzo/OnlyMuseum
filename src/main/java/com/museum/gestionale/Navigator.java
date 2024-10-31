@@ -55,6 +55,17 @@ public class Navigator {
 		return "form";
 	}
 
+	@GetMapping("/painting/info/{id}")
+	public String paintingInfo(@PathVariable int id, Model model) {
+		Painting painting = paintingDao.findById(id);
+		if (painting != null) {
+			model.addAttribute("painting", painting);
+			return "info";
+		}
+		// Redirect to index if painting not found
+		return "redirect:/";
+	}
+
 	@PostMapping("/submitPainting")
 	public String submitPainting(
 			@RequestParam String name,
